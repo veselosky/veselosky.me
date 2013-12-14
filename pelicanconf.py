@@ -17,17 +17,27 @@ FEED_RSS = 'feeds/recent.rss'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+THEME = 'themes/bootstrap3'
+#THEME = 'notmyidea'
+BOOTSTRAP_THEME = 'readable'
+AVATAR = "http://www.gravatar.com/avatar/33eee43f62cad4b6001bbc9d48e30714.png"
+
+MENUITEMS = (
+        ('Category 1', '/cat1'),
+        ('Category 2', '/cat2'),
+        )
 # Blogroll
-# LINKS =  (('Pelican', 'http://getpelican.com/'),
-#          ('Python.org', 'http://python.org/'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),
-#          ('You can modify those links in your config file', '#'),)
+LINKS =  (('Control-Escape: Linux Help', 'http://www.control-escape.com/'),
+          ('Outline of History', 'http://outline-of-history.mindvessel.net/'),
+          ('Webquills', 'http://www.webquills.net/'),
+          )
 
 # Social widget
-SOCIAL = (('Twitter: @veselosky', 'https://twitter.com/veselosky'),
-        ('LinkedIn: veselosky', 'https://linkedin.com/in/veselosky'),
-        ('Github: veselosky', 'https://github.com/veselosky/'),
-        ('Facebook: veselosky', 'https://facebook.com/veselosky/'),
+SOCIAL = (('@veselosky', 'https://twitter.com/veselosky'),
+        ('Resumé', 'https://linkedin.com/in/veselosky'),
+        ('Code', 'https://github.com/veselosky/'),
+        ('Facebook', 'https://facebook.com/veselosky/'),
+        ('Google Plus', 'https://plus.google.com/+VinceVeselosky'),
         )
 
 DEFAULT_PAGINATION = 10
