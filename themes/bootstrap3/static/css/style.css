@@ -78,3 +78,69 @@ a, a:hover {
     white-space: inherit;
     border-radius: inherit;
 }
+
+/* Automatically insert Font Awesome 3.2 icons for links to social brands. */
+a[href*='twitter.com'] i[class*='icon']:before{content:"\f099";}
+a[href*='facebook.com'] i[class*='icon']:before{content:"\f09a";}
+a[href*='linkedin.com'] i[class*='icon']:before{content:"\f0e1";}
+a[href*='github.com'] i[class*='icon']:before{content:"\f09b";}
+a[href*='plus.google'] i[class*='icon']:before{content:"\f0d5";}
+a[href*='mailto:'] i[class*='icon']:before{content:"\f0e0";}
+
+/* For reference, these are copied from the font-awesome stylesheet
+ *
+.icon-user:before{content:"\f007";}
+.icon-calendar:before{content:"\f073";}
+.icon-comment:before{content:"\f075";}
+.icon-twitter-sign:before{content:"\f081";}
+.icon-facebook-sign:before{content:"\f082";}
+.icon-comments:before{content:"\f086";}
+.icon-linkedin-sign:before{content:"\f08c";}
+.icon-external-link:before{content:"\f08e";}
+.icon-github-sign:before{content:"\f092";}
+.icon-twitter:before{content:"\f099";}
+.icon-facebook:before{content:"\f09a";}
+.icon-github:before{content:"\f09b";}
+.icon-rss:before{content:"\f09e";}
+.icon-pinterest:before{content:"\f0d2";}
+.icon-pinterest-sign:before{content:"\f0d3";}
+.icon-google-plus-sign:before{content:"\f0d4";}
+.icon-google-plus:before{content:"\f0d5";}
+.icon-envelope:before{content:"\f0e0";}
+.icon-linkedin:before{content:"\f0e1";}
+.icon-comment-alt:before{content:"\f0e5";}
+.icon-comments-alt:before{content:"\f0e6";}
+.icon-sitemap:before{content:"\f0e8";}
+.icon-github-alt:before{content:"\f113";}
+.icon-calendar-empty:before{content:"\f133";}
+.icon-rss-sign:before{content:"\f143";}
+.icon-external-link-sign:before{content:"\f14c";}
+.icon-share-sign:before{content:"\f14d";}
+.icon-youtube-sign:before{content:"\f166";}
+.icon-youtube:before{content:"\f167";}
+.icon-xing:before{content:"\f168";}
+.icon-xing-sign:before{content:"\f169";}
+.icon-youtube-play:before{content:"\f16a";}
+.icon-dropbox:before{content:"\f16b";}
+.icon-stackexchange:before{content:"\f16c";}
+.icon-instagram:before{content:"\f16d";}
+.icon-flickr:before{content:"\f16e";}
+.icon-adn:before{content:"\f170";}
+.icon-bitbucket:before{content:"\f171";}
+.icon-bitbucket-sign:before{content:"\f172";}
+.icon-tumblr:before{content:"\f173";}
+.icon-tumblr-sign:before{content:"\f174";}
+.icon-apple:before{content:"\f179";}
+.icon-windows:before{content:"\f17a";}
+.icon-android:before{content:"\f17b";}
+.icon-linux:before{content:"\f17c";}
+.icon-dribbble:before{content:"\f17d";}
+.icon-skype:before{content:"\f17e";}
+.icon-foursquare:before{content:"\f180";}
+.icon-trello:before{content:"\f181";}
+.icon-gittip:before{content:"\f184";}
+.icon-vk:before{content:"\f189";}
+.icon-weibo:before{content:"\f18a";}
+.icon-renren:before{content:"\f18b";}
+
+END font-awesome reference */
