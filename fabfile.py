@@ -37,6 +37,8 @@ def build():
         local('mkdir -p %s' % target)
         local('mkdir -p %s' % DEPLOY_PATH)
         local('cp -a etc %s/' % target)
+        # Pelican is ignorant of statics outside the theme
+        local('cp -a static/ %s' % DEPLOY_PATH)
         local('pelican -s pelicanconf.py -o %s content' % DEPLOY_PATH)
 
 @task
