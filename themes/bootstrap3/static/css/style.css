@@ -38,23 +38,15 @@ i {
     margin-right: 10px;
 }
 
-a, a:hover {
-    color: inherit;
-}
-
-.entry-content a {
-    text-decoration: none;
-    border-bottom: 1px dotted;
-}
-
-.entry-content a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid;
-}
-
 .entry-content img {
     max-width: 100%;
     height: auto;
+    float: left;
+    padding-right: 1.5em;
+}
+
+.summary img {
+    display: none;
 }
 
 .highlight pre {

@@ -4,21 +4,15 @@
     <section id="content">
         <article>
             <header class="page-header">
-                <h1>
-                    <a href="{{ SITEURL }}/{{ article.url }}"
-                       rel="bookmark"
-                       title="Permalink to {{ article.title|striptags }}">
-                        {{ article.title }}
-                    </a>
-                </h1>
+                <h1>{{ article.title }}</h1>
             </header>
             <div class="entry-content">
+                {{ article.content }}
                 <div class="panel">
                     <div class="panel-body">
                         {% include "includes/article_info.html" %}
                     </div>
                 </div>
-                {{ article.content }}
             </div>
             <!-- /.entry-content -->
             {% include 'includes/addthis.html' %}

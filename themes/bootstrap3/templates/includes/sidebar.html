@@ -1,40 +1,57 @@
 <aside>
+    {% if AVATAR %}
+    <img src="{{ AVATAR }}" class="img-thumbnail">
+    {% endif %}
+    <h4>{{ SITESUBTITLE }}</h4>
+
+    {% if SOCIAL %}
     <section>
-        {% if AVATAR %}
-        <img src="{{ AVATAR }}" class="img-thumbnail">
-        {% endif %}
         <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class=h4><i class="icon-user icon-large"></i>Follow Me</p></li>
+            {% for name, link in SOCIAL %}
+                <li class="list-group-item"><a rel=me href="{{ link }}"><i
+                        class="icon-large"></i>{{ name }}
+                </a></li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
 
-            {% if SOCIAL %}
-                <li class="list-group-item"><h4><i class="icon-user icon-large"></i>Follow Me</h4></li>
-                {% for name, link in SOCIAL %}
-                    <li class="list-group-item"><a rel=me href="{{ link }}"><i
-                            class="icon-large"></i>{{ name }}
-                    </a></li>
-                {% endfor %}
-            {% endif %}
-        
-            {% if LINKS %}
-                <li class="list-group-item"><h4><i class="icon-bookmark icon-large"></i>My Web Sites</h4>
-                        {% for name, link in LINKS %}
-                            <li class="list-group-item"><a href="{{ link }}"><i
-                                    class="icon-large icon-external-link"></i>{{ name }}</a></li>
-                        {% endfor %}
-                </li><!-- /.blogroll -->
-        {% endif %}
+    {% if LINKS %}
+    <section>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class=h4><i class="icon-bookmark icon-large"></i>My Web Sites</p>
+                    {% for name, link in LINKS %}
+                        <li class="list-group-item"><a href="{{ link }}"><i
+                                class="icon-large icon-external-link"></i>{{ name }}</a></li>
+                    {% endfor %}
+            </li><!-- /.blogroll -->
+        </ul>
+    </section>
+    {% endif %}
 
-            {# Uncomment if you want to show Categories #}
+{# Uncomment if you want to show Categories #}
+{#
+    <section>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class=h4><i class="icon-home icon-large"></i>Categories</p></li>
+            {% for cat, null in categories %}
+                <li class="list-group-item">
+                    <a href="{{ SITEURL }}/{{ cat.url }}">
+                        <i class="icon-folder-open icon-large"></i>{{ cat }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+}
+#}
 
-            {#    <li class="list-group-item"><h4><i class="icon-home icon-large"></i>Categories</h4></li>#}
-            {#    {% for cat, null in categories %}#}
-            {#        <li class="list-group-item">#}
-            {#            <a href="{{ SITEURL }}/{{ cat.url }}">#}
-            {#                <i class="icon-folder-open icon-large"></i>{{ cat }}#}
-            {#            </a>#}
-            {#        </li>#}
-            {#    {% endfor %}#}
-
-            <li class="list-group-item"><a href="{{ SITEURL }}/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
+{# Uncomment if you want to show Tags #}
+{#
+    <section>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="{{ SITEURL }}/tags.html"><p class=h4><i class="icon-tags icon-large"></i>Tags</p></a></li>
             {% for tag in tag_cloud|sort(attribute='1') %}
                 <li class="list-group-item tag-{{ tag.1 }}">
                     <a href="{{ SITEURL }}/{{ tag.0.url }}">
@@ -44,5 +61,7 @@
             {% endfor %}
         </ul>
     </section>
+ #}
     {% include 'includes/github.html' %}
+    {% include 'includes/twitter_timeline.htm' %}
 </aside>
