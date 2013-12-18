@@ -2,7 +2,7 @@ Getting Things Done -- Productivity System
 #################################################
 :Date: 2013-01-13 15:51
 :Author: Vince Veselosky
-:Slug: getting-things-done-productivity-system-rst
+:Slug: getting-things-done-productivity-system
 :Category: Life
 
 .. |workflow| image:: http://ecx.images-amazon.com/images/I/51Xjz6jqpDL.jpg
