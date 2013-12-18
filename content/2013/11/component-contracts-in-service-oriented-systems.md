@@ -1,7 +1,7 @@
 Title: Component Contracts in Service Oriented Systems
 Date: 2013-11-11 17:09
 Author: Vince Veselosky
-Slug: component-contracts-in-service-oriented-11
+Slug: component-contracts-in-service-oriented-systems
 Category: Technology
 
 > PRINCIPLE: Relationships must be governed by contracts that are
