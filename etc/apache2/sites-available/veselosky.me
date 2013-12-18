@@ -4,3 +4,14 @@ ServerAlias www.veselosky.com veselosky.me www.veselosky.me webquills.com www.we
 
 Redirect / http://vince.veselosky.me/
 </VirtualHost>
+
+<VirtualHost *:80>
+ServerName vince.veselosky.me
+DocumentRoot /home/vince/websites/sites/veselosky.me/current/htdocs
+DefaultType text/html
+SSIErrorMsg "<!-- missing include -->"
+
+# Old & busted blogger url
+Redirect permanent /2013/11/component-contracts-in-service-oriented-11.html /2013/11/component-contracts-in-service-oriented-systems.html
+
+</VirtualHost>
