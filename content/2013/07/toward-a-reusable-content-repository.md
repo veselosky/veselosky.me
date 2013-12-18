@@ -1,7 +1,7 @@
 Title: Toward a Reusable Content Repository
 Date: 2013-07-22 15:46
 Author: Vince Veselosky
-Slug: toward-a-reusable-content-repository
+Slug: toward-reusable-content-repository
 Category: Technology
 
 There are a plethora of web-based content management systems and website
