@@ -5,6 +5,7 @@ import os
 import otto.web as web
 from otto.util import paths
 
+env.use_ssh_config = True
 env['otto.web.build_dir'] = './build/staged'
 env['otto.web.site'] = 'veselosky.me'
 # For otto >= 0.3
