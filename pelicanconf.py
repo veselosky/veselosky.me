@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 # Tools and build instructions
 DEFAULT_LANG = u'en'
 DEFAULT_PAGINATION = 10
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 TIMEZONE = 'America/New_York'
 
 # General Site Appearance
@@ -13,7 +13,7 @@ AUTHOR = u'Vince Veselosky'
 DEFAULT_CATEGORY = "Life"
 DISPLAY_PAGES_ON_MENU = False
 SITENAME = u'Vince Veselosky'
-SITEURL = 'vince.veselosky.me'
+SITEURL = 'http://vince.veselosky.me'
 SITESUBTITLE = u'Web Application Architect, Systems Specialist'
 TYPOGRIFY = True
 USE_FOLDER_AS_CATEGORY = False
