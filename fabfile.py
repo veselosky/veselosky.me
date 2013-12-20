@@ -31,7 +31,7 @@ def clean():
         local("find . -name '*.py[co]' | xargs rm")
 
 @task
-def build():
+def build(relative=False):
     """Build the site (quick, changes only)"""
     target = env['otto.web.build_dir']
     with lcd(paths.local_workspace()):
@@ -40,13 +40,16 @@ def build():
         local('cp -a etc %s/' % target)
         # Pelican is ignorant of statics outside the theme
         local('cp -a static/ %s' % DEPLOY_PATH)
-        local('pelican -s pelicanconf.py -o %s content' % DEPLOY_PATH)
+        if relative:
+            local('RELATIVE=1 pelican -s pelicanconf.py -o %s content' % DEPLOY_PATH)
+        else:
+            local('pelican -s pelicanconf.py -o %s content' % DEPLOY_PATH)
 
 @task
-def rebuild():
+def rebuild(relative=False):
     """Build the site from a clean slate"""
     clean()
-    build()
+    build(relative)
 
 def regenerate():
     local('pelican -r -s pelicanconf.py')

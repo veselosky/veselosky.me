@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from os import environ
 
 # Tools and build instructions
 DEFAULT_LANG = u'en'
 DEFAULT_PAGINATION = 10
-RELATIVE_URLS = False
+RELATIVE_URLS = True if environ.get('RELATIVE', False) else False
 TIMEZONE = 'America/New_York'
 
 # General Site Appearance
@@ -53,6 +54,8 @@ YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
 #THEME = 'notmyidea'
 THEME = 'themes/bootstrap3'
 BOOTSTRAP_THEME = 'readable'
+
+ADDTHIS_PROFILE = 'ra-52b1a9370f075508'
 AVATAR = "http://www.gravatar.com/avatar/33eee43f62cad4b6001bbc9d48e30714.png"
 GITHUB_USER = "veselosky"
 #GITHUB_SHOW_USER_LINK = True
@@ -72,4 +75,3 @@ SOCIAL = (('@veselosky', 'https://twitter.com/veselosky'),
         ('Facebook', 'https://facebook.com/veselosky/'),
         ('Google Plus', 'https://plus.google.com/+VinceVeselosky'),
         )
-
