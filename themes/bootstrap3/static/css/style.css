@@ -71,6 +71,12 @@ i {
     border-radius: inherit;
 }
 
+/* Override the padding on the main container to prevent overlap
+ * of AddThis layers blocking text .*/
+ .container {
+    padding-left: 35px;
+ }
+
 /* Automatically insert Font Awesome 3.2 icons for links to social brands. */
 a[href*='twitter.com'] i[class*='icon']:before{content:"\f099";}
 a[href*='facebook.com'] i[class*='icon']:before{content:"\f09a";}
