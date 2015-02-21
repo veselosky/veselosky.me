@@ -7,7 +7,7 @@ Redirect / http://vince.veselosky.me/
 
 <VirtualHost *:80>
 ServerName vince.veselosky.me
-DocumentRoot /home/vince/websites/sites/veselosky.me/htdocs
+DocumentRoot {{ website_root }}/veselosky.me/htdocs
 DefaultType text/html
 SSIErrorMsg "<!-- missing include -->"
 
@@ -15,7 +15,7 @@ SSIErrorMsg "<!-- missing include -->"
 Redirect permanent /2013/11/component-contracts-in-service-oriented_11.html http://vince.veselosky.me/2013/11/component-contracts-in-service-oriented-systems.html
 Redirect permanent /feeds/posts/default http://vince.veselosky.me/feeds/recent.atom
 
-<Directory /home/vince/websites/sites/veselosky.me/htdocs>
+<Directory {{ website_root }}/veselosky.me/htdocs>
     Options Includes FollowSymLinks
     AllowOverride All
     # Replaces Allow/Deny from earlier Apaches
