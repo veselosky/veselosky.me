@@ -1,9 +1,14 @@
-Getting Things Done -- Productivity System
-#################################################
-:Date: 2013-01-13 15:51
+:Title: Getting Things Done -- Productivity System
+:Date: 2013-01-13
 :Author: Vince Veselosky
 :Slug: getting-things-done-productivity-system
 :Category: Life
+
+.. post:: 2013-01-13
+    :category: Life
+
+Getting Things Done -- Productivity System
+============================================
 
 .. |workflow| image:: http://ecx.images-amazon.com/images/I/51Xjz6jqpDL.jpg
   :alt: Workflow diagram from "Getting Things Done"
