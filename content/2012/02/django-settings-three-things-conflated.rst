@@ -4,9 +4,6 @@
 :Slug: django-settings-three-things-conflated
 :Category: Technology
 
-.. post:: 2012-02-18
-    :category: Technology
-
 Django Settings: Three Things Conflated
 ========================================
 

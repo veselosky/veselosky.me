@@ -4,9 +4,6 @@
 :Slug: efficiency-enemy-of-innovation
 :Category: Business
 
-.. post:: 2012-01-19
-    :category: Business
-
 Efficiency: Enemy of Innovation?
 ==================================
 

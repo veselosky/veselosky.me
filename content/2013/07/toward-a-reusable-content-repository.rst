@@ -4,9 +4,6 @@
 :Slug: toward-reusable-content-repository
 :Category: Technology
 
-.. post:: 2013-07-22
-    :category: Technology
-
 Toward a Reusable Content Repository
 =====================================
 

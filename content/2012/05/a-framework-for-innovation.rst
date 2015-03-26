@@ -4,9 +4,6 @@
 :Slug: framework-for-innovation
 :Category: Business
 
-.. post:: 2012-05-13
-    :category: Business
-
 A Framework for Innovation
 =============================
 

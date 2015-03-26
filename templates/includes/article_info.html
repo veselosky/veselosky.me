@@ -1,0 +1,26 @@
+<footer class="post-info">
+
+<ul class="list-inline">
+    <li><span class="author">
+        <i class="icon-user" title="By"></i>{{ article.author }}
+    </span></li>
+
+    <li><span class="published">
+        <i class="icon-calendar" title="Date"></i>{{ article.locale_date }}
+    </span></li>
+
+    <li><a href="{{ SITEURL }}/{{ article.category.url }}" class="category">
+        <i class="icon-folder-open" title="Category"></i>{{ article.category }}
+    </a></li>
+
+    {% if PDF_PROCESSOR %}
+
+        <li><span class="label label-default">
+            <a href="{{ SITEURL }}/pdf/{{ article.slug }}.pdf">PDF</a>
+        </span></li>
+    {% endif %}
+</ul>
+
+    {% include 'includes/taglist.html' %}
+    {% include 'includes/translations.html' %}
+</footer><!-- /.post-info -->

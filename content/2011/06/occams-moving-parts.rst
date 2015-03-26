@@ -4,10 +4,6 @@
 :Slug: occams-moving-parts
 :Category: Life
 
-.. post:: 2011-06-12
-    :category: Life
-    :author: Vince Veselosky
-
 Occam's Moving Parts
 =====================
 

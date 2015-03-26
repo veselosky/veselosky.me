@@ -4,9 +4,6 @@
 :Slug: casted-cooperative-agents-single
 :Category: Technology
 
-.. post:: 2013-07-20
-    :category: Technology
-
 CASTED: Cooperative Agents, Single Threaded, Event Driven
 ===========================================================
 

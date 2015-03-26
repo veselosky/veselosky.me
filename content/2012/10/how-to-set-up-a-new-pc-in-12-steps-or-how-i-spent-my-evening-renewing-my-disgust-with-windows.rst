@@ -4,9 +4,6 @@
 :Slug: how-to-set-up-a-new-pc-in-12-steps-or-how
 :Category: Life
 
-.. post:: 2012-10-10
-    :category: Life
-
 How to set up a new PC in 12 Steps, or How I spent my evening renewing my disgust with Windows
 =================================================================================================
 

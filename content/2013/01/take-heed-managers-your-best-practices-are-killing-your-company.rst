@@ -4,9 +4,6 @@
 :Slug: take-heed-managers-your-best-practices
 :Category: Business
 
-.. post:: 2013-01-22
-    :category: Business
-
 Take heed, managers: your "best practices" are killing your company
 =====================================================================
 

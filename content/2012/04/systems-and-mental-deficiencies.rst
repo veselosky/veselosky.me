@@ -4,9 +4,6 @@
 :Slug: systems-and-mental-deficiencies
 :Category: Life
 
-.. post:: 2012-04-29
-    :category: Life
-
 Systems and Mental Deficiencies
 =================================
 

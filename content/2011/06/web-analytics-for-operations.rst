@@ -4,10 +4,6 @@
 :Slug: web-analytics-for-operations
 :Category: Technology
 
-.. post:: 2011-06-19
-    :author: Vince Veselosky
-    :category: Technology
-
 Web Analytics for Operations
 =============================
 

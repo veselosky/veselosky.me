@@ -4,9 +4,6 @@
 :Slug: systems-vs-habits-why-gtd-often-fails
 :Category: Life
 
-.. post: 2013-01-18
-    :category: Life
-
 Systems vs Habits: Why GTD Often Fails
 ========================================
 

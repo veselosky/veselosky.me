@@ -4,9 +4,6 @@
 :Slug: getting-things-done-productivity-system
 :Category: Life
 
-.. post:: 2013-01-13
-    :category: Life
-
 Getting Things Done -- Productivity System
 ============================================
 
