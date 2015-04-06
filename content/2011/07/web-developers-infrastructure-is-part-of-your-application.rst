@@ -4,6 +4,10 @@
 :Slug: web-developers-infrastructure-is-part
 :Category: Technology
 
+.. post:: 2011-07-09
+    :Author: Vince Veselosky
+    :Category: Technology
+
 Web Developers: Infrastructure is part of your Application!
 ============================================================
 

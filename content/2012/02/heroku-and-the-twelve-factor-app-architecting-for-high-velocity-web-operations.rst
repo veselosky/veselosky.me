@@ -4,6 +4,10 @@
 :Slug: heroku-and-the-twelve-factor-app
 :Category: Technology
 
+.. post:: 2012-02-11
+    :Author: Vince Veselosky
+    :Category: Technology
+
 Heroku and the Twelve Factor App: Architecting for High Velocity Web Operations
 ================================================================================
 

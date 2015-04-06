@@ -4,6 +4,10 @@
 :Slug: framework-for-innovation
 :Category: Business
 
+.. post:: 2012-05-13
+    :Author: Vince Veselosky
+    :Category: Business
+
 A Framework for Innovation
 =============================
 

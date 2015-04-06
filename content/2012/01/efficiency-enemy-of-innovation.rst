@@ -4,6 +4,10 @@
 :Slug: efficiency-enemy-of-innovation
 :Category: Business
 
+.. post:: 2012-01-19
+    :Author: Vince Veselosky
+    :Category: Business
+
 Efficiency: Enemy of Innovation?
 ==================================
 

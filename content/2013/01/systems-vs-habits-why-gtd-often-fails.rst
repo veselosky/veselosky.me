@@ -4,6 +4,10 @@
 :Slug: systems-vs-habits-why-gtd-often-fails
 :Category: Life
 
+.. post:: 2013-01-18
+    :Author: Vince Veselosky
+    :Category: Life
+
 Systems vs Habits: Why GTD Often Fails
 ========================================
 

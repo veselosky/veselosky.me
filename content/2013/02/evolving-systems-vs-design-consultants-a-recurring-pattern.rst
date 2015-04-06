@@ -4,6 +4,10 @@
 :Slug: evolving-systems-vs-design-consultants
 :Category: Technology
 
+.. post:: 2013-02-04
+    :Author: Vince Veselosky
+    :Category: Technology
+
 Evolving Systems vs Design Consultants — A Recurring Pattern
 =============================================================
 

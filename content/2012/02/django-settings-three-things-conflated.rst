@@ -4,6 +4,10 @@
 :Slug: django-settings-three-things-conflated
 :Category: Technology
 
+.. post:: 2012-02-18
+    :Author: Vince Veselosky
+    :Category: Technology
+
 Django Settings: Three Things Conflated
 ========================================
 

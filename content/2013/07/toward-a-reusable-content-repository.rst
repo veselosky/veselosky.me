@@ -4,6 +4,10 @@
 :Slug: toward-reusable-content-repository
 :Category: Technology
 
+.. post:: 2013-07-22
+    :Author: Vince Veselosky
+    :Category: Technology
+
 Toward a Reusable Content Repository
 =====================================
 

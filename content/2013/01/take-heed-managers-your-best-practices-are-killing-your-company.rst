@@ -4,6 +4,10 @@
 :Slug: take-heed-managers-your-best-practices
 :Category: Business
 
+.. post:: 2013-01-22
+    :Author: Vince Veselosky
+    :Category: Business
+
 Take heed, managers: your "best practices" are killing your company
 =====================================================================
 
@@ -26,6 +30,8 @@ Bead Experiment. The experiment is detailed in Chapter 7 of his book,
 Education <http://www.amazon.com/gp/product/B004ZK8RTM/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004ZK8RTM>`__.
 The experiment is extremely educational, and I highly recommend you
 watch it play out in the video below (you’ll need about an hour).
+
+`Deming's Red Bead Experiment <https://www.youtube.com/watch?v=HBW1_GhRKTA&list=PLqhO2GMDXDYPuCQh-OsPNV9EBimhPBMAZ>`_
 
 In case you haven’t the time to watch the video version, here is the one
 paragraph summary of the Red Bead Experiment.

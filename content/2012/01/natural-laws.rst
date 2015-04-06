@@ -4,6 +4,10 @@
 :Slug: natural-laws
 :Category: Life
 
+.. post:: 2012-01-24
+    :Author: Vince Veselosky
+    :Category: Life
+
 Natural Laws
 ===================
 

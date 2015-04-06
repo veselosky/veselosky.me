@@ -4,6 +4,10 @@
 :Slug: casted-cooperative-agents-single
 :Category: Technology
 
+.. post:: 2013-07-20
+    :Author: Vince Veselosky
+    :Category: Technology
+
 CASTED: Cooperative Agents, Single Threaded, Event Driven
 ===========================================================
 

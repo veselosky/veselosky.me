@@ -4,6 +4,10 @@
 :Slug: component-contracts-in-service-oriented-systems
 :Category: Technology
 
+.. post:: 2013-11-11
+    :Author: Vince Veselosky
+    :Category: Technology
+
 Component Contracts in Service Oriented Systems
 ================================================
 

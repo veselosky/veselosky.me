@@ -4,6 +4,10 @@
 :Slug: systems-and-mental-deficiencies
 :Category: Life
 
+.. post:: 2012-04-29
+    :Author: Vince Veselosky
+    :Category: Life
+
 Systems and Mental Deficiencies
 =================================
 
