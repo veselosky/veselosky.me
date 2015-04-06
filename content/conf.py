@@ -35,6 +35,7 @@ source_encoding = 'utf-8'
 master_doc = 'index'
 base_url = 'http://vince.veselosky.me'
 primary_domain = 'blog'
+feed_filename = 'feeds/recent.atom'
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
