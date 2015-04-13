@@ -32,7 +32,7 @@ roadmaps, tracked and prioritized feature requests, managed customer support
 and communications, and focused on business outcomes over technology
 checklists.
 
-Recent Writings
+Recent Publications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Here's a small sampling of things I have published.
 
@@ -49,7 +49,7 @@ For a full list of articles on this site, visit the archives below:
 * :archive:`Articles by date <blog-bydate>`
 * :archive:`Articles by category <blog-bycategory>`
 
-Vince Veselosky On The Web
+Follow Vince Veselosky
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * My username is "veselosky" on almost every service around.
