@@ -1,3 +1,2 @@
 sphinx
 ansible
-sphinx-bootstrap-theme

@@ -2,10 +2,8 @@
 
 Tasks
 ====================
-
-* fix missing video link in 2013/01/take-heed*
+* Test deployment script
 * sidebar: follow me
 * sidebar: my sites
 * sidebar: Github repos
 * sidebar: Recent chatter
-* feed (/feeds/recent.atom)
