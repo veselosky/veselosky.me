@@ -148,7 +148,7 @@ formats is a non-starter.
 The `IPTC <http://www.iptc.org/>`__ has done a huge amount of work in
 developing interoperability standards for the news industry, which is
 all about content management. Their `G2 News
-Architecture <http://www.iptc.org/site/News_Exchange_Formats/Developers/>`__
+Architecture <https://iptc.org/standards/newsml-g2/using-newsml-g2/>`__
 is documented implicitly in the specifications for their XML exchange
 formats, and in their `rNews metadata format for
 HTML <http://dev.iptc.org/rNews>`__. I think the G2 News Architecture is

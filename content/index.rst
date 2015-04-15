@@ -80,7 +80,7 @@ Follow Vince Veselosky
 
   .. class:: icon-large icon-rss
 
-* `Feed <http://vince.veselosky.me/recent.atom>`_ from this site
+* `Feed <http://vince.veselosky.me/feeds/recent.atom>`_ from this site
 
 Vince's Other Web Sites
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

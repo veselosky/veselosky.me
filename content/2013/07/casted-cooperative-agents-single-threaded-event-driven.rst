@@ -47,7 +47,7 @@ operating on your behalf in the background.
 
 Years ago, Tim O'Reilly was writing about `software above the level of a
 single
-device <http://radar.oreilly.com/archives/2007/11/software-above-the-level-of-a.html>`__
+device <http://radar.oreilly.com/2007/11/software-above-the-level-of-a.html>`__
 as part of his Web 2.0 concept. Tim's classic example is the
 iPod-iTunes-iStore triumvirate. You have servers on the Internet, a
 desktop or laptop computer, and a small handheld device all coordinating
