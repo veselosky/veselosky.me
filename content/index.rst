@@ -38,7 +38,6 @@ Here's a small sampling of things I have published.
 
 * Slideshare presentation: `New Relic in Action at Cox Media Group`_
 * :doc:`2013/02/evolving-systems-vs-design-consultants-a-recurring-pattern`
-* :doc:`2012/02/heroku-and-the-twelve-factor-app-architecting-for-high-velocity-web-operations`
 * :doc:`2012/05/a-framework-for-innovation`
 * :doc:`2012/01/efficiency-enemy-of-innovation`
 
@@ -105,7 +104,7 @@ Vince's Other Web Sites
     2012/01/efficiency-enemy-of-innovation
     2012/01/natural-laws
     2012/02/django-settings-three-things-conflated
-    2012/02/heroku-and-the-twelve-factor-app-architecting-for-high-velocity-web-operations
+    2012/02/heroku-and-the-twelve-factor-app
     2012/04/systems-and-mental-deficiencies
     2012/05/a-framework-for-innovation
     2012/10/how-to-set-up-a-new-pc-in-12-steps-or-how-i-spent-my-evening-renewing-my-disgust-with-windows
