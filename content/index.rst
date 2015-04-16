@@ -93,6 +93,12 @@ Vince's Other Web Sites
 .. toctree::
     :hidden:
 
+    2010/how-newspapers-lost-classifieds
+    2010/value-of-social-media
+    2010/creation-curation-compilation
+    2010/tablet-fallacy
+    2010/news-archived-behind-paywall-fails
+    2010/journalism-too-important-to-be-locked-up
     2011/06/occams-moving-parts
     2011/06/web-analytics-for-operations
     2011/07/web-developers-infrastructure-is-part-of-your-application
