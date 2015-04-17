@@ -16,6 +16,7 @@ needs_sphinx = '1.3'
 extensions = [
     'alabaster',
     'chephren.website',
+    'sphinx.ext.todo',
 ]
 project = u'Vince Veselosky'
 # HTML is included in the page. This is probably a bug, but useful for me.
