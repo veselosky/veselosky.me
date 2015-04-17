@@ -97,6 +97,8 @@ Vince's Other Web Sites
     2010/creation-curation-compilation
     2010/tablet-fallacy
     2010/news-archived-behind-paywall-fails
+    2010/nyt-freemium-paywall
+    2010/content-is-not-your-product
     2010/journalism-too-important-to-be-locked-up
     2011/06/occams-moving-parts
     2011/06/web-analytics-for-operations
