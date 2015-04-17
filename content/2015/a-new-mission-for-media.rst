@@ -22,12 +22,12 @@ As a media organization, your mission is to facilitate the flow of information
 to the point of its highest value.
 
 That doesn’t just mean its highest value to you, the business, but the highest
-value over all to the community you serve. Journalism can be seen as a
-fulfillment of this mission, because information about corporate malfeasance or
-government activity has more value to society when it is in the hands of
-consumers or voters. But media organizations, and especially newspaper
-organizations, need to embrace the idea that news is more than just journalism,
-and media is more than just news.
+value over all to the community you serve. :doc:`Journalism can be seen as a
+fulfillment of this mission <../2010/journalism-too-important-to-be-locked-up>`,
+because information about corporate malfeasance or government activity has more
+value to society when it is in the hands of consumers or voters. But media
+organizations, and especially newspaper organizations, need to embrace the idea
+that news is more than just journalism, and media is more than just news.
 
 A perfect example of an information service that should have been, but was not,
 created by a media company, is `Waze`_. Waze is a mobile application that feeds

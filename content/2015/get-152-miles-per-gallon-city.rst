@@ -4,10 +4,6 @@ How I Get 152 Miles per Gallon in the City
 .. blog:post:: 2015-02-09
     :category: Urbanism
 
-    How good is the mileage on your car? I just did the math, and I travelled 2,288 miles in the past 4 months on 15 gallons of gas, so I’m getting 152 mpg. And I don’t even drive a hybrid!
-
-    How is that even possible? Here’s how I did it.
-
 .. todo:: Odometer image
 
 How good is the mileage on your car? I just did the math, and I travelled 2,288

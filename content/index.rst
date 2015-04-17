@@ -2,10 +2,10 @@
 Systems Architect, Web Applications
 ============================================================
 
-Hello! I'm Vince Veselosky, a systems architect and builder of web
-applications. In my career I have focused on software systems, but I am
-interested in dynamic systems of all types, especially complex adaptive
-systems.
+Hello! I'm Vince Veselosky, a systems architect and builder of web applications.
+In my career I have focused on software systems, but I am interested in dynamic
+systems of all types, especially complex adaptive systems. I love the media
+business, because multi-sided markets are complex systems by nature.
 
 My career has given me the opportunity to play many roles in the course of
 technical product development, including software developer, solution
@@ -36,6 +36,7 @@ Recent Publications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Here's a small sampling of things I have published.
 
+* :doc:`2015/a-new-mission-for-media`
 * Slideshare presentation: `New Relic in Action at Cox Media Group`_
 * :doc:`2013/02/evolving-systems-vs-design-consultants-a-recurring-pattern`
 * :doc:`2012/05/a-framework-for-innovation`

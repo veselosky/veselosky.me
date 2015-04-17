@@ -4,7 +4,7 @@ Content Is Not Your Product: Why Newspapers Fail
 .. blog:post:: 2010-01-30
     :category: Media
 
-Your newspaper is Seth Godin's Meatball Sundae — full of valuable stuff, but
+Your newspaper is `Seth Godin's Meatball Sundae`_ — full of valuable stuff, but
 not a product anyone wants to buy.
 
 I hear the same sentiment from executives all over the media industry, and
@@ -65,3 +65,5 @@ activities taken together are the essence of a media business. Take heed, old
 media. Talking is not a product, no matter how valuable it is what you are
 saying. If all your business does is talk, you will fail. If you want to
 succeed, then establish trust and build relationships in your community.
+
+.. _Seth Godin's Meatball Sundae: http://www.amazon.com/gp/product/B000XPPVLK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000XPPVLK&linkCode=as2&tag=controlescape-20&linkId=SDEHW6DYH7NP3ET4

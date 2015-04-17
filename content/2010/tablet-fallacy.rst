@@ -4,8 +4,8 @@ The Tablet Fallacy (or, Old Media is Screwed)
 .. blog:post:: 2010-01-19
     :category: Media
 
-"Help me, Obi-wan Tablet. You're my only hope! says old media. But these are not
-"the droids they are looking for.
+"Help me, Obi-wan Tablet. You're my only hope!" says old media. But these are
+not the droids they are looking for.
 
 There has been so much `hand waving`_ in the last month about 2010 being “the
 year of the tablet”, it boggles the mind. Much of the buzz has centered around
