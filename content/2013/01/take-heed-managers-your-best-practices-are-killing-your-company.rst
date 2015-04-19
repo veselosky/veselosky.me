@@ -31,6 +31,8 @@ Education <http://www.amazon.com/gp/product/B004ZK8RTM/ref=as_li_ss_tl?ie=UTF8&t
 The experiment is extremely educational, and I highly recommend you
 watch it play out in the video below (you’ll need about an hour).
 
+.. embedly:: https://www.youtube.com/watch?v=HBW1_GhRKTA&list=PLqhO2GMDXDYPuCQh-OsPNV9EBimhPBMAZ
+
 `Deming's Red Bead Experiment <https://www.youtube.com/watch?v=HBW1_GhRKTA&list=PLqhO2GMDXDYPuCQh-OsPNV9EBimhPBMAZ>`_
 
 In case you haven’t the time to watch the video version, here is the one

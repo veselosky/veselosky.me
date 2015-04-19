@@ -17,7 +17,13 @@ extensions = [
     'alabaster',
     'chephren.website',
     'sphinx.ext.todo',
+    'sphinxcontrib.embedly',
 ]
+embedly_msg = "You MUST set the EMBEDLYKEY environment variable."
+embedly_key = os.environ.get('EMBEDLYKEY', None)
+if not embedly_key:
+  raise embedly_msg
+
 project = u'Vince Veselosky'
 # HTML is included in the page. This is probably a bug, but useful for me.
 copyright = u'''
@@ -43,6 +49,7 @@ feed_filename = 'feeds/recent.atom'
 #default_role = None
 
 pygments_style = 'sphinx'
+
 
 # -- Options for HTML output ----------------------------------------------
 
