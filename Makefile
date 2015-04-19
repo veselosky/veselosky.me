@@ -24,6 +24,7 @@ I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) content
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  html       to make standalone HTML files"
+	@echo "  serve      serve the generated files on localhost:8000"
 	@echo "  dirhtml    to make HTML files named index.html in directories"
 	@echo "  singlehtml to make a single large HTML file"
 	@echo "  pickle     to make pickle files"
@@ -48,6 +49,9 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)/*
+
+serve:
+	(cd $(BUILDDIR)/html && python -m SimpleHTTPServer)
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
