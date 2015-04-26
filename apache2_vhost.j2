@@ -1,13 +1,13 @@
 <VirtualHost *:80>
 ServerName veselosky.com
-ServerAlias www.veselosky.com veselosky.me www.veselosky.me webquills.com www.webquills.com
+ServerAlias www.veselosky.com veselosky.me www.veselosky.me webquills.com www.webquills.com www.mindvessel.com www.mindvessel.net mindvessel.com mindvessel.net
 
 Redirect / http://vince.veselosky.me/
 </VirtualHost>
 
 <VirtualHost *:80>
 ServerName vince.veselosky.me
-DocumentRoot {{ website_root }}/veselosky.me/htdocs
+DocumentRoot {{ websites_home }}/veselosky.me/htdocs
 DefaultType text/html
 SSIErrorMsg "<!-- missing include -->"
 
@@ -15,7 +15,7 @@ SSIErrorMsg "<!-- missing include -->"
 Redirect permanent /2013/11/component-contracts-in-service-oriented_11.html http://vince.veselosky.me/2013/11/component-contracts-in-service-oriented-systems.html
 Redirect permanent /feeds/posts/default http://vince.veselosky.me/feeds/recent.atom
 
-<Directory {{ website_root }}/veselosky.me/htdocs>
+<Directory {{ websites_home }}/veselosky.me/htdocs>
     Options Includes FollowSymLinks
     AllowOverride All
     # Replaces Allow/Deny from earlier Apaches
