@@ -82,7 +82,8 @@ html_theme_options = {
   'github_button': False,
 }
 html_sidebars = {
-    '**': ['localtoc.html', 'relations.html']
+    '**': ['localtoc.html', 'relations.html'],
+    'index': ['includes/hcard.html', 'localtoc.html', 'relations.html'],
 }
 
 # Bootstrap theme options

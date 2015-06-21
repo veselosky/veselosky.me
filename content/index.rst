@@ -49,39 +49,6 @@ For a full list of articles on this site, visit the archives below:
 * :archive:`Articles by date <blog-bydate>`
 * :archive:`Articles by category <blog-bycategory>`
 
-Follow Vince Veselosky
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* My username is "veselosky" on almost every service around.
-
-  .. class:: icon-large icon-twitter
-
-* `@veselosky <https://twitter.com/veselosky>`_ on Twitter
-
-  .. class:: icon-large icon-linkedin
-
-* `Resumé <https://www.linkedin.com/in/veselosky>`_ on LinkedIn
-
-  .. class:: icon-large icon-github
-
-* `Code <https://github.com/veselosky?tab=repositories>`_ on Github
-
-  .. class:: icon-large icon-facebook
-
-* `Facebook <https://facebook.com/veselosky>`_
-
-  .. class:: icon-large icon-google-plus
-
-* `Google Plus <https://plus.google.com/+VinceVeselosky>`_ (but I'm rarely there)
-
-  .. class:: icon-large icon-slideshare
-
-* `Slideshare <http://www.slideshare.net/veselosky>`_
-
-  .. class:: icon-large icon-rss
-
-* `Feed <http://vince.veselosky.me/feeds/recent.atom>`_ from this site
-
 Vince's Other Web Sites
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
