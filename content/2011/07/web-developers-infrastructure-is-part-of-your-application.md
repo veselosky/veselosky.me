@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: web-developers-infrastructure-is-part
 Category: Technology
 
+# Web Developers: Infrastructure is part of your Application!
+
 One of the most difficult realities for web developers to face is that
 their application code, elegant and beautiful as it may (or may not) be,
 does not run in the ivory tower of Code Perfection. It runs on a real

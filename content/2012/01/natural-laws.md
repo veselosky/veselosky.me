@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: natural-laws
 Category: Life
 
+# Natural Laws
+
 I figure any phrase that people deem to be a "law" and find important
 enough to attribute to a specific person (even if incorrectly) probably
 contains some real wisdom. Here's a collection of [Eponymous Laws][]

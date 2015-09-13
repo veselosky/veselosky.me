@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: framework-for-innovation
 Category: Business
 
+# A Framework for Innovation
+
 How does a large company create an environment that encourages and
 leverages internal innovation? Here is my checklist of prerequisites for
 "enterprise" innovation:

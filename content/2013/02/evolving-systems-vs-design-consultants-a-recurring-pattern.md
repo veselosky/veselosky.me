@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: evolving-systems-vs-design-consultants
 Category: Technology
 
+# Evolving Systems vs Design Consultants - A Recurring Pattern
+
 I often think of systems architecture as analogous to this word game I
 played as a child. I don't know if the game has a name, but it is begun
 by selecting two words, say "cat" and "dog". The goal is to begin with

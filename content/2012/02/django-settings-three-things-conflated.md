@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: django-settings-three-things-conflated
 Category: Technology
 
+# Django Settings: Three Things Conflated
+
 If you work on a large Django project, there's a good chance that you
 would describe your settings file as "a mess" (or perhaps you use
 harsher language). You may even have broken your settings out into a

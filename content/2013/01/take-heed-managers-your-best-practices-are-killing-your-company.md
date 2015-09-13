@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: take-heed-managers-your-best-practices
 Category: Business
 
+# Take heed, managers: your "best practices" are killing your company
+
 If you are a manager, you *need* to understand the ideas of [W. Edwards
 Deming][]. Deming wrote several books about management, in which he
 chastised American business schools and American corporate management
@@ -21,6 +23,10 @@ Bead Experiment. The experiment is detailed in Chapter 7 of his book,
 [The New Economics for Industry, Government, Education][]. The
 experiment is extremely educational, and I highly recommend you watch it
 play out in the video below (you’ll need about an hour).
+
+[!embed](https://www.youtube.com/watch?v=HBW1_GhRKTA&list=PLqhO2GMDXDYPuCQh-OsPNV9EBimhPBMAZ)
+
+[Deming's Red Bead Experiment](https://www.youtube.com/watch?v=HBW1_GhRKTA&list=PLqhO2GMDXDYPuCQh-OsPNV9EBimhPBMAZ)
 
 In case you haven’t the time to watch the video version, here is the one
 paragraph summary of the Red Bead Experiment.

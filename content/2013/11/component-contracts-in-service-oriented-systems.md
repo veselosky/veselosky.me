@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: component-contracts-in-service-oriented-systems
 Category: Technology
 
+# Component Contracts in Service Oriented Systems
+
 > PRINCIPLE: Relationships must be governed by contracts that are
 > monitored for performance.
 

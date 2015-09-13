@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: web-analytics-for-operations
 Category: Technology
 
+# Web Analytics for Operations
+
 Web analytics packages, from free to exorbitant, have grown in
 complexity over the life of the web. That's great news for marketers
 using the web as a tool to deliver a message to an audience. These tools

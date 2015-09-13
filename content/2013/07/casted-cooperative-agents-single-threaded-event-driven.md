@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: casted-cooperative-agents-single
 Category: Technology
 
+# CASTED: Cooperative Agents, Single Threaded, Event Driven
+
 The past looked like this: A User logs into a Computer, launches a
 Program, and interacts with it.
 

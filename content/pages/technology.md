@@ -1,6 +1,7 @@
 Title: Technology
 is_category: True
 Category: Technology
+Date: 2013-12-15
 
 As a systems architect, I spend a lot of time thinking about systems in
 technology. A "system" in IT can sometimes refer to a single computer, but I am

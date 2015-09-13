@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: efficiency-enemy-of-innovation
 Category: Business
 
+# Efficiency: Enemy of Innovation?
+
 The science of management in the industrial age was all about
 efficiency. It had to be. The whole concept of capitalism is based on
 efficiency. An entrepreneur acquires capital at a cost, and that capital

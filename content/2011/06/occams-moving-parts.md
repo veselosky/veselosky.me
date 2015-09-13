@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: occams-moving-parts
 Category: Life
 
+# Occam's Moving Parts
+
 As an architect of complex applications, I spend my day aggressively
 applying [Occam's Razor][], attempting to simplify large systems by
 removing as much as possible. But the nature of the work is such that

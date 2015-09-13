@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: toward-reusable-content-repository
 Category: Technology
 
+# Toward a Reusable Content Repository
+
 There are a plethora of web-based content management systems and website
 publishing systems in the world. Almost all of them are what you might
 call "full stack solutions," meaning that they try to cover everything

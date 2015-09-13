@@ -4,6 +4,8 @@ Author: Vince Veselosky
 Slug: how-to-set-up-a-new-pc-in-12-steps-or-how
 Category: Life
 
+# How to set up a new PC in 12 Steps, or How I spent my evening renewing my disgust with Windows
+
 Step 1: Spend 30 minutes unpacking boxes, peeling plastic, and
 connecting cables.
 
