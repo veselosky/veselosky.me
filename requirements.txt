@@ -1,4 +1,9 @@
 ansible
-sphinx
-chephren
-sphinxcontrib-embedly
+docopt
+jinja2
+markdown
+pyembed
+pyembed-markdown
+python-dateutil
+pytz
+pyyaml
