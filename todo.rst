@@ -2,8 +2,9 @@
 
 Tasks
 ====================
-* Examine sphinxcontrib-newsfeed, ablog, and other sphinx blogging solutions
-* Investigate CSS/JS minify and pre-process during sphinx build
+* index.json should be added to the context for all templates.
+* Combine and minify CSS, JS
+* List of index pages. How to manage them?
 * sidebar: follow me
 * sidebar: my sites
 * sidebar: Github repos

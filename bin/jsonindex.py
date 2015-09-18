@@ -16,7 +16,7 @@ import json
 
 from docopt import docopt
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 arguments = docopt(__doc__)
 index = {"entries": [], "categories": {}}
 categories = {}  # keep track of seen categories

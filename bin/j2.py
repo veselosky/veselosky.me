@@ -6,18 +6,22 @@ This script will render a jinja2 template to STDOUT. The template context is
 constructed from data files fed to the script.
 
 Usage:
-    j2.py [--site=SITEVARS] [--page=PAGEVARS] TEMPLATE [VARFILES...]
+    j2.py [options] TEMPLATE [VARFILES...]
 
 Options:
-    -s --site SITEVARS      File containing variables to be stored under the "site" key
-    -p --page PAGEVARS      File containing variables to be stored under the "page" key
+    -s --site SITEVARS      File containing variables to be stored under the
+                            "site" key
+    -p --page PAGEVARS      File containing variables to be stored under the
+                            "page" key
+    -r --root ROOT          The path to the "document root" of the web site.
+                            Used to calculate relative URLs.
 
 Other VARFILES will be merged into the top level template context. They will
 be processed in order, so duplicates are last value wins.
 """
 from docopt import docopt
+from os import path
 
-import json
 import jinja2
 import logging
 import yaml
@@ -28,14 +32,12 @@ logging.debug(arguments)
 
 
 def loadfile(filename):
-    if filename.endswith('.json'):
-        with open(filename) as fp:
-            data = json.load(fp)
-    elif filename.endswith('.yml') or filename.endswith('.yaml'):
+    # json is a subset of yaml, so the yaml parser can handle both! yay!
+    try:
         with open(filename) as fp:
             data = yaml.load(fp)
-    else:
-        logging.error("Unrecognized file type. Data files must be JSON or YAML.")
+    except yaml.ScannerError:
+        logging.error("Unrecognized file type. Data files must be JSON or YAML.") # noqa
         exit(1)
     return data
 
@@ -46,16 +48,18 @@ context = {}
 for varfile in arguments['VARFILES']:
     context.update(loadfile(varfile))
 
-if arguments.get('--site', None):
+if arguments['--site']:
     context['site'] = loadfile(arguments['--site'])
 
-if arguments.get('--page', None):
+if arguments['--page']:
     context['page'] = loadfile(arguments['--page'])
 
-# FIXME to make relative URLs work, need to set siteroot. This only works
-# because I happen to know that the site root is at build/html/. Need a
-# clean way to do this.
-numslashes = context['page']['path'].count("/") - 2
+docroot = './'
+if arguments['--root']:
+    docroot = path.abspath(arguments['--root'])
+
+logging.debug(context)
+numslashes = path.relpath(context['page']['path'], docroot).count("/")
 context['siteroot'] = "../" * numslashes
 
 # Okay we have our context, now let's load the template

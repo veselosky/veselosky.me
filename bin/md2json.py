@@ -8,7 +8,11 @@ Usage:
 Options:
     -x --extension=EXT      A python-markdown extension module to load.
 
-Note: the "markdown.extensions.meta" extension is loaded automatically.
+Note: the following markdown extensions are loaded automatically.
+
+    'markdown.extensions.meta',
+    'markdown.extensions.headerid',
+    'pyembed.markdown'
 """
 import datetime
 import json
@@ -19,6 +23,7 @@ import sys
 
 from dateutil.parser import parse as parse_date
 from docopt import docopt
+from os import path
 
 logging.basicConfig(level=logging.INFO)
 zone = pytz.timezone('America/New_York')
@@ -36,7 +41,6 @@ class SmartJSONEncoder(json.JSONEncoder):
     JSONEncoder subclass that knows how to encode date/time.
     """
     def default(self, o):
-        # See "Date Time String Format" in the ECMA-262 specification.
         if isinstance(o, datetime.datetime):
             r = o.isoformat()
             if o.microsecond:
@@ -53,6 +57,7 @@ class SmartJSONEncoder(json.JSONEncoder):
             return r
         else:
             return super(SmartJSONEncoder, self).default(o)
+
 
 logging.debug("Processing %s" % arguments['<infile>'])
 
@@ -76,15 +81,8 @@ metadict['_content'] = html
 
 if arguments['<outfile>']:
     outfile = open(arguments['<outfile>'], 'w')
-    # FIXME this path is relative to the current dir, but SHOULD be
-    # realative to siteroot.
-    metadict['path'] = arguments['<outfile>']
+    metadict['path'] = path.abspath(arguments['<outfile>'])
 else:
     outfile = sys.stdout
 
-outfile.write(
-    json.dumps(metadict,
-               sort_keys=True,
-               indent=2,
-               cls=SmartJSONEncoder
-               ))
+json.dump(metadict, outfile, sort_keys=True, indent=2, cls=SmartJSONEncoder)

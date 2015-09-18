@@ -13,17 +13,10 @@ BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
 help:
 	@echo "clean - remove all build, test, coverage and Python artifacts"
-	@echo "clean-build - remove build artifacts"
-	@echo "clean-pyc - remove Python file artifacts"
-	@echo "clean-test - remove test and coverage artifacts"
-	@echo "lint - check style with flake8"
+	@echo "site - build the entire web site"
+	@echo "json - build only the data files for the site, no html"
 	@echo "test - run tests quickly with the default Python"
 	@echo "test-all - run tests on every Python version with tox"
-	@echo "coverage - check code coverage quickly with the default Python"
-	@echo "docs - generate Sphinx HTML documentation, including API docs"
-	@echo "release - package and upload a release"
-	@echo "dist - package"
-	@echo "install - install the package to the active Python's site-packages"
 
 
 # Markdown files are converted to JSON output
@@ -45,13 +38,14 @@ json: build/html/index.json
 # constructed from the post JSON file, the index, and a site-wide variables
 # file.
 build/html/%.html: json
-	./bin/j2.py -s site.yml -p $(@:.html=.json) templates/page.html > $@
+	./bin/j2.py -r build/html -s site.yml -p $(@:.html=.json) templates/page.html > $@
 POSTS = $(JSONPOSTS:.json=.html)
 posts: ${POSTS}
 
 site: posts
 	mkdir -p build/html/assets
 	cp -r static/* build/html/assets/
+# TODO combine and minify CSS, JS
 # TODO List of index pages. How to manage these?
 
 
@@ -80,23 +74,3 @@ test:
 
 test-all:
 	tox
-
-docs:
-	rm -f docs/{{ cookiecutter.repo_name }}.rst
-	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ {{ cookiecutter.repo_name }}
-	$(MAKE) -C docs clean
-	$(MAKE) -C docs html
-	$(BROWSER) docs/_build/html/index.html
-
-release: clean
-	python setup.py sdist upload
-	python setup.py bdist_wheel upload
-
-dist: clean
-	python setup.py sdist
-	python setup.py bdist_wheel
-	ls -l dist
-
-install: clean
-	python setup.py install
