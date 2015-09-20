@@ -1,4 +1,23 @@
-.PHONY: clean-pyc clean-build docs clean json html posts
+#######################################################################
+# Makefile for building this web site.
+#
+# I'm not a Make magician so there's lots of room for improvement. The
+# strategy is to convert input files to a standard JSON format, then
+# use the JSON to create an index and provide variables to the templates.
+#
+# Currently only support Markdown sources, but any source format can be
+# used if you can build a source to json converter. If you do, you'll
+# need to adjust the JSONPOSTS declaration.
+#######################################################################
+
+# Inventory the source files, make list of dest files to target
+JSONPOSTS = $(shell find content -name "*.md" | sed s/content/build\\/html/ | sed s/.md/.json/)
+POSTS = $(JSONPOSTS:.json=.html)
+
+#######################################################################
+# A portable way to open a browser window.
+# From https://github.com/audreyr/cookiecutter-pypackage
+#######################################################################
 define BROWSER_PYSCRIPT
 import os, webbrowser, sys
 try:
@@ -10,6 +29,11 @@ webbrowser.open("file://" + pathname2url(os.path.abspath(sys.argv[1])))
 endef
 export BROWSER_PYSCRIPT
 BROWSER := python -c "$$BROWSER_PYSCRIPT"
+
+#######################################################################
+# Build targets and rules
+#######################################################################
+.PHONY: clean-pyc clean-build docs clean json html posts
 
 help:
 	@echo "clean - remove all build, test, coverage and Python artifacts"
@@ -24,27 +48,25 @@ build/html/%.json: content/%.md
 	@mkdir -p $(@D)  # `dirname $@`
 	@./bin/md2json.py $^ $@
 
-# Inventory the source files, make list of dest files to target
-JSONPOSTS = $(shell find content -name "*.md" | sed s/content/build\\/html/ | sed s/.md/.json/)
-
 # After building individual posts, generate an index over them
-build/html/index.json: $(JSONPOSTS)
-	@./bin/jsonindex.py $(JSONPOSTS) > build/html/index.json
+build/html/_index.json: $(JSONPOSTS)
+	@./bin/jsonindex.py $(JSONPOSTS) > build/html/_index.json
 
 # Just an easy target to type, to build out all json files
-json: build/html/index.json
+json: build/html/_index.json
 
 # HTML pages are produced by feeding a context to a template. The context is
 # constructed from the post JSON file, the index, and a site-wide variables
 # file.
-build/html/%.html: json
-	./bin/j2.py -r build/html -s site.yml -p $(@:.html=.json) templates/page.html > $@
-POSTS = $(JSONPOSTS:.json=.html)
-posts: ${POSTS}
+build/html/%.html: build/html/%.json templates/blog.html site.yml
+	./bin/j2.py -r build/html -s site.yml -p $(@:.html=.json) -t templates blog.html > $@
+
+posts: json templates/blog.html site.yml $(POSTS)
 
 site: posts
 	mkdir -p build/html/assets
 	cp -r static/* build/html/assets/
+	cp -r extra/* build/html/
 # TODO combine and minify CSS, JS
 # TODO List of index pages. How to manage these?
 
