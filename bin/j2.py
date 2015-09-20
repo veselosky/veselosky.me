@@ -15,6 +15,8 @@ Options:
                             "page" key
     -r --root ROOT          The path to the "document root" of the web site.
                             Used to calculate relative URLs.
+    -t --templatedir DIR    Directory where templates are stored. TEMPLATE
+                            path should be relative to this.
 
 Other VARFILES will be merged into the top level template context. They will
 be processed in order, so duplicates are last value wins.
@@ -36,7 +38,7 @@ def loadfile(filename):
     try:
         with open(filename) as fp:
             data = yaml.load(fp)
-    except yaml.ScannerError:
+    except yaml.scanner.ScannerError:
         logging.error("Unrecognized file type. Data files must be JSON or YAML.") # noqa
         exit(1)
     return data
@@ -59,13 +61,16 @@ if arguments['--root']:
     docroot = path.abspath(arguments['--root'])
 
 logging.debug(context)
-numslashes = path.relpath(context['page']['path'], docroot).count("/")
-context['siteroot'] = "../" * numslashes
+try:
+    numslashes = path.relpath(context['page']['path'], docroot).count("/")
+    context['siteroot'] = "../" * numslashes
+except KeyError:
+    pass
 
 # Okay we have our context, now let's load the template
-with open(arguments['TEMPLATE']) as fp:
-    tpl = fp.read()
-
-template = jinja2.Template(tpl)
+jinja = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(arguments['--templatedir'])
+)
+template = jinja.get_template(arguments['TEMPLATE'])
 output = template.render(context)
 print(output)
