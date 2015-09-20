@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ page.description }}">
+<title>{{ page.title }} | {{ site.title }}</title>
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<!--<![endif]-->
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="{{ siteroot }}assets/css/blog-old-ie.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="{{ siteroot }}assets/css/blog.css">
+<!--<![endif]-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div id="layout" class="pure-g">
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <!-- A wrapper for all the blog posts -->
+        <main class="posts">
+            <!-- A single blog post -->
+            <article class="h-entry">
+                <div class="e-content">
+                    {{ page._content | safe }}
+                </div>
+                <footer class="post-header">
+                    <p class="p-meta">
+                        By <span class="p-author">{{ page.author or site.author }}</span> on <time class="dt-published">{{ page.date[:10] }}</time>
+                    </p>
+                </footer>
+            </article>
+        </main>
+    </div><!-- content -->
+
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        {% include "includes/sidebar.html" %}
+    </div>
+
+</div><!-- layout -->
+
+
+</body>
+</html>
