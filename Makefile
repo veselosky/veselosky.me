@@ -50,7 +50,7 @@ build/html/%.json: content/%.md
 
 # After building individual posts, generate an index over them
 build/html/_index.json: $(JSONPOSTS)
-	@./bin/jsonindex.py $(JSONPOSTS) > build/html/_index.json
+	@./bin/jsonindex.py -r build/html/ $(JSONPOSTS) > build/html/_index.json
 
 # Just an easy target to type, to build out all json files
 json: build/html/_index.json
