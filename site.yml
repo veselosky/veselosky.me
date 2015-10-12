@@ -1,11 +1,8 @@
 ---
-title: "Occam's Moving Parts"
-tagline: "Vince Veselosky, Software Architect"
-author: "Vince Veselosky"
-social:
-    Twitter: "https://twitter.com/veselosky"
-    Resume on LinkedIn: "https://www.linkedin.com/in/veselosky"
-    Code on Github: "https://github.com/veselosky?tab=repositories"
-    Facebook: "https://facebook.com/veselosky"
-    Google Plus (but I'm rarely there): "https://plus.google.com/+VinceVeselosky"
-    Slideshare: "http://www.slideshare.net/veselosky"
+site:
+  title: "Occam's Moving Parts"
+  author: "Vince Veselosky"
+  base: "http://vince.veselosky.me/"
+
+config:
+  google_analytics_id: UA-642116-10

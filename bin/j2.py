@@ -9,10 +9,6 @@ Usage:
     j2.py [options] TEMPLATE [VARFILES...]
 
 Options:
-    -s --site SITEVARS      File containing variables to be stored under the
-                            "site" key
-    -p --page PAGEVARS      File containing variables to be stored under the
-                            "page" key
     -r --root ROOT          The path to the "document root" of the web site.
                             Used to calculate relative URLs.
     -t --templatedir DIR    Directory where templates are stored. TEMPLATE
@@ -50,19 +46,13 @@ context = {}
 for varfile in arguments['VARFILES']:
     context.update(loadfile(varfile))
 
-if arguments['--site']:
-    context['site'] = loadfile(arguments['--site'])
-
-if arguments['--page']:
-    context['page'] = loadfile(arguments['--page'])
-
 docroot = './'
 if arguments['--root']:
     docroot = path.abspath(arguments['--root'])
 
 logging.debug(context)
 try:
-    numslashes = path.relpath(context['page']['path'], docroot).count("/")
+    numslashes = path.relpath(context['path'], docroot).count("/")
     context['siteroot'] = "../" * numslashes
 except KeyError:
     pass
