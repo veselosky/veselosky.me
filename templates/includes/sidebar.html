@@ -1,23 +1,29 @@
 <aside>
-    <p class="brand-logo"><img src="{{ siteroot }}apple-touch-icon-precomposed.png"></p>
-    <h4 class="brand-title">{{ site.title }}</h4>
-    <h4 class="brand-tagline">{{ site.tagline }}</h4>
+  <p class="brand-logo"><a href="{{ siteroot}}"><img src="{{ siteroot }}apple-touch-icon-precomposed.png"></a></p>
+  <h4 class="brand-title"><a href="{{ siteroot}}">{{ site.title }}</a></h4>
+    <h4 class="brand-tagline">Vince Veselosky</h4>
+    <h4 class="brand-tagline">Software Architect</h4>
 
-    {% if site.social %}
     <section>
         <p class=h4><i class="icon-user icon-large"></i>Follow Me</p>
         <ul class="list-group list-group-flush">
-        {% for name, link in site.social.items() %}
-            <li class="list-group-item"><a rel=me href="{{ link }}"><i
-                    class="icon-large"></i>{{ name }}
-            </a></li>
-        {% endfor %}
+            <li class="list-group-item"><a rel=me href="https://twitter.com/veselosky"><i
+                    class="icon-large"></i>Twitter</a></li>
+            <li class="list-group-item"><a rel=me href="https://facebook.com/veselosky"><i
+                    class="icon-large"></i>Facebook</a></li>
+            <li class="list-group-item"><a rel=me href="https://www.linkedin.com/in/veselosky"><i
+                    class="icon-large"></i>Resumé on LinkedIn</a></li>
+            <li class="list-group-item"><a rel=me href="https://github.com/veselosky?tab=repositories"><i
+                    class="icon-large"></i>Code on Github</a></li>
+            <li class="list-group-item"><a rel=me href="http://www.slideshare.net/veselosky"><i
+                    class="icon-large"></i>Slideshare</a></li>
+            <li class="list-group-item"><a rel=me href="https://plus.google.com/+VinceVeselosky"><i
+                    class="icon-large"></i>Google Plus</a> (but I'm rarely there)</li>
         {% if FEED_ATOM %}
             <li class="list-group-item"><a href="{{ SITEURL }}/{{ FEED_ATOM }}"><i class="icon-rss icon-large"></i>Feed</a></li>
         {% endif %}
         </ul>
     </section>
-    {% endif %}
 
     {% if LINKS %}
     <section>

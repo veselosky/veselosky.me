@@ -50,7 +50,7 @@ build/html/%.json: content/%.md
 
 # After building individual posts, generate an index over them
 build/html/_index.json: $(JSONPOSTS)
-	@./bin/jsonindex.py -r build/html/ $(JSONPOSTS) > build/html/_index.json
+	@./bin/jsonindex.py -s site.yml -r build/html/ $(JSONPOSTS) > build/html/_index.json
 
 # Just an easy target to type, to build out all json files
 json: build/html/_index.json
@@ -59,11 +59,25 @@ json: build/html/_index.json
 # constructed from the post JSON file, the index, and a site-wide variables
 # file.
 build/html/%.html: build/html/%.json templates/blog.html site.yml
-	./bin/j2.py -r build/html -s site.yml -p $(@:.html=.json) -t templates blog.html > $@
+	./bin/j2.py -r build/html -t templates blog.html site.yml $(@:.html=.json) > $@
 
 posts: json templates/blog.html site.yml $(POSTS)
 
-site: posts
+build/html/archive.html: templates/archive.html build/html/_index.json
+	./bin/j2.py -r build/html -t templates archive.html site.yml build/html/_index.json > $@
+
+build/html/categories.html: templates/categories.html build/html/_index.json
+	./bin/j2.py -r build/html -t templates categories.html site.yml build/html/_index.json > $@
+
+build/html/feeds/recent.atom: json
+	@mkdir -p $(@D)  # `dirname $@`
+	./bin/mkfeed.py -r build/html build/html/_index.json > $@
+
+pages: build/html/archive.html build/html/categories.html
+
+feed: build/html/feeds/recent.atom
+
+site: posts pages feed
 	mkdir -p build/html/assets
 	cp -r static/* build/html/assets/
 	cp -r extra/* build/html/
