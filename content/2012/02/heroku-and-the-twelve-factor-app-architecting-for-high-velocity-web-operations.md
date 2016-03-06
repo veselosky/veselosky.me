@@ -50,8 +50,7 @@ you a few minutes, and it will be well worth your time.
 
 [9. Maximize robustness with fast startup and graceful shutdown.][]
 
-[10. Keep development, staging, and production as similar as
-possible.][]
+[10. Keep development, staging, and production as similar as possible.][]
 
 [11. Treat logs as event streams.][]
 
@@ -71,7 +70,6 @@ possible.][]
   [7. Export services via port binding.]: http://www.12factor.net/port-binding
   [8. Scale out via the process model.]: http://www.12factor.net/concurrency
   [9. Maximize robustness with fast startup and graceful shutdown.]: http://www.12factor.net/disposability
-  [10. Keep development, staging, and production as similar as
-  possible.]: http://www.12factor.net/dev-prod-parity
+  [10. Keep development, staging, and production as similar as possible.]: http://www.12factor.net/dev-prod-parity
   [11. Treat logs as event streams.]: http://www.12factor.net/logs
   [12. Run admin/management tasks as one-off processes (see 6 above).]: http://www.12factor.net/admin-processes

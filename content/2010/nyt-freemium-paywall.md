@@ -18,9 +18,9 @@ and
 used it as an excuse to talk about a rumored but still unannounced Apple
 product (seriously Mashable? come on).
 
-![The proposed "pay wall" is actually one of the six kinds of Free! You
+[![The proposed "pay wall" is actually one of the six kinds of Free! You
 only pay if you really value the
-content.](https://fbexternal-a.akamaihd.net/safe_image.php?d=AQDDMZckqydzSwpC&url=http%3A%2F%2Fstatic.flickr.com%2F3221%2F2759517762_38be64311d.jpg)
+content.](http://farm4.staticflickr.com/3221/2759517762_38be64311d.jpg)][img]
 
 The first thing to understand about the announced pay model is that it
 is misnamed. The NYT press release refers to it as a “metered model” and
@@ -65,3 +65,6 @@ But more than that, the company needs to use the subscription as just
 one of many touch points to build a stronger relationship with loyal
 readers. It’s that relationship from which the real value of the
 business is derived.
+
+[img]: https://flic.kr/p/5cRfus
+

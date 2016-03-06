@@ -27,7 +27,8 @@ information to the point of its highest value.
 That doesn’t just mean its highest value to you, the business, but the
 highest value over all to the community you serve.
 [Journalism can be seen as a
- fulfillment of this mission](../2010/journalism-too-important-to-be-locked-up),
+ fulfillment of this
+ mission](../2010/journalism-too-important-to-be-locked-up.html),
 because information about corporate malfeasance or government activity
 has more value to society when it is in the hands of consumers or
 voters. But media organizations, and especially newspaper organizations,
