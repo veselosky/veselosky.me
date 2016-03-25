@@ -14,6 +14,7 @@ Note: the following markdown extensions are loaded automatically.
     'markdown.extensions.headerid',
     'pyembed.markdown'
 """
+from __future__ import absolute_import, print_function, unicode_literals
 import datetime
 import json
 import logging
@@ -23,13 +24,18 @@ import sys
 
 from dateutil.parser import parse as parse_date
 from docopt import docopt
+from markdown.extensions.toc import TocExtension
 from os import path
 
 logging.basicConfig(level=logging.INFO)
 zone = pytz.timezone('America/New_York')
 default_extensions = [
+    'markdown.extensions.extra',
+    'markdown.extensions.admonition',
+    'markdown.extensions.codehilite',
     'markdown.extensions.meta',
-    'markdown.extensions.headerid',
+    'markdown.extensions.sane_lists',
+    TocExtension(permalink=True),  # replaces headerId
     'pyembed.markdown'
 ]
 arguments = docopt(__doc__)
@@ -61,8 +67,9 @@ class SmartJSONEncoder(json.JSONEncoder):
 
 logging.debug("Processing %s" % arguments['<infile>'])
 
-md = markdown.Markdown(extensions=extensions, output_format='html5')
-with open(arguments['<infile>']) as infile:
+md = markdown.Markdown(extensions=extensions, output_format='html5',
+                       lazy_ol=False)
+with open(arguments['<infile>'], encoding='utf-8') as infile:
     mtext = infile.read()
 
 html = md.convert(mtext)
