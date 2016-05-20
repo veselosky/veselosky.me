@@ -110,3 +110,8 @@ test:
 
 test-all:
 	tox
+
+deploy:
+	test -e ~/.aws/*.pem && ssh-add ~/.aws/*.pem
+	ansible-playbook -i ~/Google\ Drive/Websites/ansible_inventory_for_statics.ini deploy.yml
+
