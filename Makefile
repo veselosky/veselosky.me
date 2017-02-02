@@ -10,25 +10,13 @@
 # need to adjust the JSONPOSTS declaration.
 #######################################################################
 
-# Inventory the source files, make list of dest files to target
-JSONPOSTS = $(shell find content -name "*.md" | sed s/content/build\\/html/ | sed s/.md/.json/)
-POSTS = $(JSONPOSTS:.json=.html)
-
-#######################################################################
-# A portable way to open a browser window.
-# From https://github.com/audreyr/cookiecutter-pypackage
-#######################################################################
-define BROWSER_PYSCRIPT
-import os, webbrowser, sys
-try:
-	from urllib import pathname2url
-except:
-	from urllib.request import pathname2url
-
-webbrowser.open("file://" + pathname2url(os.path.abspath(sys.argv[1])))
-endef
-export BROWSER_PYSCRIPT
-BROWSER := python -c "$$BROWSER_PYSCRIPT"
+SHELL := /bin/bash
+SITEDIR = $(shell quill config 'environments.local.root')
+BUILDDIR = $(dir $(SITEDIR))
+STYLES=\
+	static/css/impure.css \
+	static/css/blog.css
+PROD = $(shell quill config 'environments.production.root')
 
 #######################################################################
 # Build targets and rules
@@ -37,81 +25,32 @@ BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
 help:
 	@echo "clean - remove all build, test, coverage and Python artifacts"
-	@echo "site - build the entire web site"
-	@echo "json - build only the data files for the site, no html"
-	@echo "test - run tests quickly with the default Python"
-	@echo "test-all - run tests on every Python version with tox"
+	@echo "html - build all HTML files and feeds"
+	@echo "stylesheet - build styles and scripts for the site"
+	@echo "site - build entire web site, including HTML, styles, and scripts"
+	@echo "serve - run a web server in the build directory"
+	@echo "deploy - upload the files to the public server"
 
 
-# Markdown files are converted to JSON output
-build/html/%.json: content/%.md
-	@mkdir -p $(@D)  # `dirname $@`
-	@./bin/md2json.py $^ $@
+$(SITEDIR)/_T/style.css: $(STYLES)
+	mkdir -p $(SITEDIR)/_T/
+	cat $(STYLES) | node_modules/clean-css/bin/cleancss --source-map -o $@
+stylesheet: $(SITEDIR)/_T/style.css
 
-# After building individual posts, generate an index over them
-build/html/_index.json: $(JSONPOSTS)
-	@./bin/jsonindex.py -s site.yml -r build/html/ $(JSONPOSTS) > build/html/_index.json
+html:
+	quill build
 
-# Just an easy target to type, to build out all json files
-json: build/html/_index.json
+dev:
+	quill build --dev
 
-# HTML pages are produced by feeding a context to a template. The context is
-# constructed from the post JSON file, the index, and a site-wide variables
-# file.
-build/html/%.html: build/html/%.json templates/blog.html site.yml
-	./bin/j2.py -r build/html -t templates blog.html site.yml $(@:.html=.json) > $@
+site: html stylesheet
 
-posts: json templates/blog.html site.yml $(POSTS)
+serve:
+	cd $(SITEDIR) && python -mhttp.server
 
-build/html/archive.html: templates/archive.html build/html/_index.json
-	./bin/j2.py -r build/html -t templates archive.html site.yml build/html/_index.json > $@
-
-build/html/categories.html: templates/categories.html build/html/_index.json
-	./bin/j2.py -r build/html -t templates categories.html site.yml build/html/_index.json > $@
-
-build/html/feeds/recent.atom: json
-	@mkdir -p $(@D)  # `dirname $@`
-	./bin/mkfeed.py -r build/html build/html/_index.json > $@
-
-pages: build/html/archive.html build/html/categories.html
-
-feed: build/html/feeds/recent.atom
-
-site: posts pages feed
-	mkdir -p build/html/assets
-	cp -r static/* build/html/assets/
-	cp -r extra/* build/html/
-# TODO combine and minify CSS, JS
-# TODO List of index pages. How to manage these?
-
-
-clean: clean-build clean-pyc clean-test
-
-clean-build:
-	rm -fr build/
-	rm -fr dist/
-	rm -fr .eggs/
-	find . -name '*.egg-info' -exec rm -fr {} +
-	find . -name '*.egg' -exec rm -f {} +
-
-clean-pyc:
-	find . -name '*.pyc' -exec rm -f {} +
-	find . -name '*.pyo' -exec rm -f {} +
-	find . -name '*~' -exec rm -f {} +
-	find . -name '__pycache__' -exec rm -fr {} +
-
-clean-test:
-	rm -fr .tox/
-	rm -f .coverage
-	rm -fr htmlcov/
-
-test:
-	python setup.py test
-
-test-all:
-	tox
+clean:
+	rm -fr $(BUILDDIR)
 
 deploy:
-	test -e ~/.aws/*.pem && ssh-add ~/.aws/*.pem
-	ansible-playbook -i ~/Google\ Drive/Websites/ansible_inventory_for_statics.ini deploy.yml
+	aws s3 sync --acl public-read $(SITEDIR) $(PROD)
 
