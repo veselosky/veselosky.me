@@ -1,8 +1,14 @@
-Title: Systems vs Habits: Why GTD Often Fails
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:52f08340-d785-4e5d-bbfa-211b11a7107c"
 Date: 2013-01-18 13:03
 Author: Vince Veselosky
 Slug: systems-vs-habits-why-gtd-often-fails
-Category: Life
+Category:
+    name: Life
+    label: life
+Title: "Systems vs Habits: Why GTD Often Fails"
+...
 
 # Systems vs Habits: Why GTD Often Fails
 

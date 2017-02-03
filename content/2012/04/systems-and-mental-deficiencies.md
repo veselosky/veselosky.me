@@ -1,8 +1,13 @@
-Title: Systems and Mental Deficiencies
+---
+guid: "urn:UUID:0a9f974b-aca1-49f9-9eca-755d013d3ba0"
+itemtype: Item/Page/Article
 Date: 2012-04-29 19:46
 Author: Vince Veselosky
-Slug: systems-and-mental-deficiencies
-Category: Life
+Category:
+    name: Life
+    label: life
+Title: Systems and Mental Deficiencies
+...
 
 # Systems and Mental Deficiencies
 

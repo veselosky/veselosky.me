@@ -1,8 +1,14 @@
-Title: Evolving Systems vs Design Consultants - A Recurring Pattern
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:8887f9bf-53ea-4bef-a7ae-79f0eb197539"
 Date: 2013-02-04 13:58
 Author: Vince Veselosky
 Slug: evolving-systems-vs-design-consultants
-Category: Technology
+Category:
+    name: Technology
+    label: technology
+Title: Evolving Systems vs Design Consultants - A Recurring Pattern
+...
 
 # Evolving Systems vs Design Consultants - A Recurring Pattern
 

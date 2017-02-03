@@ -1,6 +1,12 @@
+---
+guid: "urn:UUID:8aaa28a1-7031-4e3d-89f3-fb8f3b7dfd53"
+itemtype: Item/Page/Article
+Published: 2010-06-13
+Category:
+    name: Media
+    label: media
 Title: Journalism is too important to be locked behind a paywall
-Date: 2010-06-13
-Category: Media
+...
 
 Journalism is too important to be locked behind a paywall
 =========================================================

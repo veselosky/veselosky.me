@@ -1,6 +1,12 @@
-Title: A New Mission for Media
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:0a5f96c9-8343-40c2-a0ad-82716db78798"
 Date: 2015-04-15
-Category: Media
+Category:
+    name: Media
+    label: media
+Title: A New Mission for Media
+...
 
 A New Mission for Media
 =======================

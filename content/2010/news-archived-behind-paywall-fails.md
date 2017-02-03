@@ -1,6 +1,12 @@
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:37b752d1-a594-49bb-8e58-b20a8343a84c"
+Published: 2010-01-22
+Category:
+    name: Media
+    label: media
 Title: Why News Archived Behind Paywall Fails
-Date: 2010-01-22
-Category: Media
+...
 
 Why News Archived Behind Paywall Fails
 ======================================

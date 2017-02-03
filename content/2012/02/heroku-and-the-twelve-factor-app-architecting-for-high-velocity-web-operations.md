@@ -1,8 +1,13 @@
-Title: Heroku and the Twelve Factor App: Architecting for High Velocity Web Operations
+---
+guid: "urn:UUID:a0d86e97-f0ec-4f62-96ae-9c4aa18c7968"
+itemtype: Item/Page/Article
 Date: 2012-02-11
 Author: Vince Veselosky
-Slug: heroku-and-the-twelve-factor-app
-Category: Technology
+Category:
+    name: Technology
+    label: technology
+Title: "Heroku and the Twelve Factor App: Architecting for High Velocity Web Operations"
+...
 
 # Heroku and the Twelve Factor App: Architecting for High Velocity Web
 

@@ -1,5 +1,9 @@
-Title: Credits
+---
+itemtype: Item/Page
+guid: "urn:UUID:d4f24d50-5ef9-4f5a-ae14-9454439a8c18"
 Date: 2013-12-15
+Title: Credits
+...
 
 Content of the site is by Vince Veselosky.
 

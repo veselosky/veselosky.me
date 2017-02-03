@@ -1,8 +1,13 @@
-Title: Component Contracts in Service Oriented Systems
+---
+guid: "urn:UUID:c4a90c81-16c8-4b14-aa2a-271e7fcf6ae3"
+itemtype: Item/Page/Article
 Date: 2013-11-11 17:09
 Author: Vince Veselosky
-Slug: component-contracts-in-service-oriented-systems
-Category: Technology
+Category:
+    name: Technology
+    label: technology
+Title: Component Contracts in Service Oriented Systems
+...
 
 # Component Contracts in Service Oriented Systems
 

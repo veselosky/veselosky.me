@@ -1,6 +1,12 @@
-Title: The Three C's of New Media: Creation, Curation, and Compilation
-Date: 2010-01-15
-Category: Media
+---
+guid: "urn:UUID:67d72442-2420-49b6-8e46-bc7bde922181"
+itemtype: Item/Page/Article
+Published: 2010-01-15
+Category: 
+    name: Media
+    label: media
+Title: "The Three C's of New Media: Creation, Curation, and Compilation"
+...
 
 The Three C's of New Media: Creation, Curation, and Compilation
 ===============================================================

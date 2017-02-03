@@ -1,8 +1,13 @@
-Title: Efficiency: Enemy of Innovation?
+---
+guid: "urn:UUID:26196b32-97ea-4520-a6f4-2a50e41f2749"
+itemtype: Item/Page/Article
 Date: 2012-01-19
 Author: Vince Veselosky
-Slug: efficiency-enemy-of-innovation
-Category: Business
+Category:
+    name: Business
+    label: business
+Title: "Efficiency: Enemy of Innovation?"
+...
 
 # Efficiency: Enemy of Innovation?
 

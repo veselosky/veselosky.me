@@ -1,8 +1,14 @@
-Title: Toward a Reusable Content Repository
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:3a0cf3ce-501a-4ab7-994c-c72c019d96ae"
 Date: 2013-07-22 15:46
 Author: Vince Veselosky
 Slug: toward-reusable-content-repository
-Category: Technology
+Category:
+    name: Technology
+    label: technology
+Title: Toward a Reusable Content Repository
+...
 
 # Toward a Reusable Content Repository
 

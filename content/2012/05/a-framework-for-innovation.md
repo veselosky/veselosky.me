@@ -1,8 +1,13 @@
-Title: A Framework for Innovation
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:5393f65b-06a3-4de2-83dc-38ec0985d28b"
 Date: 2012-05-13 22:19
 Author: Vince Veselosky
-Slug: framework-for-innovation
-Category: Business
+Category:
+    name: Business
+    label: business
+Title: A Framework for Innovation
+...
 
 # A Framework for Innovation
 

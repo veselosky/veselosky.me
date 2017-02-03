@@ -1,6 +1,12 @@
-Title: How I Get 152 Miles per Gallon in the City
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:e637d5ef-9877-4e22-91c0-a27eb4d04e6f"
 Date: 2015-02-09
-Category: Urbanism
+Category:
+    name: Urbanism
+    label: urbanism
+Title: How I Get 152 Miles per Gallon in the City
+...
 
 How I Get 152 Miles per Gallon in the City
 ==========================================

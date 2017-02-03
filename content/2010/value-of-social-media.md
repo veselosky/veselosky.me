@@ -1,6 +1,12 @@
+---
+guid: "urn:UUID:37ce972c-a90e-4ec4-b66b-60a749dd6e37"
+itemtype: Item/Page/Article
+Published: 2010-01-12
+Category:
+    name: Media
+    label: media
 Title: The Real Value of Social Media is its Weakness
-Date: 2010-01-12
-Category: Media
+...
 
 The Real Value of Social Media is its Weakness
 ==============================================

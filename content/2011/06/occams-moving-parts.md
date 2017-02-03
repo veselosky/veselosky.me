@@ -1,8 +1,11 @@
-Title: Occam's Moving Parts
+guid: "urn:UUID:8fc790ce-4a06-4fe4-b607-585308609e6b"
+itemtype: Item/Page
 Date: 2011-06-12 12:50
 Author: Vince Veselosky
-Slug: occams-moving-parts
-Category: Life
+Category: 
+    name: Life
+    label: life
+Title: Occam's Moving Parts
 
 # Occam's Moving Parts
 

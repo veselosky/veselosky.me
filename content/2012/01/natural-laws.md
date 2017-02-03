@@ -1,8 +1,13 @@
-Title: Natural Laws
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:953e5c81-05f9-44e0-956f-80a57aa1067a"
 Date: 2012-01-24
 Author: Vince Veselosky
-Slug: natural-laws
-Category: Life
+Category:
+    name: Life
+    label: life
+Title: Natural Laws
+...
 
 # Natural Laws
 

@@ -1,6 +1,12 @@
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:eb3e2a33-2993-4ad4-ab31-494817411f46"
+Published: 2010-01-19
+Category:
+    name: Media
+    label: media
 Title: The Tablet Fallacy (or, Old Media is Screwed)
-Date: 2010-01-19
-Category: Media
+---
 
 The Tablet Fallacy (or, Old Media is Screwed)
 =============================================

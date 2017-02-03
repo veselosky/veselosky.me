@@ -1,8 +1,14 @@
-Title: CASTED: Cooperative Agents, Single Threaded, Event Driven
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:11601cb3-66b9-434b-8ede-60a0a496572a"
 Date: 2013-07-20 13:40
 Author: Vince Veselosky
 Slug: casted-cooperative-agents-single
-Category: Technology
+Category:
+    name: Technology
+    label: technology
+Title: "CASTED: Cooperative Agents, Single Threaded, Event Driven"
+...
 
 # CASTED: Cooperative Agents, Single Threaded, Event Driven
 

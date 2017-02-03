@@ -1,8 +1,11 @@
-Title: Web Analytics for Operations
+itemtype: Item/Page/Article
+guid: "urn:UUID:41dacf5a-3439-49b7-b70f-d514116de2df"
 Date: 2011-06-19
 Author: Vince Veselosky
-Slug: web-analytics-for-operations
-Category: Technology
+Category:
+    name: Technology
+    label: technology
+Title: Web Analytics for Operations
 
 # Web Analytics for Operations
 

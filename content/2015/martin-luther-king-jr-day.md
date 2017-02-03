@@ -1,6 +1,12 @@
-Title: Martin Luther King Jr. Day
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:10fb63b9-064f-4ea6-98db-2d0731c9dd73"
 Date: 2015-01-19
-Category: Life
+Category:
+    name: Life
+    label: life
+Title: Martin Luther King Jr. Day
+...
 
 Martin Luther King Jr. Day
 ==========================

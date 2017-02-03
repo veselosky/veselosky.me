@@ -1,7 +1,12 @@
-Title: Technology
-is_category: True
-Category: Technology
+---
+itemtype: Item/Page
+guid: "urn:UUID:c243f836-fbb0-4d5b-bfe4-f6e2cf12c4c4"
+Category:
+    name: Technology
+    label: technology
 Date: 2013-12-15
+Title: Technology
+...
 
 As a systems architect, I spend a lot of time thinking about systems in
 technology. A "system" in IT can sometimes refer to a single computer, but I am

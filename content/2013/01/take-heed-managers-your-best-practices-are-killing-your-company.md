@@ -1,8 +1,14 @@
-Title: Take heed, managers: your "best practices" are killing your company
+---
+itemtype: Item/Page/Article
+guid: "urn:UUID:250d14d9-bea8-4bca-b148-024a10376644"
 Date: 2013-01-22 16:08
 Author: Vince Veselosky
 Slug: take-heed-managers-your-best-practices
-Category: Business
+Category:
+    name: Business
+    label: business
+Title: "Take heed, managers: your 'best practices' are killing your company"
+...
 
 # Take heed, managers: your "best practices" are killing your company
 
