@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ description }}">
-<title>{{ title }} | {{ site.title }}</title>
+<meta name="description" content="{{ Item.description }}">
+<title>{{ Item.title }} | {{ site.title }}</title>
 
-    <link rel="stylesheet" href="{{ siteroot }}assets/css/blog.css">
+    <link rel="stylesheet" href="/assets/css/blog.css">
 <!--[if lte IE 8]>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
 <![endif]-->
@@ -21,16 +21,16 @@
             <!-- A single blog post -->
             <article class="h-entry">
                 <div class="e-content">
-                    {{ _content | safe }}
+                    {{ Page.text | safe }}
                 </div>
                 <footer class="post-header">
                     <p class="p-meta">
-                        By <span class="p-author">{{ author or site.author }}</span> on <time class="dt-published">{{ date[:10] }}</time>
+                        By <span class="p-author">{{ Item.author or site.author }}</span> on <time class="dt-published">{{ Item.published[:10] }}</time>
                     </p>
                 </footer>
             </article>
         </main>
-        <footer class="footer">Copyright ©2015 Vince Veselosky. | <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+        <footer class="footer">{{ Item.copyright }} | <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
   alt="Creative Commons License" style="border-width:0"
   src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
   <br>

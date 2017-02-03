@@ -4,12 +4,12 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>{{ page.title }} | {{ site.title }}</title>
+<title>{{ Item.title }} | {{ site.title }}</title>
 <meta name="description" content=""/>
 <meta name="author" content=""/>
 <meta name="copyright" content=""/>
-<link rel="stylesheet" href="{{ siteroot }}assets/css/foundation.min.css"/>
-<script src="{{ siteroot }}assets/js/modernizr.js"></script>
+<link rel="stylesheet" href="/assets/css/foundation.min.css"/>
+<script src="/assets/js/modernizr.js"></script>
 </head>
 <body>
 
@@ -33,11 +33,10 @@
 
 <div class="large-9 columns" role="content">
 <article>
-{{ page._content|safe }}
-<footer>By {{ page.author or 'Vince Veselosky' }} on {{ page.date }}.</footer>
+{{ Page.text|safe }}
+<footer>By {{ Item.author or 'Vince Veselosky' }} on {{ Item.pub_date[:10] }}.</footer>
 </article>
 <hr/>
-<article>
 </div>
 
 
@@ -65,7 +64,7 @@
 <hr/>
 <div class="row">
 <div class="large-6 columns">
-<p>&copy; Copyright {{ page.date[:4] }} {{ page.author or 'Vince Veselosky' }}.</p>
+<p>&copy; Copyright {{ Item.rights.copyright_year or Item.pub_date[:4] }} {{ Item.author or 'Vince Veselosky' }}.</p>
 </div>
 <div class="large-6 columns">
 <ul class="inline-list right">
@@ -78,8 +77,8 @@
 </div>
 </div>
 </footer>
-<script src="{{ siteroot }}assets/js/jquery.min.js"></script>
-<script src="{{ siteroot }}assets/js/foundation.min.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/foundation.min.js"></script>
 <script>
       $(document).foundation();
       var doc = document.documentElement;
