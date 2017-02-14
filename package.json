@@ -1,0 +1,23 @@
+{
+  "name": "veselosky.me",
+  "version": "1.0.0",
+  "description": "veselosky.me ============ Vince's personal web site and blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veselosky/veselosky.me.git"
+  },
+  "author": "Vince Veselosky <vince@control-escape.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/veselosky/veselosky.me/issues"
+  },
+  "homepage": "https://github.com/veselosky/veselosky.me#readme",
+  "dependencies": {
+    "clean-css": "^4.0.7",
+    "clean-css-cli": "^4.0.7"
+  }
+}

@@ -1,6 +1,7 @@
 options:
   root: build/html
   source: content
+  theme: impure
 
 environments:
   local:

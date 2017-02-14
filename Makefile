@@ -13,9 +13,10 @@
 SHELL := /bin/bash
 SITEDIR = $(shell quill config 'environments.local.root')
 BUILDDIR = $(dir $(SITEDIR))
+THEME = $(shell quill config 'options.theme')
 STYLES=\
-	static/css/impure.css \
-	static/css/blog.css
+	themes/$(THEME)/impure.css \
+	themes/$(THEME)/blog.css
 PROD = $(shell quill config 'environments.production.root')
 
 #######################################################################
@@ -32,10 +33,10 @@ help:
 	@echo "deploy - upload the files to the public server"
 
 
-$(SITEDIR)/_T/style.css: $(STYLES)
-	mkdir -p $(SITEDIR)/_T/
-	cat $(STYLES) | node_modules/clean-css/bin/cleancss --source-map -o $@
-stylesheet: $(SITEDIR)/_T/style.css
+$(SITEDIR)/_T/$(THEME)/style.css: $(STYLES)
+	mkdir -p $(SITEDIR)/_T/$(THEME)
+	cat $(STYLES) | node_modules/clean-css-cli/bin/cleancss -c ie8 -o $@
+stylesheet: $(SITEDIR)/_T/$(THEME)/style.css
 
 html:
 	quill build

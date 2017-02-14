@@ -29,3 +29,7 @@ pip-log.txt
 
 # Mac
 .DS_Store
+
+#JS
+node_modules
+

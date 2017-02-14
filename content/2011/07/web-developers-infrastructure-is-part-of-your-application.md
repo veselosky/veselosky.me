@@ -1,3 +1,4 @@
+---
 itemtype: Item/Page/Article
 guid: "urn:UUID:035e07f0-7126-406f-97bb-4bfd4c874c42"
 Date: 2011-07-09
@@ -6,6 +7,7 @@ Category:
     name: Technology
     label: technology
 Title: "Web Developers: Infrastructure is part of your Application!"
+...
 
 # Web Developers: Infrastructure is part of your Application!
 
