@@ -1,8 +1,0 @@
----
-site:
-  title: "Occam's Moving Parts"
-  author: "Vince Veselosky"
-  base: "http://vince.veselosky.me/"
-
-config:
-  google_analytics_id: UA-642116-10
