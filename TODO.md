@@ -1,14 +1,11 @@
-
-Category metadata determines output directory. If explicitly supplied in
-metadata, overrides the input path.
-
-How do you want to structure the blog going forward?
-
-Tasks
+Bug Fixes
 ====================
-* Fix broken links (missing ".html")
-* Combine and minify CSS, JS
-* fontawesome for follow me section
+* Find and Fix broken internal links (missing ".html", directory moves)
+* Fix image styles (/life/martin-luther-king-jr-day image encroaches on sidebar)
+
+Features
+====================
+* fontawesome for follow me section?
 
 Issues
 =============================================================================
