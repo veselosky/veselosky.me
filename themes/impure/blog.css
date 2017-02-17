@@ -115,3 +115,11 @@ a:focus {
     text-align: center;
     padding: 1em 0;
 }
+a.headerlink {display: none}
+h1:hover a.headerlink,
+h2:hover a.headerlink,
+h3:hover a.headerlink,
+h4:hover a.headerlink,
+h5:hover a.headerlink,
+h6:hover a.headerlink
+{ display: inline }

@@ -1,4 +1,4 @@
 {% extends "Item.html.j2" %}
 {%- block bodycontent -%}
-{{ Page.text or Item.description | safe }}
+{{ Article.body or Page.text or Item.description | safe }}
 {%- endblock bodycontent -%}
