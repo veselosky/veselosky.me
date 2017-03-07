@@ -64,17 +64,17 @@ you a few minutes, and it will be well worth your time.
 
 
   [infrastructure should be delivered as code]: /technology/web-developers-infrastructure-is-part-of-your-application.html
-  [Heroku]: http://www.heroku.com/
-  [The Twelve Factor App]: http://www.12factor.net/
-  [1. One codebase tracked in revision control, many deploys.]: http://www.12factor.net/codebase
-  [2. Explicitly declare and isolate dependencies.]: http://www.12factor.net/dependencies
-  [3. Store config in the environment.]: http://www.12factor.net/config
-  [4. Treat backing services as attached resources.]: http://www.12factor.net/backing-services
-  [5. Strictly separate build and run stages.]: http://www.12factor.net/build-release-run
-  [6. Execute the app as one or more stateless processes.]: http://www.12factor.net/processes
-  [7. Export services via port binding.]: http://www.12factor.net/port-binding
-  [8. Scale out via the process model.]: http://www.12factor.net/concurrency
-  [9. Maximize robustness with fast startup and graceful shutdown.]: http://www.12factor.net/disposability
-  [10. Keep development, staging, and production as similar as possible.]: http://www.12factor.net/dev-prod-parity
-  [11. Treat logs as event streams.]: http://www.12factor.net/logs
-  [12. Run admin/management tasks as one-off processes (see 6 above).]: http://www.12factor.net/admin-processes
+  [Heroku]: https://www.heroku.com/
+  [The Twelve Factor App]: https://12factor.net/
+  [1. One codebase tracked in revision control, many deploys.]: https://12factor.net/codebase
+  [2. Explicitly declare and isolate dependencies.]: https://12factor.net/dependencies
+  [3. Store config in the environment.]: https://12factor.net/config
+  [4. Treat backing services as attached resources.]: https://12factor.net/backing-services
+  [5. Strictly separate build and run stages.]: https://12factor.net/build-release-run
+  [6. Execute the app as one or more stateless processes.]: https://12factor.net/processes
+  [7. Export services via port binding.]: https://12factor.net/port-binding
+  [8. Scale out via the process model.]: https://12factor.net/concurrency
+  [9. Maximize robustness with fast startup and graceful shutdown.]: https://12factor.net/disposability
+  [10. Keep development, staging, and production as similar as possible.]: https://12factor.net/dev-prod-parity
+  [11. Treat logs as event streams.]: https://12factor.net/logs
+  [12. Run admin/management tasks as one-off processes (see 6 above).]: https://12factor.net/admin-processes

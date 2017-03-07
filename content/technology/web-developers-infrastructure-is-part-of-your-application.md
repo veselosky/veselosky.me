@@ -57,6 +57,6 @@ embedded as part of the team, developing and codifying the
 infrastructure alongside the application code. A web application
 delivered without infrastructure automation is incomplete.
 
-[other opinions]: http://blog.heroku.com/archives/2011/6/28/the_new_heroku_4_erosion_resistance_explicit_contracts/
-[Heroku]: http://www.heroku.com/
-[App Engine]: http://code.google.com/appengine/
+[other opinions]: https://blog.heroku.com/the_new_heroku_4_erosion_resistance_explicit_contracts
+[Heroku]: https://www.heroku.com/
+[App Engine]: https://cloud.google.com/appengine/

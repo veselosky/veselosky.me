@@ -56,7 +56,7 @@ and difficult to acquire. In the new digital media, compiling data sets
 into content and distributing access to the data has become relatively
 inexpensive. Google, Microsoft, and Yahoo now give away access to map
 data and satellite imagery (and see
-[OpenStreetMap](http://openstreetmap.org/) for a project that is making
+[OpenStreetMap](http://www.openstreetmap.org/) for a project that is making
 map data truly free).
 
 One of the goals of journalists has been not just to deliver the data,

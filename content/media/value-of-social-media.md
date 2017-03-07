@@ -15,7 +15,7 @@ Many still doubt the utility of social media. I myself was among the
 doubters until I was forced onto Twitter and Facebook to test the social
 media integration for a web site I was developing. That’s when I
 discovered that, although [Sturgeon’s
-Law](http://en.wikipedia.org/wiki/Sturgeon%27s%20Law) applies to social
+Law](https://en.wikipedia.org/wiki/Sturgeon%27s_Law) applies to social
 media as much as anything else, the small percentage of “good stuff” is
 exceedingly valuable.
 
@@ -30,11 +30,11 @@ The value of social networking tools like Twitter and Facebook is not
 immediately obvious to some (it wasn’t to me), and may even be counter
 intuitive. I’ve heard complaints that it’s difficult or impossible to
 form deep relationships through digital media, and
-[Luddite](http://en.wikipedia.org/wiki/Luddite) sentiment that we should
+[Luddite](https://en.wikipedia.org/wiki/Luddite) sentiment that we should
 turn back to “face time” in our relationships. I disagree with the idea
 that deep relationships cannot be formed online, but the real value of
 social media is not in the deep relationships. It’s in the [weak
-ties](http://en.wikipedia.org/wiki/Weak%20ties).
+ties](https://en.wikipedia.org/wiki/Weak_ties).
 
 According to network theory, it’s the weak ties in a social network that
 transfer the most value (by social network here we are not talking about
@@ -56,7 +56,7 @@ butterfly.
 The power of social media technologies is that they grease the
 proverbial skids. Using these new tools, we can all become connectors.
 The technology enables us to manage a larger number of weak ties than
-[Dunbar](http://en.wikipedia.org/wiki/Dunbar%27s%20number) would
+[Dunbar](https://en.wikipedia.org/wiki/Dunbar%27s_number) would
 otherwise permit, thereby increasing the size and theoretical value of
 our personal network. You might only “know” a hundred people in “real
 life”, but your network on Twitter and LinkedIn might contain 500 links

@@ -15,7 +15,7 @@ Martin Luther King Jr. Day
 
 As I write this, I sit in an apartment in Atlanta’s Old Fourth Ward,
 just a few blocks from where the [Rev. Dr. Martin Luther King
-Jr.](http://en.wikipedia.org/wiki/Martin_Luther_King,_Jr.) preached to
+Jr.](https://en.wikipedia.org/wiki/Martin_Luther_King,_Jr.) preached to
 his congregation. I cannot express in words the gratitude I feel toward
 Dr. King and all the thousands of people who marched with him to demand
 equal rights for all Americans. Since its birth, America has been a

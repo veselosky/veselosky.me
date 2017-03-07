@@ -15,9 +15,9 @@ Last week, the New York Times announced [plans to start
 charging](http://www.nytimes.com/2010/01/21/business/media/21times.html?hp&emc=na)
 certain readers for access to their web site.
 Reaction was predictable: [Jeff Jarvis
-complained](http://www.buzzmachine.com/2010/01/17/the-cockeyed-economics-of-metering-reading/),
+complained](http://buzzmachine.com/2010/01/17/the-cockeyed-economics-of-metering-reading/),
 [TechCrunch ran some
-numbers](http://www.techcrunch.com/2010/01/20/new-york-times-meter-needle/),
+numbers](https://techcrunch.com/2010/01/20/new-york-times-meter-needle/),
 and
 [Mashable](http://mashable.com/2010/01/20/new-york-times-to-start-charging/)
 used it as an excuse to talk about a rumored but still unannounced Apple
@@ -35,7 +35,7 @@ power utility model: you pay for it all, and the more you use, the more
 you pay.
 
 What the Times is actually proposing is a
-[Freemium](http://en.wikipedia.org/wiki/Freemium) model: you get limited
+[Freemium](https://en.wikipedia.org/wiki/Freemium) model: you get limited
 access for free, or you pay a fixed fee for unlimited access. The only
 thing they are “metering” (actually *measuring*) is how many free page
 views you have used. When you hit a certain number, they ask you to
@@ -44,7 +44,7 @@ Sunday edition, you’re covered.)
 
 The Times people have put some good thinking into this, and for once the
 business model does make some sense, despite what [Jeff Jarvis
-says](http://www.buzzmachine.com/2010/01/17/the-cockeyed-economics-of-metering-reading/).
+says](http://buzzmachine.com/2010/01/17/the-cockeyed-economics-of-metering-reading/).
 The logic goes like this. People who use our product frequently are
 likely to think it is valuable, and are therefore *more* likely to be
 willing to pay for that value. Infrequent visitors, who value our
@@ -60,7 +60,7 @@ best](http://paidcontent.org/article/419-nine-questions-new-york-times-goes-mete
 > losing a critical number of occasional visitors.
 
 As [TechCrunch pointed
-out](http://www.techcrunch.com/2010/01/20/new-york-times-meter-needle/),
+out](https://techcrunch.com/2010/01/20/new-york-times-meter-needle/),
 the key to making the model work is to have excellent audience
 analytics. The Times will have to find the sweet spot in both number of
 free views and cost of subscription to maximize subscription revenue

@@ -19,7 +19,7 @@ information. As a result, they are engaged in a digital race to the
 bottom, where falling ad CPM drives them to seek higher page view
 numbers on thinner margins, focusing on quantity rather than quality, on
 usage rather than utility. This has left a huge, [blue
-ocean](http://www.blueoceanstrategy.com/) of market opportunities in
+ocean](https://www.blueoceanstrategy.com/) of market opportunities in
 focused information services open to software and technology companies,
 who are growing at exponential rates while traditional media companies
 struggle to slow the rate at which their business is shrinking. Media
@@ -84,7 +84,7 @@ come up with many, possibly hundreds of ideas.
 It is your responsibility, media executives, to structure your business
 as a pipeline for testing and scaling these ideas. Train your audience
 development team in the latest (fastest and cheapest) [user research
-methods](http://www.usability.gov/what-and-why/user-research.html).
+methods](https://www.usability.gov/what-and-why/user-research.html).
 Train your product development team on the latest mobile and web
 technologies. Leverage the on-demand compute power of the cloud to
 reduce up-front capital outlays, quickly shut down experiments that

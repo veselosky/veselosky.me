@@ -149,5 +149,5 @@ months to record how it has changed and how effective it has been.
 
 [Getting Things Done: The Art of Stress-Free Productivity]: http://www.amazon.com/gp/product/0142000280/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0142000280
 [Evernote]: https://evernote.com/
-[kanban]: http://en.wikipedia.org/wiki/Kanban_board
-[Pocket]: http://getpocket.com/
+[kanban]: https://en.wikipedia.org/wiki/Kanban_board
+[Pocket]: https://getpocket.com/

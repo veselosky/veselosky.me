@@ -15,7 +15,7 @@ The Tablet Fallacy (or, Old Media is Screwed)
 these are not the droids they are looking for.
 
 There has been so much [hand
-waving](http://www.i4u.com/article29893.html) in the last month about
+waving](http://www.i4u.com/33130/tablets-are-vaporware-ces-2010) in the last month about
 2010 being “the year of the tablet”, it boggles the mind. Much of the
 buzz has centered around the anticipated announcement of a tablet device
 by Apple, makers of the much-admired iPhone. However, media industry
@@ -44,7 +44,7 @@ words: horse hockey! I have yet to hear a single thing about the slate
 that does not already apply to the web. All those capabilities for rich,
 interconnected content presentation? The web has had that for years, and
 you have largely ignored it or [actively fought against
-it](http://www.wired.com/epicenter/2009/11/murdoch-could-block-google-searches-entirely/).
+it](https://www.wired.com/2009/11/murdoch-could-block-google-searches-entirely/).
 
 No, it isn’t the presentation that media companies are excited about.
 It’s the idea of creating a new, closed, expensive product to replace
@@ -62,7 +62,7 @@ It is time to start thinking about new ways to serve your community, and
 new business models to go with them. There are plenty of real needs in
 the marketplace that could be filled by a savvy media company, one
 willing and able to [truly
-innovate](http://stevebuttry.wordpress.com/2009/04/27/a-blueprint-for-the-complete-community-connection/)
+innovate](https://stevebuttry.wordpress.com/2009/04/27/a-blueprint-for-the-complete-community-connection/)
 rather than just repainting a burning barn.
 
 All this talk about tablets just underscores the fact that the media

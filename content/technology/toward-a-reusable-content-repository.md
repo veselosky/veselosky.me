@@ -167,13 +167,13 @@ Of course, the only way to know is to put in the hard work to build it,
 and see who bites.
 
 
-  [Drupal's Content Construction Kit]: https://drupal.org/project/cck
-  [Wordpress Custom Post Types]: http://codex.wordpress.org/Post_Types
+  [Drupal's Content Construction Kit]: https://www.drupal.org/project/cck
+  [Wordpress Custom Post Types]: https://codex.wordpress.org/Post_Types
   [AtomPub]: http://bitworking.org/projects/atom/rfc5023.html
-  [CMIS]: http://en.wikipedia.org/wiki/Content_Management_Interoperability_Services
+  [CMIS]: https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services
   [GData]: https://developers.google.com/gdata/
-  [Atom]: http://en.wikipedia.org/wiki/Atom_(standard)
-  [RSS]: http://en.wikipedia.org/wiki/Rss
-  [IPTC]: http://www.iptc.org/
+  [Atom]: https://en.wikipedia.org/wiki/Atom_(standard)
+  [RSS]: https://en.wikipedia.org/wiki/Rss
+  [IPTC]: https://iptc.org/
   [G2 News Architecture]: https://iptc.org/standards/newsml-g2/
   [rNews metadata format for HTML]: http://dev.iptc.org/rNews

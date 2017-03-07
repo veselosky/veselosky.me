@@ -71,4 +71,4 @@ capacity from your established processes. Then, use that capacity to
 tackle big problems. To stay relevant and keep growing, accept that
 creativity is inefficient, and pay the cost to gain the future rewards.
 
-[its source]: http://en.wikipedia.org/wiki/Das_Kapital
+[its source]: https://en.wikipedia.org/wiki/Das_Kapital

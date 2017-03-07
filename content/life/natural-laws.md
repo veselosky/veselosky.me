@@ -56,4 +56,4 @@ she or he can't think of how to break it.
 
 Sturgeon's law – Ninety percent of everything is crap.
 
-[Eponymous Laws]: http://en.wikipedia.org/wiki/List_of_eponymous_laws
+[Eponymous Laws]: https://en.wikipedia.org/wiki/List_of_eponymous_laws

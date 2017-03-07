@@ -69,6 +69,6 @@ I would love to hear what other folks are using to analyze your Apache
 logs. How do you get operational intelligence? Are you using remote
 logging? Shoot me an email or leave a comment.
 
-  [AWStats]: http://awstats.sourceforge.net/
-  [Webalizer]: http://www.mrunix.net/webalizer/
+  [AWStats]: https://awstats.sourceforge.io/
+  [Webalizer]: http://www.webalizer.org/
   [analog]: http://www.analog.cx/
