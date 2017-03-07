@@ -12,7 +12,7 @@ Title: Getting Things Done -- Productivity System
 
 # Getting Things Done -- Productivity System
 
-[![Workflow diagram from "Getting Things Done"](http://ecx.images-amazon.com/images/I/51Xjz6jqpDL.jpg)](http://www.amazon.com/gp/customer-media/permalink/mo2QYPCOXBT1FMY/0142000280/ref=cm_ciu_images_pl_link)
+![Workflow diagram from "Getting Things Done"](getting-things-done.jpg)]
 
 David Allen's [Getting Things Done: The Art of Stress-Free
 Productivity][] is a phenomenon in the tech community. If you're reading this blog,

@@ -78,4 +78,4 @@ to this problem right now, just this one nugget of insight.
 What successful methods have you used to organize settings in large
 projects?
 
-[The Twelve Factor App]: http://vince.veselosky.me/2012/02/heroku-and-twelve-factor-app.html
+[The Twelve Factor App]: /technology//heroku-twelve-factor-app-architecting-high-velocity-web-operations.html

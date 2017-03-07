@@ -49,7 +49,7 @@ Here's a small sampling of things I have published.
 -   [A New Mission for Media](/media/a-new-mission-for-media.html)
 -   Slideshare presentation: [New Relic in Action at Cox Media
     Group](http://www.slideshare.net/veselosky/new-relic-in-action-at-cox-media-group)
--   [Evolving Systems vs Design Consultants — A Recurring Pattern](/technology/evolving-systems-vs-design-consultants-a-recurring-pattern.html)
+-   [Evolving Systems vs Design Consultants — A Recurring Pattern](/technology/evolving-systems-vs-design-consultants.html)
 -   [A Framework for Innovation](/business/a-framework-for-innovation.html)
 -   [Efficiency: Enemy of Innovation?](/business/efficiency-enemy-of-innovation.html)
 
