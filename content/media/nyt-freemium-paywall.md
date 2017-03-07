@@ -13,8 +13,7 @@ NYT’s Freemium Paywall Plan is (maybe) Good Business
 
 Last week, the New York Times announced [plans to start
 charging](http://www.nytimes.com/2010/01/21/business/media/21times.html?hp&emc=na)
-certain readers for access to their web site (see the [official press
-release](http://phx.corporate-ir.net/phoenix.zhtml?c=105317&p=irol-pressArticle&ID=1377114&highlight)).
+certain readers for access to their web site.
 Reaction was predictable: [Jeff Jarvis
 complained](http://www.buzzmachine.com/2010/01/17/the-cockeyed-economics-of-metering-reading/),
 [TechCrunch ran some

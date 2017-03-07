@@ -46,17 +46,17 @@ Recent Publications
 
 Here's a small sampling of things I have published.
 
--   [A New Mission for Media](2015/a-new-mission-for-media.html)
+-   [A New Mission for Media](/media/a-new-mission-for-media.html)
 -   Slideshare presentation: [New Relic in Action at Cox Media
     Group](http://www.slideshare.net/veselosky/new-relic-in-action-at-cox-media-group)
--   [Evolving Systems vs Design Consultants — A Recurring Pattern](2013/02/evolving-systems-vs-design-consultants-a-recurring-pattern.html)
--   [A Framework for Innovation](2012/05/a-framework-for-innovation.html)
--   [Efficiency: Enemy of Innovation?](2012/01/efficiency-enemy-of-innovation.html)
+-   [Evolving Systems vs Design Consultants — A Recurring Pattern](/technology/evolving-systems-vs-design-consultants-a-recurring-pattern.html)
+-   [A Framework for Innovation](/business/a-framework-for-innovation.html)
+-   [Efficiency: Enemy of Innovation?](/business/efficiency-enemy-of-innovation.html)
 
 For a full list of articles on this site, visit the archives below:
 
--   [Articles by date](archive.html)
--   [Articles by category](categories.html)
+-   [Articles by date](/archive.html)
+-   [Articles by category](/categories.html)
 
 Vince's Other Web Sites
 -----------------------

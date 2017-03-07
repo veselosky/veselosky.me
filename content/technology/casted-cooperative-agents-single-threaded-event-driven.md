@@ -60,4 +60,4 @@ better be thinking about it as a distributed system of cooperating
 processes.
 
 
-  [software above the level of a single device]: http://radar.oreilly.com/archives/2007/11/software-above-the-level-of-a.html
+  [software above the level of a single device]: http://radar.oreilly.com/2007/11/software-above-the-level-of-a.html

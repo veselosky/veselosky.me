@@ -175,5 +175,5 @@ and see who bites.
   [Atom]: http://en.wikipedia.org/wiki/Atom_(standard)
   [RSS]: http://en.wikipedia.org/wiki/Rss
   [IPTC]: http://www.iptc.org/
-  [G2 News Architecture]: http://www.iptc.org/site/News_Exchange_Formats/Developers/
+  [G2 News Architecture]: https://iptc.org/standards/newsml-g2/
   [rNews metadata format for HTML]: http://dev.iptc.org/rNews

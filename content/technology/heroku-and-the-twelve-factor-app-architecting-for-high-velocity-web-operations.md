@@ -63,7 +63,7 @@ you a few minutes, and it will be well worth your time.
 
 
 
-  [infrastructure should be delivered as code]: http://vince.veselosky.me/2011/07/web-developers-infrastructure-is-part.html
+  [infrastructure should be delivered as code]: /technology/web-developers-infrastructure-is-part-of-your-application.html
   [Heroku]: http://www.heroku.com/
   [The Twelve Factor App]: http://www.12factor.net/
   [1. One codebase tracked in revision control, many deploys.]: http://www.12factor.net/codebase

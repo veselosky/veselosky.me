@@ -2,9 +2,11 @@ Bug Fixes
 ====================
 * Find and Fix broken internal links (missing ".html", directory moves)
 * Fix image styles (/life/martin-luther-king-jr-day image encroaches on sidebar)
+* Automate redirects from old date-based URLs to new category-based ones.
 
 Features
 ====================
+* Category page (or pages)
 * fontawesome for follow me section?
 
 Issues
