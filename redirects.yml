@@ -1,0 +1,60 @@
+redirects:
+  - from: /2012/05/a-framework-for-innovation.html
+    to: /business/a-framework-for-innovation.html
+  - from: /2012/01/efficiency-enemy-of-innovation.html
+    to: /business/efficiency-enemy-of-innovation.html
+  - from: /2013/01/take-heed-managers-your-best-practices-are-killing-your-company.html
+    to: /business/take-heed-managers-your-best-practices-are-killing-your-company.html
+  - from: /2013/01/getting-things-done-productivity-system.html
+    to: /life/getting-things-done-productivity-system.html
+  - from: /2012/10/how-to-set-up-a-new-pc-in-12-steps-or-how-i-spent-my-evening-renewing-my-disgust-with-windows.html
+    to: /life/how-to-set-up-a-new-pc-in-12-steps-or-how-i-spent-my-evening-renewing-my-disgust-with-windows.html
+  - from: /2015/martin-luther-king-jr-day.html
+    to: /life/martin-luther-king-jr-day.html
+  - from: /2012/01/natural-laws.html
+    to: /life/natural-laws.html
+  - from: /2011/06/occams-moving-parts.html
+    to: /life/occams-moving-parts.html
+  - from: /2012/04/systems-and-mental-deficiencies.html
+    to: /life/systems-and-mental-deficiencies.html
+  - from: /2013/01/systems-vs-habits-why-gtd-often-fails.html
+    to: /life/systems-vs-habits-why-gtd-often-fails.html
+  - from: /2015/tale-of-the-tail.html
+    to: /life/tale-of-the-tail.html
+  - from: /2015/a-new-mission-for-media.html
+    to: /media/a-new-mission-for-media.html
+  - from: /2010/content-is-not-your-product.html
+    to: /media/content-is-not-your-product.html
+  - from: /2010/creation-curation-compilation.html
+    to: /media/creation-curation-compilation.html
+  - from: /2010/how-newspapers-lost-classifieds.html
+    to: /media/how-newspapers-lost-classifieds.html
+  - from: /2010/journalism-too-important-to-be-locked-up.html
+    to: /media/journalism-too-important-to-be-locked-up.html
+  - from: /2010/news-archived-behind-paywall-fails.html
+    to: /media/news-archived-behind-paywall-fails.html
+  - from: /2010/nyt-freemium-paywall.html
+    to: /media/nyt-freemium-paywall.html
+  - from: /2010/tablet-fallacy.html
+    to: /media/tablet-fallacy.html
+  - from: /2010/value-of-social-media.html
+    to: /media/value-of-social-media.html
+  - from: /2013/07/casted-cooperative-agents-single-threaded-event-driven.html
+    to: /technology/casted-cooperative-agents-single-threaded-event-driven.html
+  - from: /2013/11/component-contracts-in-service-oriented-systems.html
+    to: /technology/component-contracts-in-service-oriented-systems.html
+  - from: /2012/02/django-settings-three-things-conflated.html
+    to: /technology/django-settings-three-things-conflated.html
+  - from: /2013/02/evolving-systems-vs-design-consultants.html
+    to: /technology/evolving-systems-vs-design-consultants.html
+  - from: /2012/02/heroku-twelve-factor-app-architecting-high-velocity-web-operations.html
+    to: /technology/heroku-twelve-factor-app-architecting-high-velocity-web-operations.html
+  - from: /2013/07/toward-a-reusable-content-repository.html
+    to: /technology/toward-a-reusable-content-repository.html
+  - from: /2011/06/web-analytics-for-operations.html
+    to: /technology/web-analytics-for-operations.html
+  - from: /2011/07/web-developers-infrastructure-is-part-of-your-application.html
+    to: /technology/web-developers-infrastructure-is-part-of-your-application.html
+  - from: /2015/get-152-miles-per-gallon-city.html
+    to: /urbanism/get-152-miles-per-gallon-city.html
+
