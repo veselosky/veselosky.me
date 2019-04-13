@@ -7,7 +7,7 @@ Category:
     name: Life
     label: life
 Title: How to set up a new PC in 12 Steps, or How I spent my evening renewing my disgust with Windows
-...
+---
 
 # How to set up a new PC in 12 Steps, or How I spent my evening renewing my disgust with Windows
 

@@ -7,7 +7,7 @@ Category:
     name: Technology
     label: technology
 Title: "Heroku and the Twelve Factor App: Architecting for High Velocity Web Operations"
-...
+---
 
 # Heroku and the Twelve Factor App: Architecting for High Velocity Web
 

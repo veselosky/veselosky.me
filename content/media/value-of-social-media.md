@@ -6,7 +6,7 @@ Category:
     name: Media
     label: media
 Title: The Real Value of Social Media is its Weakness
-...
+---
 
 The Real Value of Social Media is its Weakness
 ==============================================

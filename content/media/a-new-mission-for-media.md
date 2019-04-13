@@ -6,7 +6,7 @@ Category:
     name: Media
     label: media
 Title: A New Mission for Media
-...
+---
 
 A New Mission for Media
 =======================

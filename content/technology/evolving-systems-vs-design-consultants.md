@@ -8,7 +8,7 @@ Category:
     name: Technology
     label: technology
 Title: Evolving Systems vs Design Consultants - A Recurring Pattern
-...
+---
 
 # Evolving Systems vs Design Consultants - A Recurring Pattern
 

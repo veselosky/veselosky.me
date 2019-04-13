@@ -8,7 +8,7 @@ Category:
     name: Business
     label: business
 Title: "Take heed, managers: your 'best practices' are killing your company"
-...
+---
 
 # Take heed, managers: your "best practices" are killing your company
 

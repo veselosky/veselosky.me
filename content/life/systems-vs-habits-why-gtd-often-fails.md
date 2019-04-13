@@ -8,7 +8,7 @@ Category:
     name: Life
     label: life
 Title: "Systems vs Habits: Why GTD Often Fails"
-...
+---
 
 # Systems vs Habits: Why GTD Often Fails
 

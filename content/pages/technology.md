@@ -6,7 +6,7 @@ Category:
     label: technology
 Date: 2013-12-15
 Title: Technology
-...
+---
 
 As a systems architect, I spend a lot of time thinking about systems in
 technology. A "system" in IT can sometimes refer to a single computer, but I am

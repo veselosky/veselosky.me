@@ -2,11 +2,11 @@
 itemtype: Item/Page/Article
 guid: "urn:UUID:da14f48d-5445-4a13-80c9-614b9d772ec3"
 Published: 2010-01-08
-Category: 
+Category:
     name: Media
     label: media
 Title: How Newspapers Lost the Classifieds Business (and how to get it back)
-...
+---
 
 How Newspapers Lost the Classifieds Business (and how to get it back)
 =====================================================================

@@ -6,7 +6,7 @@ Category:
     name: Media
     label: media
 Title: Journalism is too important to be locked behind a paywall
-...
+---
 
 Journalism is too important to be locked behind a paywall
 =========================================================

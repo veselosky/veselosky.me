@@ -8,7 +8,7 @@ Category:
     name: Technology
     label: technology
 Title: "CASTED: Cooperative Agents, Single Threaded, Event Driven"
-...
+---
 
 # CASTED: Cooperative Agents, Single Threaded, Event Driven
 

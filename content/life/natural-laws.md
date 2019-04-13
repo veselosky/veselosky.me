@@ -7,7 +7,7 @@ Category:
     name: Life
     label: life
 Title: Natural Laws
-...
+---
 
 # Natural Laws
 

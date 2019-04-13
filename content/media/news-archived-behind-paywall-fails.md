@@ -6,7 +6,7 @@ Category:
     name: Media
     label: media
 Title: Why News Archived Behind Paywall Fails
-...
+---
 
 Why News Archived Behind Paywall Fails
 ======================================

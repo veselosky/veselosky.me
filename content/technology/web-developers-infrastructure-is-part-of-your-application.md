@@ -7,7 +7,7 @@ Category:
     name: Technology
     label: technology
 Title: "Web Developers: Infrastructure is part of your Application!"
-...
+---
 
 # Web Developers: Infrastructure is part of your Application!
 

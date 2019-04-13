@@ -7,7 +7,7 @@ Category:
     name: Technology
     label: technology
 Title: Web Analytics for Operations
-...
+---
 
 # Web Analytics for Operations
 

@@ -8,7 +8,7 @@ Category:
     name: Life
     label: life
 Title: Getting Things Done -- Productivity System
-...
+---
 
 # Getting Things Done -- Productivity System
 

@@ -7,7 +7,7 @@ Category:
     name: Life
     label: life
 Title: Systems and Mental Deficiencies
-...
+---
 
 # Systems and Mental Deficiencies
 

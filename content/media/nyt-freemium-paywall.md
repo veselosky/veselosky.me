@@ -6,7 +6,7 @@ Category:
     name: Media
     label: media
 Title: NYT’s Freemium Paywall Plan is (maybe) Good Business
-...
+---
 
 NYT’s Freemium Paywall Plan is (maybe) Good Business
 ====================================================

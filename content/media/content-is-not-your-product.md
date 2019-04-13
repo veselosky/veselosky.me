@@ -1,12 +1,12 @@
 ---
 guid: "urn:UUID:c13362ff-f51e-48a3-8923-911ce1826512"
 itemtype: Item/Page/Article
-Category: 
+Category:
     name: Media
     label: media
 Published: 2010-01-30
 Title: "Content Is Not Your Product: Why Newspapers Fail"
-...
+---
 
 Content Is Not Your Product: Why Newspapers Fail
 ================================================

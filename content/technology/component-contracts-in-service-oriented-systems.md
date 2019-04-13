@@ -7,7 +7,7 @@ Category:
     name: Technology
     label: technology
 Title: Component Contracts in Service Oriented Systems
-...
+---
 
 # Component Contracts in Service Oriented Systems
 

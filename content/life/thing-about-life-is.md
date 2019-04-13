@@ -7,7 +7,7 @@ Item:
     published: 2017-01-23
     description: Why "failure" is a lie, and should never stop you.
     title: "The Thing About Life Is..."
-...
+---
 
 # The Thing About Life Is...
 
@@ -44,11 +44,11 @@ game, or activity really, with this little bean bag, a little bigger than a golf
 ball. You’re supposed to kick the bag up in the air. When it comes down, you try
 to kick it again to keep it in the air. That’s basically it.
 
-I figured out, a long time ago, that life is a game of hacky sack. 
+I figured out, a long time ago, that life is a game of hacky sack.
 
 First off, playing it alone is really hard, and not much fun. Two people can do
 alright, but the game doesn’t get really fun until you have four or five people
-in a circle playing together. 
+in a circle playing together.
 
 The object is to keep the sack in the air, but you begin the game knowing that
 you are doomed to failure. You know, with compete certainty, that the little bag

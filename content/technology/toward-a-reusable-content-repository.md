@@ -8,7 +8,7 @@ Category:
     name: Technology
     label: technology
 Title: Toward a Reusable Content Repository
-...
+---
 
 # Toward a Reusable Content Repository
 

@@ -11,7 +11,7 @@ Webquills:
 Catalog:
     queries:
         - "* | [?starts_with(itemtype, `Item/Page/Article`)]| reverse(sort_by(@, &updated))"
-...
+---
 
 # Vince Veselosky's Blog Archive
 

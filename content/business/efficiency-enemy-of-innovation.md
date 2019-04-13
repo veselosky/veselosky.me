@@ -7,7 +7,7 @@ Category:
     name: Business
     label: business
 Title: "Efficiency: Enemy of Innovation?"
-...
+---
 
 # Efficiency: Enemy of Innovation?
 

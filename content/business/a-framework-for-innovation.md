@@ -7,7 +7,7 @@ Category:
     name: Business
     label: business
 Title: A Framework for Innovation
-...
+---
 
 # A Framework for Innovation
 

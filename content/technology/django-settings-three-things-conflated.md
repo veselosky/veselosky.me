@@ -8,7 +8,7 @@ Category:
     name: Technology
     label: technology
 Title: "Django Settings: Three Things Conflated"
-...
+---
 
 # Django Settings: Three Things Conflated
 

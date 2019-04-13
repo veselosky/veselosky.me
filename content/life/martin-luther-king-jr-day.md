@@ -6,7 +6,7 @@ Category:
     name: Life
     label: life
 Title: Martin Luther King Jr. Day
-...
+---
 
 Martin Luther King Jr. Day
 ==========================

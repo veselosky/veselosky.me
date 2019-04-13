@@ -6,7 +6,7 @@ Category:
     name: Urbanism
     label: urbanism
 Title: How I Get 152 Miles per Gallon in the City
-...
+---
 
 How I Get 152 Miles per Gallon in the City
 ==========================================
