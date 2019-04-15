@@ -33,25 +33,22 @@ help:
 	@echo "deploy - upload the files to the public server"
 
 
-$(SITEDIR)/_T/$(THEME)/style.css: $(STYLES)
-	mkdir -p $(SITEDIR)/_T/$(THEME)
-	cat $(STYLES) | node_modules/clean-css-cli/bin/cleancss -c ie8 -o $@
-stylesheet: $(SITEDIR)/_T/$(THEME)/style.css
-
 html:
-	quill build
+	echo "TODO Build something"
 
 dev:
-	quill build --dev
+	echo "TODO Build something"
 
-site: html stylesheet
+site:
+	gatsby build
 
 serve:
-	cd $(SITEDIR) && python -mhttp.server
+	gatsby develop
 
 clean:
-	rm -fr $(BUILDDIR)
+	echo "TODO Clean stuff"
 
 deploy:
-	aws s3 sync --acl public-read $(SITEDIR) $(PROD)
+	echo "TODO Deploy stuff"
+	# aws s3 sync --acl public-read $(SITEDIR) $(PROD)
 

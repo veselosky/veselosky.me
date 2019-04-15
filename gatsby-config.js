@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Vince Veselosky`,
-    description: `Author of awesome fantasy`,
+    subtitle: `Author of Awesome Fantasy`,
+    description: ``,
     author: `Vince Veselosky`,
   },
   plugins: [
