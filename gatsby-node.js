@@ -3,5 +3,151 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const path = require("path")
+const _ = require("lodash")
+const moment = require("moment")
+//const siteConfig = require("./data/SiteConfig")
 
-// You can delete this file if you're not using it
+/**
+ * When article nodes are created, this "lifts" the metadata fields from
+ * frontmatter to the node fields, supplying defaults.
+ */
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
+  let category, catslug, date, description, itemtype, slug, tags, title
+
+  // Only care about markdown nodes (articles)
+  if (node.internal.type === "MarkdownRemark") {
+    const fileNode = getNode(node.parent)
+    const parsedFilePath = path.parse(fileNode.relativePath)
+
+    // If we have frontmatter, interrogate it. NOTE: Webquills allows title
+    // case metadata, check for both.
+    if ("frontmatter" in node) {
+      // Lift title & description.
+      title = node.frontmatter.title || node.frontmatter.Title
+      description = node.frontmatter.description || node.frontmatter.Description
+      itemtype = node.frontmatter.itemtype
+
+      // Lift category.
+      catslug = ""
+      category = node.frontmatter.category || node.frontmatter.Category
+      if (category) catslug = `/${_.kebabCase(category)}`
+
+      // Slug provided? It only slugs the file, not the full path.
+      if ("slug" in node.frontmatter) {
+        slug = `${catslug}/${_.kebabCase(node.frontmatter.slug)}`
+      } else if ("Slug" in node.frontmatter) {
+        slug = `${catslug}/${_.kebabCase(node.frontmatter.Slug)}`
+      }
+      // Lift tags
+      tags = node.frontmatter.tags || node.frontmatter.Tags || []
+
+      const dateStr =
+        node.frontmatter.date ||
+        node.frontmatter.Date ||
+        node.frontmatter.updated ||
+        node.frontmatter.Updated ||
+        node.frontmatter.published ||
+        node.frontmatter.Published
+
+      date = moment(dateStr)
+      // if (!date.isValid) console.warn(`WARNING: Invalid date.`, dateStr)
+    } // if frontmatter
+
+    /**
+     * Now set values for fields not found in frontmatter
+     */
+    // TODO Pull the create/modify date from the file node.
+    if (!date || !date.isValid) date = moment()
+
+    if (!description) description = node.excerpt
+
+    if (!title && "headings" in node && node.headings.length > 0) {
+      const headline = node.headings.find(x => (x.depth === 1 ? true : false))
+      if (headline) title = headline.value
+    }
+    // Generate slug from title, if available.
+    if (title && !slug) {
+      slug = `${catslug}/${_.kebabCase(title)}`
+    }
+    // Generate slug without title
+    if (!slug) {
+      if (parsedFilePath.name !== "index" && parsedFilePath.dir !== "") {
+        slug = `/${parsedFilePath.dir}/${parsedFilePath.name}`
+      } else if (parsedFilePath.dir === "") {
+        slug = `/${parsedFilePath.name}`
+      } else {
+        slug = `/${parsedFilePath.dir}/`
+      }
+    }
+    // Append .html extension unless the slug ends in /
+    if (!slug.endsWith("/")) slug += ".html"
+
+    if (!tags) tags = ["_UNTAGGED"]
+
+    createNodeField({ node, name: "category", value: category })
+    createNodeField({ node, name: "date", value: date.toISOString() })
+    createNodeField({ node, name: "description", value: description })
+    createNodeField({ node, name: "itemtype", value: itemtype })
+    createNodeField({ node, name: "slug", value: slug })
+    // FIXME After adding tags here, query results in error below. WTF? VV 2019-04-16
+    // GraphQLError: Cannot query field "tags" on type "MarkdownRemarkFields".
+    // Not actually using tags in practice (yet) so I removed that from the query for now.
+    createNodeField({ node, name: "tags", value: tags })
+    createNodeField({ node, name: "title", value: title })
+  } // if markdown
+} // onCreateNode
+
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
+
+  const articleTemplate = path.resolve(`./src/templates/article.jsx`)
+  return graphql(
+    `
+      {
+        allMarkdownRemark(
+          filter: { fields: { itemtype: { eq: "Item/Page/Article" } } }
+          sort: { fields: [fields___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                category
+                slug
+                title
+              }
+            }
+          }
+        }
+      }
+    `
+  ).then(result => {
+    if (result.errors) {
+      throw result.errors
+    }
+
+    // Create article pages.
+    const articles = result.data.allMarkdownRemark.edges
+
+    articles.forEach((article, index) => {
+      const previous = index === articles.length - 1 ? null : articles[index + 1].node
+      const next = index === 0 ? null : articles[index - 1].node
+
+      createPage({
+        path: article.node.fields.slug,
+        component: articleTemplate,
+        context: {
+          slug: article.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+      // TODO Accumulate articles by category
+    })
+    // TODO Generate list pages by category
+
+    return null
+  })
+}
