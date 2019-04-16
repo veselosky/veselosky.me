@@ -4,9 +4,7 @@ guid: "urn:UUID:11601cb3-66b9-434b-8ede-60a0a496572a"
 Date: 2013-07-20 13:40
 Author: Vince Veselosky
 Slug: casted-cooperative-agents-single
-Category:
-    name: Technology
-    label: technology
+Category: Technology
 Title: "CASTED: Cooperative Agents, Single Threaded, Event Driven"
 ---
 
@@ -59,5 +57,4 @@ devices like this. If you are designing a new application today, you'd
 better be thinking about it as a distributed system of cooperating
 processes.
 
-
-  [software above the level of a single device]: http://radar.oreilly.com/2007/11/software-above-the-level-of-a.html
+[software above the level of a single device]: http://radar.oreilly.com/2007/11/software-above-the-level-of-a.html

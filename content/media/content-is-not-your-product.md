@@ -1,15 +1,12 @@
 ---
 guid: "urn:UUID:c13362ff-f51e-48a3-8923-911ce1826512"
 itemtype: Item/Page/Article
-Category:
-    name: Media
-    label: media
+Category: Media
 Published: 2010-01-30
 Title: "Content Is Not Your Product: Why Newspapers Fail"
 ---
 
-Content Is Not Your Product: Why Newspapers Fail
-================================================
+# Content Is Not Your Product: Why Newspapers Fail
 
 Your newspaper is [Seth Godin's Meatball
 Sundae](http://www.amazon.com/gp/product/B000XPPVLK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000XPPVLK&linkCode=as2&tag=controlescape-20&linkId=SDEHW6DYH7NP3ET4)
@@ -25,11 +22,11 @@ The reason so many newspapers are sinking, shrinking, or stinking is
 that they have totally forgotten what the source of value for their
 business really is. Somehow they got confused by the 20th century mass
 production model and deluded themselves into thinking of content as a
-*product* that they package and sell.
+_product_ that they package and sell.
 
 The business of media has never been about production of anything. Not
 newspapers. Not radio waves. Not content. The business of media is about
-*connecting people*. It’s about building relationships.
+_connecting people_. It’s about building relationships.
 
 Content is just a tool we use to build relationships.
 
@@ -43,7 +40,7 @@ This is the reason that ads are becoming less effective and CPMs are
 dropping.
 
 The reason we produce content is to establish that trusting relationship
-with our community by providing them with something valuable *for free*.
+with our community by providing them with something valuable _for free_.
 I intentionally use the word “community” and not “audience” here,
 because audience implies that we talk and they listen. In the 21st
 century more than ever, the relationship we as media companies have with
@@ -56,7 +53,7 @@ revenues, and want to replace that revenue by charging for content
 online. But they are missing the point. Subscription revenue was never
 an end in itself, it was a proxy for measuring the value of the
 relationships we had created. Newspapers don’t necessarily need to
-replace that revenue, but they *do* need a new way to measure the value
+replace that revenue, but they _do_ need a new way to measure the value
 of the relationships they maintain. I don’t think charging for access to
 web sites serves that goal.
 

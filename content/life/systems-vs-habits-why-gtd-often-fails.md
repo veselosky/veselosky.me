@@ -4,9 +4,7 @@ guid: "urn:UUID:52f08340-d785-4e5d-bbfa-211b11a7107c"
 Date: 2013-01-18 13:03
 Author: Vince Veselosky
 Slug: systems-vs-habits-why-gtd-often-fails
-Category:
-    name: Life
-    label: life
+Category: Life
 Title: "Systems vs Habits: Why GTD Often Fails"
 ---
 
@@ -29,7 +27,7 @@ To Done][], Leo's personal take on productivity.
 
 ## On Habits and Willpower
 
-I like to think of habits as irrigation ditches. 
+I like to think of habits as irrigation ditches.
 
 If you are a farmer who wants your fields watered, the obvious thing to
 do is to go get some water. But carrying buckets of water from the well
@@ -70,11 +68,11 @@ normal.
 
 GTD asks you to master five classes of activity:
 
--   Collect (everything in an Inbox, as few as possible)
--   Process (Empty the Inbox, Make decisions about where items go)
--   Organize (File and Schedule items & tasks)
--   Review
--   DO
+- Collect (everything in an Inbox, as few as possible)
+- Process (Empty the Inbox, Make decisions about where items go)
+- Organize (File and Schedule items & tasks)
+- Review
+- DO
 
 But the GTD system itself doesn't tell you *how* to master these
 activities. For most people, mastering these activities means forming at
@@ -110,11 +108,10 @@ things *will* get done. But for now, you must focus on the one thing you
 have chosen. Remember, you aren't watering the fields quite yet. You are
 still digging ditches.
 
-
-  [previous post]: http://vince.veselosky.me/2013/01/getting-things-done-productivity-system.html
-  [Getting Things Done]: http://www.amazon.com/gp/product/0142000280/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0142000280
-  [Zen Habits blog]: http://zenhabits.net/
-  [Zen To Done]: http://www.amazon.com/gp/product/B001970HQU/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001970HQU
-  [Airplane!]: http://www.amazon.com/gp/product/B001K37CT8/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001K37CT8
-  [paperback]: http://www.amazon.com/gp/product/1438258488/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1438258488
-  [The Power of Less]: http://www.amazon.com/gp/product/1401309704/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1401309704
+[previous post]: http://vince.veselosky.me/2013/01/getting-things-done-productivity-system.html
+[getting things done]: http://www.amazon.com/gp/product/0142000280/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0142000280
+[zen habits blog]: http://zenhabits.net/
+[zen to done]: http://www.amazon.com/gp/product/B001970HQU/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001970HQU
+[airplane!]: http://www.amazon.com/gp/product/B001K37CT8/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001K37CT8
+[paperback]: http://www.amazon.com/gp/product/1438258488/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1438258488
+[the power of less]: http://www.amazon.com/gp/product/1401309704/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1401309704

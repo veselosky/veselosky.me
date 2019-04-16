@@ -2,14 +2,11 @@
 guid: "urn:UUID:67d72442-2420-49b6-8e46-bc7bde922181"
 itemtype: Item/Page/Article
 Published: 2010-01-15
-Category:
-    name: Media
-    label: media
+Category: Media
 Title: "The Three C's of New Media: Creation, Curation, and Compilation"
 ---
 
-The Three C's of New Media: Creation, Curation, and Compilation
-===============================================================
+# The Three C's of New Media: Creation, Curation, and Compilation
 
 Every media business is built around at least one of three key content
 activities: creation of content, curation of content, and compilation of
@@ -17,8 +14,7 @@ data into content. Many media businesses, especially the large ones,
 make all three of these activities core competencies. Which sounds most
 like your business?
 
-Creation of Content
--------------------
+## Creation of Content
 
 This is what most people think of when they think about media: writing
 articles or features, shooting video, recording audio. In the Internet
@@ -27,8 +23,7 @@ creation (and publication) of original content is often a major focus
 (and a major expense) for media businesses, both traditional and
 digital, but it’s only one piece of a larger value proposition.
 
-Curation of Content
--------------------
+## Curation of Content
 
 A curator’s job is to select, organize, and care for the items in a
 collection. The title has usually been applied to museum conservators
@@ -46,8 +41,7 @@ new kinds of syndication relationships. The successful digital media
 business will use the Internet, software, and human ingenuity to become
 the best information filter for its audience.
 
-Compilation of Data as Content
-------------------------------
+## Compilation of Data as Content
 
 Before the Internet, compilation and publication of large data sets was
 the job of specialty publishers, and except for the once ubiquitous
@@ -68,8 +62,7 @@ Internet-savvy entrepreneurs to leap-frog traditional media. Don’t know
 where to start? Take a look at [Data.gov](http://data.gov/) for a huge
 collection of public domain data waiting to be sifted and visualized.
 
-How Does Your Digital Media Garden Grow?
-----------------------------------------
+## How Does Your Digital Media Garden Grow?
 
 Does your digital media business focus on one of these three areas, or
 dabble in all three? I would be interested to hear about (and share)

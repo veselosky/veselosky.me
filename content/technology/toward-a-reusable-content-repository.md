@@ -4,9 +4,7 @@ guid: "urn:UUID:3a0cf3ce-501a-4ab7-994c-c72c019d96ae"
 Date: 2013-07-22 15:46
 Author: Vince Veselosky
 Slug: toward-reusable-content-repository
-Category:
-    name: Technology
-    label: technology
+Category: Technology
 Title: Toward a Reusable Content Repository
 ---
 
@@ -29,9 +27,9 @@ interoperate?
 Every web CMS that I have seen can be divided into three major
 components. They are:
 
--   Content Repository
--   Publishing Tools
--   Site Presentation
+- Content Repository
+- Publishing Tools
+- Site Presentation
 
 Each of those major components could further be described with a feature
 set that might be implemented with sub-components. The Site Presentation
@@ -50,24 +48,24 @@ their own custom repository.
 I would suggest the following feature set for a reusable Content
 Repository.
 
--   Flexible and extensible information architecture, with a sensible
-    default that will work out of the box for most users.
--   Web API for content storage and retrieval (not just a native
-    language API).
--   Fielded search and full-text search over stored objects.
--   Optional version history for content objects.
--   Optional explicit relationships between content objects.
--   Pluggable backends, allowing for implementations at different
-    scales.
+- Flexible and extensible information architecture, with a sensible
+  default that will work out of the box for most users.
+- Web API for content storage and retrieval (not just a native
+  language API).
+- Fielded search and full-text search over stored objects.
+- Optional version history for content objects.
+- Optional explicit relationships between content objects.
+- Pluggable backends, allowing for implementations at different
+  scales.
 
 Most internal repositories are quite weak in this feature set. For
 example, very few embedded repositories implement full-text search. Of
 those who do implement it, the implementation is often naive (SQL LIKE %
-queries), leading to poor performance and poor scalability. 
+queries), leading to poor performance and poor scalability.
 
 Most embedded repositories implement only a native-language API, not a
 web API, which prevents access to the content unless you also have
-access to the code (some see this as a feature rather than a bug). 
+access to the code (some see this as a feature rather than a bug).
 
 Relational databases are notoriously bad at flexible information
 architecture, so it has taken a lot of time and effort for content
@@ -79,9 +77,9 @@ implementation is custom and incompatible with the next.
 Regardless of the features listed above, there are two key requisites
 that a reusable Content Repository must fulfill:
 
--   A published (and preferably simple) protocol for accessing its
-    features.
--   A common base information architecture for content objects.
+- A published (and preferably simple) protocol for accessing its
+  features.
+- A common base information architecture for content objects.
 
 A Content Repository with these features would serve as a good backing
 store for Publishing Tools and Site Presentation systems alike, and
@@ -100,14 +98,14 @@ know of two that might be reasonable to build on: [AtomPub][], and
 might help us develop a solution.
 
 CMIS, despite its name, is geared more toward Document Management than
-Content Management (IMHO). 
+Content Management (IMHO).
 
 CMIS is far from being simple, and it makes some assumptions about
 information architecture that make it awkward to use in many cases. For
 example, it assumes a distinction between documents and folders, and
 assumes that there is a single folder hierarchy for all content. This is
 a restrictive and unnecessary constraint that does not fit all use
-cases. 
+cases.
 
 It also requires repositories to implement a SQL-like query language,
 forcing them to map content to a relational model even when it is not
@@ -166,14 +164,13 @@ presentation from the repository will become obvious.
 Of course, the only way to know is to put in the hard work to build it,
 and see who bites.
 
-
-  [Drupal's Content Construction Kit]: https://www.drupal.org/project/cck
-  [Wordpress Custom Post Types]: https://codex.wordpress.org/Post_Types
-  [AtomPub]: http://bitworking.org/projects/atom/rfc5023.html
-  [CMIS]: https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services
-  [GData]: https://developers.google.com/gdata/
-  [Atom]: https://en.wikipedia.org/wiki/Atom_(standard)
-  [RSS]: https://en.wikipedia.org/wiki/Rss
-  [IPTC]: https://iptc.org/
-  [G2 News Architecture]: https://iptc.org/standards/newsml-g2/
-  [rNews metadata format for HTML]: http://dev.iptc.org/rNews
+[drupal's content construction kit]: https://www.drupal.org/project/cck
+[wordpress custom post types]: https://codex.wordpress.org/Post_Types
+[atompub]: http://bitworking.org/projects/atom/rfc5023.html
+[cmis]: https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services
+[gdata]: https://developers.google.com/gdata/
+[atom]: https://en.wikipedia.org/wiki/Atom_(standard)
+[rss]: https://en.wikipedia.org/wiki/Rss
+[iptc]: https://iptc.org/
+[g2 news architecture]: https://iptc.org/standards/newsml-g2/
+[rnews metadata format for html]: http://dev.iptc.org/rNews

@@ -2,14 +2,11 @@
 itemtype: Item/Page/Article
 guid: "urn:UUID:e637d5ef-9877-4e22-91c0-a27eb4d04e6f"
 Date: 2015-02-09
-Category:
-    name: Urbanism
-    label: urbanism
+Category: Urbanism
 Title: How I Get 152 Miles per Gallon in the City
 ---
 
-How I Get 152 Miles per Gallon in the City
-==========================================
+# How I Get 152 Miles per Gallon in the City
 
 How good is the mileage on your car? I just did the math, and I
 travelled 2,288 miles in the past 4 months on 15 gallons of gas, so I’m
@@ -23,8 +20,8 @@ today. Every time I fuel up, I set my trip counter so I can calculate my
 mileage at the next fuel up. I have driven 245 miles since my last fuel
 purchase 113 days ago.
 
-“Wait,” you’re probably saying, you haven’t bought gas in 113 days? I
-fill my “tank every week! What are you trying to pull here?”
+“Wait,” you’re probably saying, "you haven’t bought gas in 113 days? I
+fill my tank every week! What are you trying to pull here?”
 
 It’s simple, friends. You see, I live in the city. My home is walking
 distance to public transit, and I ride the train to work every day

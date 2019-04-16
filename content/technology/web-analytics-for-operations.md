@@ -3,9 +3,7 @@ itemtype: Item/Page/Article
 guid: "urn:UUID:41dacf5a-3439-49b7-b70f-d514116de2df"
 Date: 2011-06-19
 Author: Vince Veselosky
-Category:
-    name: Technology
-    label: technology
+Category: Technology
 Title: Web Analytics for Operations
 ---
 
@@ -69,6 +67,6 @@ I would love to hear what other folks are using to analyze your Apache
 logs. How do you get operational intelligence? Are you using remote
 logging? Shoot me an email or leave a comment.
 
-  [AWStats]: https://awstats.sourceforge.io/
-  [Webalizer]: http://www.webalizer.org/
-  [analog]: http://www.analog.cx/
+[awstats]: https://awstats.sourceforge.io/
+[webalizer]: http://www.webalizer.org/
+[analog]: http://www.analog.cx/

@@ -2,14 +2,11 @@
 itemtype: Item/Page/Article
 guid: "urn:UUID:0a5f96c9-8343-40c2-a0ad-82716db78798"
 Date: 2015-04-15
-Category:
-    name: Media
-    label: media
+Category: Media
 Title: A New Mission for Media
 ---
 
-A New Mission for Media
-=======================
+# A New Mission for Media
 
 > Facilitate the flow of information to the point of its highest value.
 
@@ -33,7 +30,7 @@ information to the point of its highest value.
 That doesn’t just mean its highest value to you, the business, but the
 highest value over all to the community you serve.
 [Journalism can be seen as a fulfillment of this
- mission](/media/journalism-too-important-to-be-locked-up.html),
+mission](/media/journalism-too-important-to-be-locked-up.html),
 because information about corporate malfeasance or government activity
 has more value to society when it is in the hands of consumers or
 voters. But media organizations, and especially newspaper organizations,
@@ -48,14 +45,14 @@ providing their users with traffic information for decades, even going
 to the expense of paying for aerial observation helicopters to monitor
 traffic conditions. They knew there was a market need there. They
 thought they were filling it. Then Waze came along and stole their
-thunder, because Waze gives users *exactly* the information they need,
-at the *exact* time that they need it, and that makes the information
+thunder, because Waze gives users _exactly_ the information they need,
+at the _exact_ time that they need it, and that makes the information
 much more valuable to the consumer. The fact that you publish the same
 information on your web site or broadcast it over the radio is
 irrelevant. Waze provides that information at the point of its highest
 value. Waze is doing the job of a media company.
 
-Why didn’t a media company invent Waze? In fact, why didn’t *every*
+Why didn’t a media company invent Waze? In fact, why didn’t _every_
 local media company across America re-invent it? It’s certainly not
 because they didn’t know about the market need. I think it’s because
 they lost sight of their mission. They were thinking about attracting
@@ -65,7 +62,7 @@ facilitating the flow of information (rather than merely the flow of
 advertising dollars), they might have recognized the opportunity.
 
 The proliferation of personal, always-present, always-connected,
-location-aware mobile devices presents a *huge* growth opportunity for
+location-aware mobile devices presents a _huge_ growth opportunity for
 media businesses. More than ever before, it is now possible to deliver
 information to your audience at the exact time and place that it will
 have the most value.

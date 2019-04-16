@@ -2,14 +2,11 @@
 guid: "urn:UUID:37ce972c-a90e-4ec4-b66b-60a749dd6e37"
 itemtype: Item/Page/Article
 Published: 2010-01-12
-Category:
-    name: Media
-    label: media
+Category: Media
 Title: The Real Value of Social Media is its Weakness
 ---
 
-The Real Value of Social Media is its Weakness
-==============================================
+# The Real Value of Social Media is its Weakness
 
 Many still doubt the utility of social media. I myself was among the
 doubters until I was forced onto Twitter and Facebook to test the social
@@ -49,7 +46,7 @@ resources you would not otherwise have found. A former co-worker has a
 cousin who is looking for someone with just your skills, that sort of
 thing. [Malcolm
 Gladwell](http://www.amazon.com/gp/product/0316346624?tag=webquills-20)
-called these people *connectors*, because they move in and out of many
+called these people _connectors_, because they move in and out of many
 circles, cross-pollinating them like a (forgive the phrase) social
 butterfly.
 

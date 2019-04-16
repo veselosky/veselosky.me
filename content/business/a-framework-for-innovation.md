@@ -3,9 +3,7 @@ itemtype: Item/Page/Article
 guid: "urn:UUID:5393f65b-06a3-4de2-83dc-38ec0985d28b"
 Date: 2012-05-13 22:19
 Author: Vince Veselosky
-Category:
-    name: Business
-    label: business
+Category: Business
 Title: A Framework for Innovation
 ---
 

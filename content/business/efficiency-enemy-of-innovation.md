@@ -3,9 +3,7 @@ guid: "urn:UUID:26196b32-97ea-4520-a6f4-2a50e41f2749"
 itemtype: Item/Page/Article
 Date: 2012-01-19
 Author: Vince Veselosky
-Category:
-    name: Business
-    label: business
+Category: Business
 Title: "Efficiency: Enemy of Innovation?"
 ---
 
@@ -42,17 +40,17 @@ profit, but what often gets lost in the quest for efficiency is the fact
 that *people are not labor.* That's a false assumption, and that formula
 was never correct (which should not surprise anyone given [its
 source][]). It's not labor that turns idle capital into profit; it's
-*creativity* and its more productive sister, *innovation*.
+_creativity_ and its more productive sister, _innovation_.
 
 In order to innovate, in order to create, you need some very special
-ingredients. First, you need *people*. Smart people, with a desire to
+ingredients. First, you need _people_. Smart people, with a desire to
 solve problems, the ambition to tackle big ones, and the hubris to
 believe that they can do something better than everyone who has come
-before them. These people then need *time* to analyze the problem and
+before them. These people then need _time_ to analyze the problem and
 devise or improvise solutions, and they need *resources* (read: money)
 to test those solutions.
 
-So no, efficiency is not *necessarily* the enemy of innovation. Saving
+So no, efficiency is not _necessarily_ the enemy of innovation. Saving
 time and money on existing processes creates *spare capacity* that can
 be allocated to innovation. The extra people, time, and money that are
 not being used to operate the existing business, instead can be applied

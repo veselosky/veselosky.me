@@ -4,15 +4,13 @@ guid: "urn:UUID:250d14d9-bea8-4bca-b148-024a10376644"
 Date: 2013-01-22 16:08
 Author: Vince Veselosky
 Slug: take-heed-managers-your-best-practices
-Category:
-    name: Business
-    label: business
+Category: Business
 Title: "Take heed, managers: your 'best practices' are killing your company"
 ---
 
 # Take heed, managers: your "best practices" are killing your company
 
-If you are a manager, you *need* to understand the ideas of [W. Edwards
+If you are a manager, you _need_ to understand the ideas of [W. Edwards
 Deming][]. Deming wrote several books about management, in which he
 chastised American business schools and American corporate management
 for perpetuating a failed philosophy and failed management techniques.
@@ -61,17 +59,17 @@ Deming is trying to make to the managers.
 the individual works in, not to the individual himself,” Deming wrote.
 Despite the fact that there were observable differences between the
 output of individual workers, those differences were entirely the result
-of *common cause*, that is, the variation is inherent to the system
+of _common cause_, that is, the variation is inherent to the system
 itself. All the efforts spent trying to improve the individual
 performance of the workers is wasted, because the flaw is not in their
 performance, but in the system under which they work.
 
 Deming warns, “Instead of setting numerical quotas, management should
 work on improvement of the process.” As a manager, it is your job to
-understand the difference between *special causes* that should be
-remedied individually, and *common causes* that can only be eliminated
+understand the difference between _special causes_ that should be
+remedied individually, and _common causes_ that can only be eliminated
 with a change to the system itself. And as a manager, the system is
-*your* responsibility, not to be delegated.
+_your_ responsibility, not to be delegated.
 
 Deming describes how numerical quotas and incentive are not only
 useless, but actually counter-productive. He gives several examples
@@ -89,8 +87,8 @@ reviews you conduct as a manager are aimed in the wrong direction.
 Performance of your employees is not a result of the employee’s
 competence, but of the manager’s competence to build a system in which
 they can be productive. If your employees are not performing up to
-standards, you as a manager need to ask yourself what *you* are doing
-wrong. What changes must be made to the *process* of your business to
+standards, you as a manager need to ask yourself what _you_ are doing
+wrong. What changes must be made to the _process_ of your business to
 make these employees productive? Ask them, they can probably tell you
 several, because they actually want to achieve, and they can see what
 parts of the system are holding them back.
@@ -105,8 +103,8 @@ feel micro-managed and powerless, removing all desire they may have to
 improve.
 
 To move the needle on organizational productivity, you need to focus on
-the *process* by which your company produces value, and constantly
+the _process_ by which your company produces value, and constantly
 improve that process.
 
-  [W. Edwards Deming]: http://www.amazon.com/W.-Edwards-Deming/e/B000APR1PW/?_encoding=UTF8&tag=controlescape-20&linkCode=ur2&camp=1789&creative=390957
-  [The New Economics for Industry, Government, Education]: http://www.amazon.com/gp/product/B004ZK8RTM/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004ZK8RTM
+[w. edwards deming]: http://www.amazon.com/W.-Edwards-Deming/e/B000APR1PW/?_encoding=UTF8&tag=controlescape-20&linkCode=ur2&camp=1789&creative=390957
+[the new economics for industry, government, education]: http://www.amazon.com/gp/product/B004ZK8RTM/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004ZK8RTM

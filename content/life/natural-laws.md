@@ -3,9 +3,7 @@ itemtype: Item/Page/Article
 guid: "urn:UUID:953e5c81-05f9-44e0-956f-80a57aa1067a"
 Date: 2012-01-24
 Author: Vince Veselosky
-Category:
-    name: Life
-    label: life
+Category: Life
 Title: Natural Laws
 ---
 
@@ -56,4 +54,4 @@ she or he can't think of how to break it.
 
 Sturgeon's law – Ninety percent of everything is crap.
 
-[Eponymous Laws]: https://en.wikipedia.org/wiki/List_of_eponymous_laws
+[eponymous laws]: https://en.wikipedia.org/wiki/List_of_eponymous_laws

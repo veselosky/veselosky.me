@@ -3,9 +3,7 @@ guid: "urn:UUID:8fc790ce-4a06-4fe4-b607-585308609e6b"
 itemtype: Item/Page
 Date: 2011-06-12 12:50
 Author: Vince Veselosky
-Category:
-    name: Life
-    label: life
+Category: Life
 Title: Occam's Moving Parts
 ---
 
@@ -14,9 +12,9 @@ Title: Occam's Moving Parts
 As an architect of complex applications, I spend my day aggressively
 applying [Occam's Razor][], attempting to simplify large systems by
 removing as much as possible. But the nature of the work is such that
-the system can never be truly *simple*. No matter how much I try to
-simplify, I am left with that feeling that there are *too many moving
-parts*.
+the system can never be truly _simple_. No matter how much I try to
+simplify, I am left with that feeling that there are _too many moving
+parts_.
 
 As a geek, I apply a systems approach to almost everything in my life. I
 have a system for preparing meals, a system for loading the dish washer,
@@ -34,4 +32,4 @@ Which parts can be removed, and which parts are essential?
 Like most of my writing, I expect to bore almost everyone, but hopefully
 fascinate and engage a few people.
 
-[Occam's Razor]: http://en.wikipedia.org/wiki/Occam's_razor
+[occam's razor]: http://en.wikipedia.org/wiki/Occam's_razor

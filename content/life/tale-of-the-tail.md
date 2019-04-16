@@ -2,15 +2,12 @@
 guid: "urn:UUID:3eb1b251-5fab-4e54-93f7-271a29bba939"
 itemtype: Item/Page/Article
 Date: 2015-07-04
-Category:
-    name: Life
-    label: life
+Category: Life
 Description: Why Vince wore a pony tail for 20 years, but no longer does.
 Title: The Tale of the Tail
 ---
 
-The Tale of the Tail
-====================
+# The Tale of the Tail
 
 For nearly twenty years, the most concise description of me was "the guy
 with the really long pony tail.” That’s no longer the case, and I am
@@ -20,7 +17,7 @@ as it happens, I do have one. This is the story of how it came to be,
 and why it is no more.
 
 From 1989 to 1995 I was an active duty Marine, which meant that I wore
-my hair *very* short, and had it cut every single Friday. When I left
+my hair _very_ short, and had it cut every single Friday. When I left
 the military, I found myself needing to make a decision about hair style
 for the first time in years. At the time, I had been reading a lot of
 Viking Sagas, and I was reminded of [King Harald
@@ -45,8 +42,8 @@ That high school I-can-do-anything confidence had now faded into the
 I-have-to-pay-the-rent real world, and the impedance mismatch was
 tearing at my soul. In short, I was miserable, lonely, lost, and broke.
 
-And so I swore an oath. I would not cut my hair *until I was satisfied
-with my life*. And I would tell no one what the goal actually was until
+And so I swore an oath. I would not cut my hair _until I was satisfied
+with my life_. And I would tell no one what the goal actually was until
 it was achieved. Because talking about it was my litmus test. I didn’t
 feel comfortable talking about how uncomfortable I was in my own skin,
 and in my own life. I knew as long as I felt that way, I would not have
@@ -75,7 +72,7 @@ Then came the crash. I lost my job. I lost my girlfriend. My favorite
 pet died tragically young. The world came crashing down around me, and I
 lost all hope. The despair of being unable to achieve, and of being
 unable to appreciate anything I did achieve, led to an emotional crisis.
-I even contemplated suicide. I *broke* in a spiritual and psychological
+I even contemplated suicide. I _broke_ in a spiritual and psychological
 sense.
 
 And when I did, my eyes opened. I saw, somehow for the first time, that
@@ -95,7 +92,7 @@ and the way God helps everyday people, not through miracles, but by
 helping to lift their emotional burdens.
 
 I began to study the Buddha Dharma, because it promised relief from
-*dukkha*, which is often translated as “suffering” but really
+_dukkha_, which is often translated as “suffering” but really
 encompasses a fundamental dissatisfaction in all things, and I felt this
 was an apt description of my inner state. I learned that the inner core
 of soul one identifies as “self” is an illusion we create, and that is
@@ -103,7 +100,7 @@ why, no matter how we try, we can never reconcile it with the reality of
 our lives. I learned that all things are impermanent, and that our
 illusory “self” becomes attached to impermanent things. When those
 things change, as they must, the self suffers from the attachment. That
-suffering is *dukkha* and it is a condition of life.
+suffering is _dukkha_ and it is a condition of life.
 
 I also learned about [Imposter
 Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome), and thereby
@@ -134,11 +131,11 @@ describe above is now fifteen years in my past.
 
 This is what led, fifteen years later, to the resolution of my oath, and
 the cutting of my hair. The intentional practice of compassion allowed
-me to internalize that life is not about *things*, it is about people,
+me to internalize that life is not about _things_, it is about people,
 and compassion is what holds people together. I steadily worked to
 replace attachments with relationships, impermanent though they may be.
 As I aged into mid-life crisis territory, I increasingly appreciated the
-people in my life. And I began to examine the *things* in my life with
+people in my life. And I began to examine the _things_ in my life with
 great scrutiny. Do I really need this thing? Does it provide me any
 value, any satisfaction, any joy? Thing after thing went on the rubbish
 heap as the answers kept coming back negative.
@@ -159,4 +156,4 @@ only in the middle. But I have achieved that young man’s goal, in a most
 unexpected way. Neither wealth nor status nor outward appearance brings
 satisfaction with one’s life. Through the practice of compassion for
 others, I have discovered that being satisfied with one’s life means
-*having compassion for oneself*.
+_having compassion for oneself_.

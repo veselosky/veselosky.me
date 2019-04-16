@@ -2,14 +2,11 @@
 itemtype: Item/Page/Article
 guid: "urn:UUID:eb3e2a33-2993-4ad4-ab31-494817411f46"
 Published: 2010-01-19
-Category:
-    name: Media
-    label: media
+Category: Media
 Title: The Tablet Fallacy (or, Old Media is Screwed)
 ---
 
-The Tablet Fallacy (or, Old Media is Screwed)
-=============================================
+# The Tablet Fallacy (or, Old Media is Screwed)
 
 "Help me, Obi-wan Tablet. You're my only hope!" says old media. But
 these are not the droids they are looking for.
@@ -35,7 +32,7 @@ Setting aside whether it is sensible to put so much emphasis on a
 portable device that won’t fit in your pocket, especially one that is
 still only a theory, riddle me this: if people won’t pay for your
 content on the web, why would they pay for it on a specialty device?
-(And if they *will* pay for it on the web, why would they need a
+(And if they _will_ pay for it on the web, why would they need a
 specialty device?)
 
 I’ve been listening to lots of speculation about the revolution in
@@ -53,10 +50,10 @@ they think, when people bought newspapers every day and we commanded
 premium prices for display ads because we owned all the eyeballs.
 
 Okay, one more time: the old days are over, media people. They are not
-coming back. “Like a newspaper, but *digital*” is not a (viable)
+coming back. “Like a newspaper, but _digital_” is not a (viable)
 product. If we wanted newspapers, we know where to get them. We’re sorry
 about your gravy train going off the tracks, but it is time for you to
-recognize that *you have been disintermediated*.
+recognize that _you have been disintermediated_.
 
 It is time to start thinking about new ways to serve your community, and
 new business models to go with them. There are plenty of real needs in

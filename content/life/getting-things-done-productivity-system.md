@@ -4,9 +4,7 @@ guid: "urn:UUID:6c47a797-14cb-45ba-9454-b93563d28dd4"
 Date: 2013-01-13
 Author: Vince Veselosky
 Slug: getting-things-done-productivity-system
-Category:
-    name: Life
-    label: life
+Category: Life
 Title: Getting Things Done -- Productivity System
 ---
 
@@ -32,12 +30,12 @@ the book was originally published a dozen years ago.
 
 Some essential elements of the GTD system include:
 
--   one or more inboxes (as few as you can get away with),
--   a calendar,
--   a "tickler" file to remind yourself of tasks that can only start at
-    some future date,
--   a place to organize your reference material, and
--   a tool for organizing lists of projects and tasks.
+- one or more inboxes (as few as you can get away with),
+- a calendar,
+- a "tickler" file to remind yourself of tasks that can only start at
+  some future date,
+- a place to organize your reference material, and
+- a tool for organizing lists of projects and tasks.
 
 The original GTD system was developed in a paper-focused world, before
 cloud-based calendars and Internet-connected phones became the norm.
@@ -57,16 +55,16 @@ staying organized, and elected [Evernote][] as my default tool.
 
 Evernote gives me myriad advantages over a paper-based system.
 
--   It's a great place to jot down random notes (replacing a physical
-    notepad). It can even create notes from pictures or voice
-    recordings, making it even easier to capture everything.
--   The option to use notebooks and/or tags to organize notes, and its
-    full-text search capability, make it an excellent reference database
-    (replacing the filing cabinet).
--   It runs on my phone, so it's always with me (no need to carry a
-    paper organizer or notepad).
--   It magically synchronizes with both my work computer and my home
-    computer, so I never have to switch contexts to access it.
+- It's a great place to jot down random notes (replacing a physical
+  notepad). It can even create notes from pictures or voice
+  recordings, making it even easier to capture everything.
+- The option to use notebooks and/or tags to organize notes, and its
+  full-text search capability, make it an excellent reference database
+  (replacing the filing cabinet).
+- It runs on my phone, so it's always with me (no need to carry a
+  paper organizer or notepad).
+- It magically synchronizes with both my work computer and my home
+  computer, so I never have to switch contexts to access it.
 
 Setting up Evernote to work with my system was dead simple. I renamed
 the default notebook to "INBOX." Any random notes I capture are there,
@@ -110,8 +108,8 @@ something up, I toss it into Pocket. I am finding, however, that my
 appetite for reading later is a bit more ambitious than the amount of
 time "later" actually affords me. Perhaps I need to work on this.
 
-GTD Patterns I Don't Apply
-===================================
+# GTD Patterns I Don't Apply
+
 GTD recommends keeping your Next Action list organized by Context:
 Things you can do at home, at work, at the phone, etc. I found
 organizing by context to be almost useless, because almost all my tasks
@@ -147,7 +145,7 @@ I'm just getting started using and tweaking this system, and I'm sure it
 will evolve over time. Perhaps I will write a follow-up post in a few
 months to record how it has changed and how effective it has been.
 
-[Getting Things Done: The Art of Stress-Free Productivity]: http://www.amazon.com/gp/product/0142000280/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0142000280
-[Evernote]: https://evernote.com/
+[getting things done: the art of stress-free productivity]: http://www.amazon.com/gp/product/0142000280/ref=as_li_ss_tl?ie=UTF8&tag=controlescape-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0142000280
+[evernote]: https://evernote.com/
 [kanban]: https://en.wikipedia.org/wiki/Kanban_board
-[Pocket]: https://getpocket.com/
+[pocket]: https://getpocket.com/

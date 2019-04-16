@@ -3,9 +3,7 @@ itemtype: Item/Page/Article
 guid: "urn:UUID:035e07f0-7126-406f-97bb-4bfd4c874c42"
 Date: 2011-07-09
 Author: Vince Veselosky
-Category:
-    name: Technology
-    label: technology
+Category: Technology
 Title: "Web Developers: Infrastructure is part of your Application!"
 ---
 
@@ -43,7 +41,7 @@ web application should be delivered with Puppet configurations or Chef
 cookbooks to bring up a precisely tuned deployment stack designed for
 the application. Cloud-based infrastructure means you can even deliver
 the (virtual) hardware itself with the application. A good web
-application should come with a "deploy\_to\_ec2" script for instant
+application should come with a "deploy_to_ec2" script for instant
 production deployment.
 
 Of course, there are [other opinions][]. You may choose to outsource
@@ -58,5 +56,5 @@ infrastructure alongside the application code. A web application
 delivered without infrastructure automation is incomplete.
 
 [other opinions]: https://blog.heroku.com/the_new_heroku_4_erosion_resistance_explicit_contracts
-[Heroku]: https://www.heroku.com/
-[App Engine]: https://cloud.google.com/appengine/
+[heroku]: https://www.heroku.com/
+[app engine]: https://cloud.google.com/appengine/

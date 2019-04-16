@@ -2,14 +2,11 @@
 guid: "urn:UUID:90a9bfef-eb6b-4328-9a10-a3e98cfa0f69"
 itemtype: Item/Page/Article
 Published: 2010-01-25
-Category:
-    name: Media
-    label: media
+Category: Media
 Title: NYT’s Freemium Paywall Plan is (maybe) Good Business
 ---
 
-NYT’s Freemium Paywall Plan is (maybe) Good Business
-====================================================
+# NYT’s Freemium Paywall Plan is (maybe) Good Business
 
 Last week, the New York Times announced [plans to start
 charging](http://www.nytimes.com/2010/01/21/business/media/21times.html?hp&emc=na)
@@ -37,7 +34,7 @@ you pay.
 What the Times is actually proposing is a
 [Freemium](https://en.wikipedia.org/wiki/Freemium) model: you get limited
 access for free, or you pay a fixed fee for unlimited access. The only
-thing they are “metering” (actually *measuring*) is how many free page
+thing they are “metering” (actually _measuring_) is how many free page
 views you have used. When you hit a certain number, they ask you to
 subscribe. (And if you already subscribe to the Times, even just the
 Sunday edition, you’re covered.)
@@ -46,7 +43,7 @@ The Times people have put some good thinking into this, and for once the
 business model does make some sense, despite what [Jeff Jarvis
 says](http://buzzmachine.com/2010/01/17/the-cockeyed-economics-of-metering-reading/).
 The logic goes like this. People who use our product frequently are
-likely to think it is valuable, and are therefore *more* likely to be
+likely to think it is valuable, and are therefore _more_ likely to be
 willing to pay for that value. Infrequent visitors, who value our
 product less, can be monetized with lower value ad impressions, but we
 don’t want to spend too much supplying these freeloaders, so we’ll cut
@@ -72,4 +69,3 @@ readers. It’s that relationship from which the real value of the
 business is derived.
 
 [img]: https://flic.kr/p/5cRfus
-

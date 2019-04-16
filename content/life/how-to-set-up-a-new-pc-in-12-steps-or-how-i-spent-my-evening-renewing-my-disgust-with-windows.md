@@ -3,9 +3,7 @@ guid: "urn:UUID:32e6cb34-accb-4e59-81be-56e94123371d"
 itemtype: Item/Page/Article
 Date: 2012-10-10
 Author: Vince Veselosky
-Category:
-    name: Life
-    label: life
+Category: Life
 Title: How to set up a new PC in 12 Steps, or How I spent my evening renewing my disgust with Windows
 ---
 

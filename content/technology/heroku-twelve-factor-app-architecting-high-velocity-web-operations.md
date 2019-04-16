@@ -3,9 +3,7 @@ guid: "urn:UUID:a0d86e97-f0ec-4f62-96ae-9c4aa18c7968"
 itemtype: Item/Page/Article
 Date: 2012-02-11
 Author: Vince Veselosky
-Category:
-    name: Technology
-    label: technology
+Category: Technology
 Title: "Heroku and the Twelve Factor App: Architecting for High Velocity Web Operations"
 ---
 
@@ -61,20 +59,18 @@ you a few minutes, and it will be well worth your time.
 
 [12. Run admin/management tasks as one-off processes (see 6 above).][]
 
-
-
-  [infrastructure should be delivered as code]: /technology/web-developers-infrastructure-is-part-of-your-application.html
-  [Heroku]: https://www.heroku.com/
-  [The Twelve Factor App]: https://12factor.net/
-  [1. One codebase tracked in revision control, many deploys.]: https://12factor.net/codebase
-  [2. Explicitly declare and isolate dependencies.]: https://12factor.net/dependencies
-  [3. Store config in the environment.]: https://12factor.net/config
-  [4. Treat backing services as attached resources.]: https://12factor.net/backing-services
-  [5. Strictly separate build and run stages.]: https://12factor.net/build-release-run
-  [6. Execute the app as one or more stateless processes.]: https://12factor.net/processes
-  [7. Export services via port binding.]: https://12factor.net/port-binding
-  [8. Scale out via the process model.]: https://12factor.net/concurrency
-  [9. Maximize robustness with fast startup and graceful shutdown.]: https://12factor.net/disposability
-  [10. Keep development, staging, and production as similar as possible.]: https://12factor.net/dev-prod-parity
-  [11. Treat logs as event streams.]: https://12factor.net/logs
-  [12. Run admin/management tasks as one-off processes (see 6 above).]: https://12factor.net/admin-processes
+[infrastructure should be delivered as code]: /technology/web-developers-infrastructure-is-part-of-your-application.html
+[heroku]: https://www.heroku.com/
+[the twelve factor app]: https://12factor.net/
+[1. one codebase tracked in revision control, many deploys.]: https://12factor.net/codebase
+[2. explicitly declare and isolate dependencies.]: https://12factor.net/dependencies
+[3. store config in the environment.]: https://12factor.net/config
+[4. treat backing services as attached resources.]: https://12factor.net/backing-services
+[5. strictly separate build and run stages.]: https://12factor.net/build-release-run
+[6. execute the app as one or more stateless processes.]: https://12factor.net/processes
+[7. export services via port binding.]: https://12factor.net/port-binding
+[8. scale out via the process model.]: https://12factor.net/concurrency
+[9. maximize robustness with fast startup and graceful shutdown.]: https://12factor.net/disposability
+[10. keep development, staging, and production as similar as possible.]: https://12factor.net/dev-prod-parity
+[11. treat logs as event streams.]: https://12factor.net/logs
+[12. run admin/management tasks as one-off processes (see 6 above).]: https://12factor.net/admin-processes

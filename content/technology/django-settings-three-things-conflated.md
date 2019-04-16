@@ -4,9 +4,7 @@ itemtype: Item/Page/Article
 Date: 2012-02-18
 Author: Vince Veselosky
 Slug: django-settings-three-things-conflated
-Category:
-    name: Technology
-    label: technology
+Category: Technology
 Title: "Django Settings: Three Things Conflated"
 ---
 
@@ -22,18 +20,18 @@ us?
 I believe part of the problem is that the "settings" bucket holds three
 different kinds of things without differentiating between them. If you
 make a clear distinction between these things in your own mind (and in
-your code), dealing with settings will become easier, if not *easy*.
+your code), dealing with settings will become easier, if not _easy_.
 
 ## Project composition
 
-The first class of settings comprises those used for *project
-composition*. One of the killer features of Django is that projects are
+The first class of settings comprises those used for _project
+composition_. One of the killer features of Django is that projects are
 *composed* of independent modules (apps). The most important settings in
 your project's settings file define what apps make up the project and
 how they interact with each other. In other frameworks this would be
 done with code (well, technically settings *are* Python code), but in
-Django this is treated as configuration. Things like INSTALLED\_APPS,
-MIDDLEWARE\_CLASSES, and TEMPLATE\_CONTEXT\_PROCESSORS define how the
+Django this is treated as configuration. Things like INSTALLED_APPS,
+MIDDLEWARE_CLASSES, and TEMPLATE_CONTEXT_PROCESSORS define how the
 components of your project are combined to achieve the desired
 functionality.
 
@@ -44,7 +42,7 @@ fall into this category.
 
 The second class of settings comprises those used for connecting to
 external resources. This is the area most broadly recognized as
-*configuration*. Settings like DATABASES and CACHES fall into this
+_configuration_. Settings like DATABASES and CACHES fall into this
 category. These are the things that [The Twelve Factor App][] says
 should be provided by environment variables, and in fact it's not that
 difficult to pull these values into your settings from the environment.
@@ -55,11 +53,11 @@ this category.
 
 ## Tunable parameters
 
-The final class of settings comprises *tunable parameters*, things that
+The final class of settings comprises _tunable parameters_, things that
 are mostly constants or variables that are abstracted out because 1)
 hard-coded values are bad, and 2) you (or users of the code) might want
 to change the values from the defaults. Things like
-CACHE\_MIDDLEWARE\_SECONDS, DEBUG flags,  DATE\_FORMAT, and so on are
+CACHE_MIDDLEWARE_SECONDS, DEBUG flags,  DATE_FORMAT, and so on are
 examples of tunable parameters.
 
 This is the area of greatest multiplication. Virtually every app you
@@ -78,4 +76,4 @@ to this problem right now, just this one nugget of insight.
 What successful methods have you used to organize settings in large
 projects?
 
-[The Twelve Factor App]: /technology//heroku-twelve-factor-app-architecting-high-velocity-web-operations.html
+[the twelve factor app]: /technology//heroku-twelve-factor-app-architecting-high-velocity-web-operations.html

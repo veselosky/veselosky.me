@@ -3,9 +3,7 @@ guid: "urn:UUID:c4a90c81-16c8-4b14-aa2a-271e7fcf6ae3"
 itemtype: Item/Page/Article
 Date: 2013-11-11 17:09
 Author: Vince Veselosky
-Category:
-    name: Technology
-    label: technology
+Category: Technology
 Title: Component Contracts in Service Oriented Systems
 ---
 
@@ -32,11 +30,11 @@ contracts each service should provide to its customers.
 Every service must guarantee that its interface will remain consistent.
 Assuming the service is delivered over HTTP, the interface includes:
 
--   Names and meanings of query string parameters.
--   Definitions of what HTTP headers are used or ignored.
--   Format of any document body submitted in the request
--   Format of the response body.
--   Use of HTTP methods.
+- Names and meanings of query string parameters.
+- Definitions of what HTTP headers are used or ignored.
+- Format of any document body submitted in the request
+- Format of the response body.
+- Use of HTTP methods.
 
 Note that in this context, "consistent" does not have to mean
 unchanging. It only means that no backwards incompatible changes can be
@@ -66,16 +64,16 @@ Where your Interface Contract defines what your service will deliver,
 the Service Level Agreement (SLA) governs how it will be delivered (or
 how much). Things that need to be documented in your SLA include:
 
--   Availability: Uptime guarantees, scheduled maintenance windows, and
-    communication policies around downtime.
--   Response time: What is the target for acceptable response times?
-    What is the limit beyond which you will consider the service
-    unavailable?
--   Throughput: How many requests is the service expected to handle? How
-    many is the client allowed to send in a given time window?
--   Service classes: Are there certain kinds of requests that have
-    non-standard response time or throughput requirements? Document them
-    explicitly.
+- Availability: Uptime guarantees, scheduled maintenance windows, and
+  communication policies around downtime.
+- Response time: What is the target for acceptable response times?
+  What is the limit beyond which you will consider the service
+  unavailable?
+- Throughput: How many requests is the service expected to handle? How
+  many is the client allowed to send in a given time window?
+- Service classes: Are there certain kinds of requests that have
+  non-standard response time or throughput requirements? Document them
+  explicitly.
 
 Your SLA should also describe how you monitor and report on conformance
 with the agreement. Measurements of these aspects of performance are
@@ -103,20 +101,20 @@ service, you must have a communication plan around delivering that
 service to customers. Some of that communication is discussed above.
 Issues to cover in your communication plan include:
 
--   Notification of changes and new service features.
--   Notification of deprecation cycles.
--   Reporting on service level performance.
--   Notification of incidents and how problems that affect customers are
-    being managed.
+- Notification of changes and new service features.
+- Notification of deprecation cycles.
+- Reporting on service level performance.
+- Notification of incidents and how problems that affect customers are
+  being managed.
 
 In addition to these important communications from you to your
 consumers, it is also important to establish how your customers will
 communicate to you.
 
--   How can your customers contact you with questions or concerns?
--   How do they report problems?
--   What are the business hours for normal communications, and what is
-    the policy for after-hours emergencies?
+- How can your customers contact you with questions or concerns?
+- How do they report problems?
+- What are the business hours for normal communications, and what is
+  the policy for after-hours emergencies?
 
 Establishing these policies up front will help people remain calm when
 an emergency does occur. A clear communication plan can ensure that you

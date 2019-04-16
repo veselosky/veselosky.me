@@ -1,12 +1,11 @@
 ---
-Item:
-    guid: "urn:UUID:4c5cd9bd-9a39-408e-8ebc-948a35ee060d"
-    itemtype: Item/Page/Article
-    created: 2017-01-23
-    updated: 2017-01-23
-    published: 2017-01-23
-    description: Why "failure" is a lie, and should never stop you.
-    title: "The Thing About Life Is..."
+guid: "urn:UUID:4c5cd9bd-9a39-408e-8ebc-948a35ee060d"
+itemtype: Item/Page/Article
+created: 2017-01-23
+updated: 2017-01-23
+published: 2017-01-23
+description: Why "failure" is a lie, and should never stop you.
+title: "The Thing About Life Is..."
 ---
 
 # The Thing About Life Is...
@@ -58,7 +57,7 @@ you are doomed to failure. You know, with compete certainty, that the little bag
 gets in a kick before the sack hits the ground. But, there isn’t any score
 keeping. There’s no competition. There’s no way to win.
 
-The object of the game is just to *keep kicking*.
+The object of the game is just to _keep kicking_.
 
 So I still hit that keyboard every day, adding words (currently 47,547 of a
 target 80,000). Some days, all I can do is stare at the screen. Some days, I’m
@@ -82,6 +81,5 @@ Maybe I never actually make money on that house. Maybe that book never quite
 makes it (but I think it will). Maybe that perfect someone will simply never be
 mine.
 
-But I’m still here. And I’m just going to keep kicking. *Because that is the
-point of life.*
-
+But I’m still here. And I’m just going to keep kicking. _Because that is the
+point of life._

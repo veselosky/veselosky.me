@@ -3,9 +3,7 @@ guid: "urn:UUID:0a9f974b-aca1-49f9-9eca-755d013d3ba0"
 itemtype: Item/Page/Article
 Date: 2012-04-29 19:46
 Author: Vince Veselosky
-Category:
-    name: Life
-    label: life
+Category: Life
 Title: Systems and Mental Deficiencies
 ---
 
@@ -46,7 +44,7 @@ Ever lost your car keys? It's bad enough when you can't remember where
 you left them. It's doubly bad when you can be staring right at them and
 not *see* them. (My family calls this quirk "object-blindness" and it
 drives them crazy. "Why did you put away every dish in the kitchen
-*except that one*?!" I didn't see it!)
+_except that one_?!" I didn't see it!)
 
 I no longer have to remember where I left my car keys; the rule says
 that keys are by the door. If I forget where I left them, I can remember
@@ -66,18 +64,13 @@ so that I don't have to rely on my memory to get them right.
 
 The most important element of my life systems is an attitude I learned
 only in the most recent quarter of my life, a skill Buddhists describe
-as *mindfulness*. Mindfulness means being fully present, in the moment.
+as _mindfulness_. Mindfulness means being fully present, in the moment.
 It releases you from remembering the past or worrying about the future
 and focuses your attention on the present, the here and the now.
-Mindfulness is what enables me to obey the rules *now*, as I perform the
-actions which later may confound me. It is what allows me to *think*
+Mindfulness is what enables me to obey the rules _now_, as I perform the
+actions which later may confound me. It is what allows me to _think_
 when I put my keys down and observe the rule of where to place them.
 
 By knowingly placing my keys by the door where they belong, I ensure
 that later I can find them again. By paying attention to my actions in
 the present, I ensure success in the future.
-
-
-
-
-

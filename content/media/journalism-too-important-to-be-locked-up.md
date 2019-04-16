@@ -2,14 +2,11 @@
 guid: "urn:UUID:8aaa28a1-7031-4e3d-89f3-fb8f3b7dfd53"
 itemtype: Item/Page/Article
 Published: 2010-06-13
-Category:
-    name: Media
-    label: media
+Category: Media
 Title: Journalism is too important to be locked behind a paywall
 ---
 
-Journalism is too important to be locked behind a paywall
-=========================================================
+# Journalism is too important to be locked behind a paywall
 
 When I hear newspaper industry veterans talk about getting paid for
 content, it makes me want to cry. Case in point, this speech from [Bill

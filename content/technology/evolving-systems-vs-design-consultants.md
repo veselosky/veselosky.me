@@ -4,9 +4,7 @@ guid: "urn:UUID:8887f9bf-53ea-4bef-a7ae-79f0eb197539"
 Date: 2013-02-04 13:58
 Author: Vince Veselosky
 Slug: evolving-systems-vs-design-consultants
-Category:
-    name: Technology
-    label: technology
+Category: Technology
 Title: Evolving Systems vs Design Consultants - A Recurring Pattern
 ---
 
@@ -93,7 +91,7 @@ with a sympathetic grimace (usually the latter). In either case, the
 response is usually some variant of "I see." And the final report will
 advise, "Upgrade from COT to DOG ASAP."
 
-*Sigh.*
+_Sigh._
 
 There is no aspect of an organically grown system that could not be
 better designed in retrospect. The shape of the completed system is not

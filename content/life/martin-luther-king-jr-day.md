@@ -2,14 +2,11 @@
 itemtype: Item/Page/Article
 guid: "urn:UUID:10fb63b9-064f-4ea6-98db-2d0731c9dd73"
 Date: 2015-01-19
-Category:
-    name: Life
-    label: life
+Category: Life
 Title: Martin Luther King Jr. Day
 ---
 
-Martin Luther King Jr. Day
-==========================
+# Martin Luther King Jr. Day
 
 ![image](Martin_Luther_King_Jr_NYWTS_2-e1421691902357-1038x576.jpg)
 
@@ -72,25 +69,24 @@ to live on in future generations.
 
 Here are some places to hear Dr. King speak.
 
--   [“I Have A Dream” address to the 1963 March on
-    Washington](https://www.youtube.com/watch?v=smEqnnklfYs) (YouTube) —
-    A must-see.
--   [A Call to Conscience: The Landmark Speeches of Dr. Martin Luther
-    King, Jr.](http://www.amazon.com/gp/product/B00005AASL/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00005AASL&linkCode=as2&tag=mindvessel-20&linkId=7A45BEMX3BIBEUUZ) (Amazon)
-    — This audio book contains recordings of Dr. King’s key speeches,
-    with introductions from other giants of the civil rights movement.
-    It’s very inexpensive. Unfortunately, at the time of this writing
-    the [Kindle
-    edition](http://www.amazon.com/gp/product/B000Q9IN8G/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000Q9IN8G&linkCode=as2&tag=mindvessel-20&linkId=2OGDA3TMVKQMN5ZZ)
-    is not available with Whispersync, so I recommend the [audio
-    edition](http://www.amazon.com/gp/product/B00005AASL/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00005AASL&linkCode=as2&tag=mindvessel-20&linkId=7A45BEMX3BIBEUUZ).
--   [The Autobiography of Martin Luther
-    King, Jr.](http://www.amazon.com/gp/product/B0000547LK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0000547LK&linkCode=as2&tag=mindvessel-20&linkId=UU4UYPS3W6OAFBRA) (Amazon)
-    — This anthology edited by Clayborne Carson tells the story of Dr.
-    King’s life in his own words. The audio edition includes recordings
-    of Dr. King himself where available, and is narrated by Levar Burton
-    where no recording was available. Again the [Kindle
-    edition](http://www.amazon.com/gp/product/B00EXUBXQS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EXUBXQS&linkCode=as2&tag=mindvessel-20&linkId=EQWD7YDOHWYCE4RI)
-    is not available with Whispersync, so I recommend the [audio
-    edition](http://www.amazon.com/gp/product/B0000547LK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0000547LK&linkCode=as2&tag=mindvessel-20&linkId=C54ZMJRHFTTPRKNT).
-
+- [“I Have A Dream” address to the 1963 March on
+  Washington](https://www.youtube.com/watch?v=smEqnnklfYs) (YouTube) —
+  A must-see.
+- [A Call to Conscience: The Landmark Speeches of Dr. Martin Luther
+  King, Jr.](http://www.amazon.com/gp/product/B00005AASL/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00005AASL&linkCode=as2&tag=mindvessel-20&linkId=7A45BEMX3BIBEUUZ) (Amazon)
+  — This audio book contains recordings of Dr. King’s key speeches,
+  with introductions from other giants of the civil rights movement.
+  It’s very inexpensive. Unfortunately, at the time of this writing
+  the [Kindle
+  edition](http://www.amazon.com/gp/product/B000Q9IN8G/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000Q9IN8G&linkCode=as2&tag=mindvessel-20&linkId=2OGDA3TMVKQMN5ZZ)
+  is not available with Whispersync, so I recommend the [audio
+  edition](http://www.amazon.com/gp/product/B00005AASL/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00005AASL&linkCode=as2&tag=mindvessel-20&linkId=7A45BEMX3BIBEUUZ).
+- [The Autobiography of Martin Luther
+  King, Jr.](http://www.amazon.com/gp/product/B0000547LK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0000547LK&linkCode=as2&tag=mindvessel-20&linkId=UU4UYPS3W6OAFBRA) (Amazon)
+  — This anthology edited by Clayborne Carson tells the story of Dr.
+  King’s life in his own words. The audio edition includes recordings
+  of Dr. King himself where available, and is narrated by Levar Burton
+  where no recording was available. Again the [Kindle
+  edition](http://www.amazon.com/gp/product/B00EXUBXQS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EXUBXQS&linkCode=as2&tag=mindvessel-20&linkId=EQWD7YDOHWYCE4RI)
+  is not available with Whispersync, so I recommend the [audio
+  edition](http://www.amazon.com/gp/product/B0000547LK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0000547LK&linkCode=as2&tag=mindvessel-20&linkId=C54ZMJRHFTTPRKNT).
