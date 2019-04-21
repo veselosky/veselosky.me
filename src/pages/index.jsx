@@ -1,10 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TeaseList from "../components/teaseList"
 
 const IndexPage = props => {
   const { data } = props
@@ -13,24 +14,7 @@ const IndexPage = props => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO title="All posts" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
-      {posts.map(({ node }) => {
-        const title = node.fields.title || node.fields.slug
-        return (
-          <div key={node.fields.slug}>
-            <h3>
-              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                {title}
-              </Link>
-            </h3>
-            <small>{node.fields.date}</small>
-            <p
-              dangerouslySetInnerHTML={{
-                __html: node.fields.description || node.excerpt,
-              }}
-            />
-          </div>
-        )
-      })}
+      <TeaseList pages={posts} />
     </Layout>
   )
 }
