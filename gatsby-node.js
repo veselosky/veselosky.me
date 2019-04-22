@@ -14,7 +14,7 @@ const moment = require("moment")
  */
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
-  let category, catslug, date, description, itemtype, slug, tags, title
+  let category, date, description, itemtype, slug, tags, title
 
   // Only care about markdown nodes (articles)
   if (node.internal.type === "MarkdownRemark") {
@@ -30,7 +30,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       itemtype = node.frontmatter.itemtype
 
       // Lift category.
-      catslug = ""
       category = node.frontmatter.category || node.frontmatter.Category
 
       // Lift tags
