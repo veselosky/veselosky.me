@@ -32,14 +32,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       // Lift category.
       catslug = ""
       category = node.frontmatter.category || node.frontmatter.Category
-      if (category) catslug = `/${_.kebabCase(category)}`
 
-      // Slug provided? It only slugs the file, not the full path.
-      if ("slug" in node.frontmatter) {
-        slug = `${catslug}/${_.kebabCase(node.frontmatter.slug)}`
-      } else if ("Slug" in node.frontmatter) {
-        slug = `${catslug}/${_.kebabCase(node.frontmatter.Slug)}`
-      }
       // Lift tags
       tags = node.frontmatter.tags || node.frontmatter.Tags || []
 
@@ -60,20 +53,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
      */
     // TODO Pull the create/modify date from the file node.
     if (!date || !date.isValid) date = moment()
-
     if (!description) description = node.excerpt
 
     if (!title && "headings" in node && node.headings.length > 0) {
       const headline = node.headings.find(x => (x.depth === 1 ? true : false))
       if (headline) title = headline.value
     }
-    // Generate slug from title, if available.
-    if (title && !slug) {
-      slug = `${catslug}/${_.kebabCase(title)}`
-    }
     // Generate slug without title
     if (!slug) {
       if (parsedFilePath.name !== "index" && parsedFilePath.dir !== "") {
+        if (!category) category = _.startCase(parsedFilePath.dir)
         slug = `/${parsedFilePath.dir}/${parsedFilePath.name}`
       } else if (parsedFilePath.dir === "") {
         slug = `/${parsedFilePath.name}`
@@ -103,6 +92,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const articleTemplate = path.resolve(`./src/templates/article.jsx`)
+  const categoryTemplate = path.resolve(`./src/templates/category.jsx`)
   return graphql(
     `
       {
@@ -113,8 +103,11 @@ exports.createPages = ({ graphql, actions }) => {
         ) {
           edges {
             node {
+              excerpt
               fields {
                 category
+                date
+                description
                 slug
                 title
               }
@@ -130,6 +123,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Create article pages.
     const articles = result.data.allMarkdownRemark.edges
+    let categories = {}
 
     articles.forEach((article, index) => {
       const previous = index === articles.length - 1 ? null : articles[index + 1].node
@@ -144,9 +138,25 @@ exports.createPages = ({ graphql, actions }) => {
           next,
         },
       })
-      // TODO Accumulate articles by category
+      // Accumulate articles by category
+      if (article.node.fields.category) {
+        if (article.node.fields.category in categories === false) {
+          categories[article.node.fields.category] = []
+        }
+        categories[article.node.fields.category].push(article)
+      }
     })
     // TODO Generate list pages by category
+    for (var category in categories) {
+      createPage({
+        path: `/${_.kebabCase(category)}/`,
+        component: categoryTemplate,
+        context: {
+          articles: categories[category],
+          category: category,
+        },
+      })
+    }
 
     return null
   })
