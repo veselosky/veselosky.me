@@ -1,0 +1,37 @@
+{
+  "id": "773f0c11-805d-5851-900d-59265a1711af",
+  "parent": {
+    "id": "6762a6d1-3488-59f3-8b92-ca8f2199ee66",
+    "relativePath": "business/a-framework-for-innovation.md"
+  },
+  "frontmatter": {
+    "title": "",
+    "itemtype": "Item/Page/Article",
+    "guid": "urn:UUID:5393f65b-06a3-4de2-83dc-38ec0985d28b",
+    "Author": "Vince Veselosky",
+    "Category": "Business",
+    "Title": "A Framework for Innovation",
+    "Guid": null,
+    "Slug": null,
+    "created": null,
+    "updated": "2012-05-13 22:19",
+    "published": null,
+    "description": null,
+    "Published": null,
+    "Description": null
+  },
+  "excerpt": "A Framework for InnovationHow does a large company create an environment that encourages and\nleverages internal innovation? Here is my…",
+  "fileAbsolutePath": "/Users/vince/Devel/veselosky.me/content/business/a-framework-for-innovation.md",
+  "headings": [
+    {
+      "value": "A Framework for Innovation",
+      "depth": 1
+    }
+  ],
+  "timeToRead": 2,
+  "wordCount": {
+    "paragraphs": 11,
+    "sentences": 49,
+    "words": 608
+  }
+}
