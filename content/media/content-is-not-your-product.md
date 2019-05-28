@@ -1,12 +1,9 @@
 ---
 guid: "urn:UUID:c13362ff-f51e-48a3-8923-911ce1826512"
 itemtype: Item/Page/Article
-Category: Media
-Published: 2010-01-30
-Title: "Content Is Not Your Product: Why Newspapers Fail"
+published: 2010-01-30
+title: "Content Is Not Your Product: Why Newspapers Fail"
 ---
-
-# Content Is Not Your Product: Why Newspapers Fail
 
 Your newspaper is [Seth Godin's Meatball
 Sundae](http://www.amazon.com/gp/product/B000XPPVLK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000XPPVLK&linkCode=as2&tag=controlescape-20&linkId=SDEHW6DYH7NP3ET4)

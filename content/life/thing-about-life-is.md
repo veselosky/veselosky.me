@@ -8,8 +8,6 @@ description: Why "failure" is a lie, and should never stop you.
 title: "The Thing About Life Is..."
 ---
 
-# The Thing About Life Is...
-
 Most people like to post on the Internet about their successes. I want to talk
 about failure. I can assure you, I am fully qualified to talk about failure. I’m
 an expert with thirty years of experience.

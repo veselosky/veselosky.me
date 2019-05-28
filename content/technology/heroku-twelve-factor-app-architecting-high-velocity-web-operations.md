@@ -1,13 +1,9 @@
 ---
 guid: "urn:UUID:a0d86e97-f0ec-4f62-96ae-9c4aa18c7968"
 itemtype: Item/Page/Article
-Date: 2012-02-11
-Author: Vince Veselosky
-Category: Technology
-Title: "Heroku and the Twelve Factor App: Architecting for High Velocity Web Operations"
+date: 2012-02-11
+title: "Heroku and the Twelve Factor App: Architecting for High Velocity Web Operations"
 ---
-
-# Heroku and the Twelve Factor App: Architecting for High Velocity Web
 
 A while back I wrote that [infrastructure should be delivered as code][]
 along with every web application, because web applications are not run

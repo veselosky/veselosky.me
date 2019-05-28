@@ -1,12 +1,9 @@
 ---
 guid: "urn:UUID:90a9bfef-eb6b-4328-9a10-a3e98cfa0f69"
 itemtype: Item/Page/Article
-Published: 2010-01-25
-Category: Media
-Title: NYT’s Freemium Paywall Plan is (maybe) Good Business
+published: 2010-01-25
+title: NYT’s Freemium Paywall Plan is (maybe) Good Business
 ---
-
-# NYT’s Freemium Paywall Plan is (maybe) Good Business
 
 Last week, the New York Times announced [plans to start
 charging](http://www.nytimes.com/2010/01/21/business/media/21times.html?hp&emc=na)

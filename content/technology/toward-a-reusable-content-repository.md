@@ -1,14 +1,9 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:3a0cf3ce-501a-4ab7-994c-c72c019d96ae"
-Date: 2013-07-22 15:46
-Author: Vince Veselosky
-Slug: toward-reusable-content-repository
-Category: Technology
-Title: Toward a Reusable Content Repository
+date: 2013-07-22 15:46
+title: Toward a Reusable Content Repository
 ---
-
-# Toward a Reusable Content Repository
 
 There are a plethora of web-based content management systems and website
 publishing systems in the world. Almost all of them are what you might

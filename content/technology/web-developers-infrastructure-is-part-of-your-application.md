@@ -1,13 +1,9 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:035e07f0-7126-406f-97bb-4bfd4c874c42"
-Date: 2011-07-09
-Author: Vince Veselosky
-Category: Technology
-Title: "Web Developers: Infrastructure is part of your Application!"
+date: 2011-07-09
+title: "Web Developers: Infrastructure is part of your Application!"
 ---
-
-# Web Developers: Infrastructure is part of your Application!
 
 One of the most difficult realities for web developers to face is that
 their application code, elegant and beautiful as it may (or may not) be,

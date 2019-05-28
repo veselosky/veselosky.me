@@ -1,12 +1,9 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:10fb63b9-064f-4ea6-98db-2d0731c9dd73"
-Date: 2015-01-19
-Category: Life
-Title: Martin Luther King Jr. Day
+date: 2015-01-19
+title: Martin Luther King Jr. Day
 ---
-
-# Martin Luther King Jr. Day
 
 ![image](Martin_Luther_King_Jr_NYWTS_2-e1421691902357-1038x576.jpg)
 

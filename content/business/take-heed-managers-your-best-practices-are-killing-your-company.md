@@ -1,14 +1,10 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:250d14d9-bea8-4bca-b148-024a10376644"
-Date: 2013-01-22 16:08
-Author: Vince Veselosky
-Slug: take-heed-managers-your-best-practices
-Category: Business
-Title: "Take heed, managers: your 'best practices' are killing your company"
+date: 2013-01-22 16:08
+author: Vince Veselosky
+title: "Take heed, managers: your 'best practices' are killing your company"
 ---
-
-# Take heed, managers: your "best practices" are killing your company
 
 If you are a manager, you _need_ to understand the ideas of [W. Edwards
 Deming][]. Deming wrote several books about management, in which he

@@ -1,12 +1,9 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:e637d5ef-9877-4e22-91c0-a27eb4d04e6f"
-Date: 2015-02-09
-Category: Urbanism
-Title: How I Get 152 Miles per Gallon in the City
+date: 2015-02-09
+title: How I Get 152 Miles per Gallon in the City
 ---
-
-# How I Get 152 Miles per Gallon in the City
 
 How good is the mileage on your car? I just did the math, and I
 travelled 2,288 miles in the past 4 months on 15 gallons of gas, so I’m

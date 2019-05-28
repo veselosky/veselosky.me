@@ -1,13 +1,10 @@
 ---
 guid: "urn:UUID:3eb1b251-5fab-4e54-93f7-271a29bba939"
 itemtype: Item/Page/Article
-Date: 2015-07-04
-Category: Life
-Description: Why Vince wore a pony tail for 20 years, but no longer does.
-Title: The Tale of the Tail
+date: 2015-07-04
+description: Why Vince wore a pony tail for 20 years, but no longer does.
+title: The Tale of the Tail
 ---
-
-# The Tale of the Tail
 
 For nearly twenty years, the most concise description of me was "the guy
 with the really long pony tail.” That’s no longer the case, and I am

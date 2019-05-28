@@ -1,13 +1,10 @@
 ---
 guid: "urn:UUID:26196b32-97ea-4520-a6f4-2a50e41f2749"
 itemtype: Item/Page/Article
-Date: 2012-01-19
-Author: Vince Veselosky
-Category: Business
-Title: "Efficiency: Enemy of Innovation?"
+date: 2012-01-19
+author: Vince Veselosky
+title: "Efficiency: Enemy of Innovation?"
 ---
-
-# Efficiency: Enemy of Innovation?
 
 The science of management in the industrial age was all about
 efficiency. It had to be. The whole concept of capitalism is based on

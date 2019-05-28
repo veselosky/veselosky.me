@@ -1,13 +1,9 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:41dacf5a-3439-49b7-b70f-d514116de2df"
-Date: 2011-06-19
-Author: Vince Veselosky
-Category: Technology
-Title: Web Analytics for Operations
+date: 2011-06-19
+title: Web Analytics for Operations
 ---
-
-# Web Analytics for Operations
 
 Web analytics packages, from free to exorbitant, have grown in
 complexity over the life of the web. That's great news for marketers

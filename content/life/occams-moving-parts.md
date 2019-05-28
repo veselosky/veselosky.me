@@ -1,13 +1,9 @@
 ---
 guid: "urn:UUID:8fc790ce-4a06-4fe4-b607-585308609e6b"
 itemtype: Item/Page
-Date: 2011-06-12 12:50
-Author: Vince Veselosky
-Category: Life
-Title: Occam's Moving Parts
+date: 2011-06-12 12:50
+title: Occam's Moving Parts
 ---
-
-# Occam's Moving Parts
 
 As an architect of complex applications, I spend my day aggressively
 applying [Occam's Razor][], attempting to simplify large systems by

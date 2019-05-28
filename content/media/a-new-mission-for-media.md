@@ -1,12 +1,9 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:0a5f96c9-8343-40c2-a0ad-82716db78798"
-Date: 2015-04-15
-Category: Media
-Title: A New Mission for Media
+date: 2015-04-15
+title: A New Mission for Media
 ---
-
-# A New Mission for Media
 
 > Facilitate the flow of information to the point of its highest value.
 

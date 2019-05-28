@@ -1,13 +1,9 @@
 ---
 guid: "urn:UUID:0a9f974b-aca1-49f9-9eca-755d013d3ba0"
 itemtype: Item/Page/Article
-Date: 2012-04-29 19:46
-Author: Vince Veselosky
-Category: Life
-Title: Systems and Mental Deficiencies
+date: 2012-04-29 19:46
+title: Systems and Mental Deficiencies
 ---
-
-# Systems and Mental Deficiencies
 
 I was surprised when I read some of the things writer Terry Pratchett
 wrote or said about developing PCA, a form of dementia. I cannot now

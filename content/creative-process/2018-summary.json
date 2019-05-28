@@ -1,0 +1,9 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ImageObject",
+  "author": "Vince Veselosky",
+  "contentUrl": "2018-summary.png",
+  "datePublished": "2018-12-16",
+  "description": "Word count graph for 2018 by month",
+  "name": "2018 Summary"
+}

@@ -1,13 +1,10 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:953e5c81-05f9-44e0-956f-80a57aa1067a"
-Date: 2012-01-24
-Author: Vince Veselosky
-Category: Life
-Title: Natural Laws
+date: 2012-01-24
+author: Vince Veselosky
+title: Natural Laws
 ---
-
-# Natural Laws
 
 I figure any phrase that people deem to be a "law" and find important
 enough to attribute to a specific person (even if incorrectly) probably

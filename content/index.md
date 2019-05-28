@@ -1,8 +1,8 @@
 ---
 itemtype: Item/Page
 Guid: 5add9c35-6301-4e93-9a78-adb77b5a0f8b
-Title: Occam's Moving Parts
-Date: 2015-09-19
+title: Occam's Moving Parts
+date: 2015-09-19
 ---
 
 Systems Architect, Web Applications

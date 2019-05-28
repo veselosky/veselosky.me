@@ -1,14 +1,10 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:6c47a797-14cb-45ba-9454-b93563d28dd4"
-Date: 2013-01-13
-Author: Vince Veselosky
-Slug: getting-things-done-productivity-system
-Category: Life
-Title: Getting Things Done -- Productivity System
+date: 2013-01-13
+author: Vince Veselosky
+title: Getting Things Done -- Productivity System
 ---
-
-# Getting Things Done -- Productivity System
 
 ![Workflow diagram from "Getting Things Done"](getting-things-done.jpg)]
 

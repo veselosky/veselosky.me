@@ -1,12 +1,9 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:da14f48d-5445-4a13-80c9-614b9d772ec3"
-Published: 2010-01-08
-Category: Media
-Title: How Newspapers Lost the Classifieds Business (and how to get it back)
+published: 2010-01-08
+title: How Newspapers Lost the Classifieds Business (and how to get it back)
 ---
-
-# How Newspapers Lost the Classifieds Business (and how to get it back)
 
 Time was, [newspapers owned the local classified ads
 business](http://mediashift.org/2009/08/future-of-local-news-about-more-than-paid-content225/),

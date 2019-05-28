@@ -1,14 +1,9 @@
 ---
 itemtype: Item/Page/Article
 guid: "urn:UUID:8887f9bf-53ea-4bef-a7ae-79f0eb197539"
-Date: 2013-02-04 13:58
-Author: Vince Veselosky
-Slug: evolving-systems-vs-design-consultants
-Category: Technology
-Title: Evolving Systems vs Design Consultants - A Recurring Pattern
+date: 2013-02-04 13:58
+title: Evolving Systems vs Design Consultants - A Recurring Pattern
 ---
-
-# Evolving Systems vs Design Consultants - A Recurring Pattern
 
 I often think of systems architecture as analogous to this word game I
 played as a child. I don't know if the game has a name, but it is begun
