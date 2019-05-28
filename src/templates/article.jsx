@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -13,6 +14,7 @@ const ArticleTemplate = props => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO title={article.fields.title} description={article.fields.description || article.excerpt} />
+      <h1>{article.fields.title}</h1>
       <p>{article.fields.date}</p>
       <div dangerouslySetInnerHTML={{ __html: article.html }} />
       <hr />

@@ -2,8 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Vince Veselosky`,
     subtitle: `Author of Awesome Fantasy`,
-    description: ``,
+    description: `Blog of Vince Veselosky, author of awesome fantasy`,
     author: `Vince Veselosky`,
+    siteUrl: `https://vince.veselosky.me`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,9 +26,11 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-attr`,
           {
             resolve: `gatsby-remark-images`,
             options: {
+              linkImagesToOriginal: false,
               maxWidth: 590,
             },
           },
@@ -48,7 +51,60 @@ module.exports = {
         trackingId: `UA-642116-10`,
       },
     },
-    //    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.fields, {
+                  description: edge.node.fields.description || edge.node.excerpt,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ "content:encoded": edge.node.html }],
+                })
+              })
+            },
+            query: `
+            {
+              allMarkdownRemark(sort: {order: DESC, fields: [fields___date]}, filter: {fields: {itemtype: {eq: "Item/Page/Article"}}}) {
+                totalCount
+                edges {
+                  node {
+                    excerpt
+                    html
+                    fields {
+                      category
+                      slug
+                      title
+                      date
+                      description
+                      itemtype
+                    }
+                  }
+                }
+              }
+            }
+            `,
+            output: "/feed/rss.xml",
+            // title: "Your Site's RSS Feed",
+          },
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // {

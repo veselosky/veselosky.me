@@ -17,7 +17,11 @@ const Header = ({ siteTitle }) => (
       textDecoration: `none`,
     }}
   >
-    <h1 href="/">{siteTitle}</h1>
+    <h1>
+      <a href="/" className={headerStyles.link}>
+        {siteTitle}
+      </a>
+    </h1>
     <p className="h6">Author of Awesome Fantasy</p>
     <Nav className="justify-content-end">
       <NavItem>
@@ -33,6 +37,11 @@ const Header = ({ siteTitle }) => (
       <NavItem>
         <NavLink className={headerStyles.link} href="/vip-list">
           VIP List
+        </NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink className={headerStyles.link} href="/blog">
+          Blog
         </NavLink>
       </NavItem>
     </Nav>
