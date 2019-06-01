@@ -1,0 +1,75 @@
+{
+  "ErrorDocument": { "Key": "404/index.html" },
+  "IndexDocument": { "Suffix": "index.html" },
+  "RoutingRules": [
+    {
+      "Condition": { "KeyPrefixEquals": "fan-club" },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "www.subscribepage.com",
+        "ReplaceKeyWith": "veselosky-vip-list",
+        "HttpRedirectCode": "302"
+      }
+    },
+    {
+      "Condition": { "KeyPrefixEquals": "vip-list" },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "www.subscribepage.com",
+        "ReplaceKeyWith": "veselosky-vip-list",
+        "HttpRedirectCode": "302"
+      }
+    },
+    {
+      "Condition": { "KeyPrefixEquals": "fate" },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "books2read.com",
+        "ReplaceKeyWith": "b/vv-cursing-fate",
+        "HttpRedirectCode": "302"
+      }
+    },
+    {
+      "Condition": { "KeyPrefixEquals": "seers-guild/cursing-fate" },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "books2read.com",
+        "ReplaceKeyWith": "b/vv-cursing-fate",
+        "HttpRedirectCode": "302"
+      }
+    },
+    {
+      "Condition": { "KeyPrefixEquals": "seers-guild/shifting-loyalties" },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "books2read.com",
+        "ReplaceKeyWith": "b/vv-shifting-loyalties",
+        "HttpRedirectCode": "302"
+      }
+    },
+    {
+      "Condition": { "KeyPrefixEquals": "seers-guild/summoning-courage" },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "books2read.com",
+        "ReplaceKeyWith": "b/vv-summoning-courage",
+        "HttpRedirectCode": "302"
+      }
+    },
+    {
+      "Condition": { "KeyPrefixEquals": "seers-guild" },
+      "Redirect": {
+        "Protocol": "https",
+        "HostName": "books2read.com",
+        "ReplaceKeyWith": "rl/seers-guild",
+        "HttpRedirectCode": "302"
+      }
+    },
+    {
+      "Condition": { "KeyPrefixEquals": "feed/index.html" },
+      "Redirect": {
+        "ReplaceKeyWith": "feed/rss.xml"
+      }
+    }
+  ]
+}

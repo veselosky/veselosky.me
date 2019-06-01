@@ -11,13 +11,8 @@
 #######################################################################
 
 SHELL := /bin/bash
-SITEDIR = $(shell quill config 'environments.local.root')
-BUILDDIR = $(dir $(SITEDIR))
-THEME = $(shell quill config 'options.theme')
-STYLES=\
-	themes/$(THEME)/impure.css \
-	themes/$(THEME)/blog.css
-PROD = $(shell quill config 'environments.production.root')
+SITEDIR = public
+PROD = vince-veselosky-me
 
 #######################################################################
 # Build targets and rules
@@ -26,8 +21,6 @@ PROD = $(shell quill config 'environments.production.root')
 
 help:
 	@echo "clean - remove all build, test, coverage and Python artifacts"
-	@echo "html - build all HTML files and feeds"
-	@echo "stylesheet - build styles and scripts for the site"
 	@echo "site - build entire web site, including HTML, styles, and scripts"
 	@echo "serve - run a web server in the build directory"
 	@echo "deploy - upload the files to the public server"
@@ -46,9 +39,8 @@ serve:
 	gatsby develop
 
 clean:
-	echo "TODO Clean stuff"
+	gatsby clean
 
 deploy:
-	echo "TODO Deploy stuff"
-	# aws s3 sync --acl public-read $(SITEDIR) $(PROD)
-
+	aws s3 sync --acl public-read $(SITEDIR) s3://$(PROD)
+	aws s3api put-bucket-website --bucket $(PROD) --website-configuration file://siteconfig.json

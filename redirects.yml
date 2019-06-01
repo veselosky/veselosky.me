@@ -57,4 +57,19 @@ redirects:
     to: /technology/web-developers-infrastructure-is-part-of-your-application.html
   - from: /2015/get-152-miles-per-gallon-city.html
     to: /urbanism/get-152-miles-per-gallon-city.html
-
+  - from: /fan-club
+    to: https://www.subscribepage.com/veselosky-vip-list
+  - from: /vip-list
+    to: https://www.subscribepage.com/veselosky-vip-list
+  - from: /fate
+    to: https://books2read.com/b/vv-cursing-fate
+  - from: /seers-guild/cursing-fate
+    to: https://books2read.com/b/vv-cursing-fate
+  - from: /seers-guild/shifting-loyalties
+    to: https://books2read.com/b/vv-shifting-loyalties
+  - from: /seers-guild/summoning-courage
+    to: https://books2read.com/b/vv-summoning-courage
+  - from: /seers-guild
+    to: https://books2read.com/rl/seers-guild
+  - from: /feed/
+    to: /feed/rss.xml
