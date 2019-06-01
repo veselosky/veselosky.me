@@ -30,17 +30,17 @@ const Header = ({ siteTitle }) => (
         </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink className={headerStyles.link} href="/seers-guild">
+        <NavLink className={headerStyles.link} href="/seers-guild/">
           Seers Guild
         </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink className={headerStyles.link} href="/vip-list">
+        <NavLink className={headerStyles.link} href="/vip-list/">
           VIP List
         </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink className={headerStyles.link} href="/blog">
+        <NavLink className={headerStyles.link} href="/blog/">
           Blog
         </NavLink>
       </NavItem>
