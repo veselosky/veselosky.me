@@ -48,7 +48,7 @@ alright, but the game doesn’t get really fun until you have four or five peopl
 in a circle playing together.
 
 The object is to keep the sack in the air, but you begin the game knowing that
-you are doomed to failure. You know, with compete certainty, that the little bag
+you are doomed to failure. You know, with complete certainty, that the little bag
 **is** going to hit the ground. When it does? You pick it up and start again.
 
 “Success,” if there is any in the game, comes when every player in the circle
