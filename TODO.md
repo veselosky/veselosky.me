@@ -1,24 +1,28 @@
-Bug Fixes
-====================
-* Find and Fix broken internal links (missing ".html", directory moves)
-* Fix image styles (/life/martin-luther-king-jr-day image encroaches on sidebar)
-* Automate redirects from old date-based URLs to new category-based ones.
+## Bug Fixes
 
-Features
-====================
-* Category page (or pages)
-* fontawesome for follow me section?
+- Broken embed for YouTube video (take-heed-managers)
 
-Issues
-=============================================================================
-Often templates need to generate self-referencing URLs. These will differ
-between test and production systems, yet we need static files to be the same
-in both cases.
+## Features
 
-Option:
-Store canonical base in site.yml. Have local test server translate canonical
-base to local base in text when serving.
-
-Downside: requires writing a dev server.
-Solution: Depend on static3 webserver library, add a "magic" for the URL
-translation.
+- Add Netlify CMS
+  - Attributions collection and data model
+  - Articles collection and data model
+  - Pages collection
+    - Home page
+    - About page
+    - Privacy policy / terms
+  - Settings collection:
+    - Site metadata
+    - Social links
+    - Redirects
+    - Plugins
+- Restore the "follow me" section
+- Fix the date display in post teases
+- Use a bootstrap Card or something less ugly for post teases
+- CSS page layout: constrain width
+- Improve spacing around headers
+- featured image metadata for posts
+- images in post teases
+- Add amplify.js to project
+- Add mail list signup via Amazon Pinpoint
+- Add analytics tracking via Pinpoint
