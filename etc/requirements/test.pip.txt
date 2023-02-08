@@ -1,0 +1,5 @@
+coverage
+pycodestyle
+pytest
+pytest-coverage
+pytest-django

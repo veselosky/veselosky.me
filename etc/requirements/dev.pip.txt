@@ -1,0 +1,9 @@
+-r base.pip.txt
+-r test.pip.txt
+black
+django-debug-toolbar
+django-extensions
+isort >= 5.12.0
+pip-tools
+tox
+tox-gh-actions
