@@ -92,20 +92,28 @@ WSGI_APPLICATION = "mysite.wsgi.application"
 ROOT_URLCONF = "mysite.urls"
 
 INSTALLED_APPS = [
+    "genericsite",
+    # 3rd party apps
+    "django_bootstrap_icons",
     "django_celery_beat",
+    "easy_thumbnails",
+    "taggit",
+    "tinymce",
     # Core Django below custom so we can override their templates
     "django.contrib.admin",
     "django.contrib.admindocs",
     "django.contrib.auth",
     "django.contrib.contenttypes",
-    "django.contrib.sessions",
     "django.contrib.messages",
+    "django.contrib.sessions",
+    "django.contrib.sites",
     "django.contrib.staticfiles",
 ]
 
 MIDDLEWARE = [
     # https://docs.djangoproject.com/en/3.2/ref/middleware/#django.middleware.security.SecurityMiddleware
     "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sites.middleware.CurrentSiteMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -128,6 +136,7 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
                 "django.template.context_processors.media",
                 "django.template.context_processors.static",
+                "genericsite.apps.context_defaults",
             ],
         },
     },
