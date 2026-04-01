@@ -1,13 +1,12 @@
 ---
 guid: "urn:UUID:4c5cd9bd-9a39-408e-8ebc-948a35ee060d"
-itemtype: Item/Page/Article
+type: article
 created: 2017-01-23
 updated: 2017-01-23
 published: 2017-01-23
 description: Why "failure" is a lie, and should never stop you.
 title: "The Thing About Life Is..."
 ---
-
 Most people like to post on the Internet about their successes. I want to talk
 about failure. I can assure you, I am fully qualified to talk about failure. I’m
 an expert with thirty years of experience.
@@ -48,7 +47,7 @@ alright, but the game doesn’t get really fun until you have four or five peopl
 in a circle playing together.
 
 The object is to keep the sack in the air, but you begin the game knowing that
-you are doomed to failure. You know, with compete certainty, that the little bag
+you are doomed to failure. You know, with complete certainty, that the little bag
 **is** going to hit the ground. When it does? You pick it up and start again.
 
 “Success,” if there is any in the game, comes when every player in the circle

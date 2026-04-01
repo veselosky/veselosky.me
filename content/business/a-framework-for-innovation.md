@@ -1,11 +1,10 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:5393f65b-06a3-4de2-83dc-38ec0985d28b"
-date: 2012-05-13 22:19
+date: 2012-05-13T22:19:00Z
 author: Vince Veselosky
 title: A Framework for Innovation
 ---
-
 How does a large company create an environment that encourages and
 leverages internal innovation? Here is my checklist of prerequisites for
 "enterprise" innovation:

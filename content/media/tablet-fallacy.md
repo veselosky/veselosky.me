@@ -1,10 +1,9 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:eb3e2a33-2993-4ad4-ab31-494817411f46"
 published: 2010-01-19
 title: The Tablet Fallacy (or, Old Media is Screwed)
 ---
-
 "Help me, Obi-wan Tablet. You're my only hope!" says old media. But
 these are not the droids they are looking for.
 

@@ -1,10 +1,9 @@
 ---
 guid: "urn:UUID:c4a90c81-16c8-4b14-aa2a-271e7fcf6ae3"
-itemtype: Item/Page/Article
-date: 2013-11-11 17:09
+type: article
+date: 2013-11-11T17:09:00Z
 title: Component Contracts in Service Oriented Systems
 ---
-
 > PRINCIPLE: Relationships must be governed by contracts that are
 > monitored for performance.
 

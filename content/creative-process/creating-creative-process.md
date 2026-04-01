@@ -1,9 +1,8 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: Creating a Creative Process
 published: 2017-02-19
 ---
-
 I always aspired to being an author. In my teens and early twenties, I probably
 started a half-dozen "first novels" that never got finished (and that was
 probably for the best). When I started writing software, though, that became my

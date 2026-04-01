@@ -1,10 +1,9 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:0a5f96c9-8343-40c2-a0ad-82716db78798"
 date: 2015-04-15
 title: A New Mission for Media
 ---
-
 > Facilitate the flow of information to the point of its highest value.
 
 The media industry at large has lost its path. Most media companies are

@@ -1,9 +1,8 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: "How I Write a Novel: My Creative Process as of 2019"
 published: 2019-01-08
 ---
-
 Two years ago I wrote a post about [Creating a Creative
 Process](creating-creative-process).
 Since then, I have completed three novels and am in production on a fourth, with

@@ -1,17 +1,15 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: "Shifting Loyalties: Cover Art and Pre-order"
 published: 2018-05-09
 ---
-
-Big announcement! <a
-href="https://vince.veselosky.me/seers-guild/shifting-loyalties">Shifting
-Loyalties: The Piero Codex Book Two</a> is now available for pre-order on most
+Big announcement! [Shifting
+Loyalties: The Piero Codex Book Two](https://vince.veselosky.me/seers-guild/shifting-loyalties) is now available for pre-order on most
 major ebook retailers!
 
-<img src="cover-PC2-ShiftingLoyalties.jpg" alt="Shifting Loyalties: The Piero Codex Book Two" />
+![Cover image for Shifting Loyalties](cover-PC2-ShiftingLoyalties.jpg)
 
-Barb from <a href="http://coverinked.com">CoverInked</a> really stepped up her
+Barb from [CoverInked](http://coverinked.com) really stepped up her
 game on this cover, don't you think?
 
 When it’s a matter of life and death, how do you know who to trust?
@@ -29,24 +27,15 @@ guy who stole his girlfriend?
 With the enemy closing in, and time running out, turning an enemy agent seems
 like the best option. But when you can’t even trust your friends, how do you
 trust an enemy? Even if he manages to make all the right choices, how is Mack
-going to convince the other players to trust <em>him</em> long enough to save
+going to convince the other players to trust *him* long enough to save
 Marina and protect the Codex?
 
 This second installment in The Piero Codex series takes you deeper into the
 world of seers, and reveals some of the secrets of the Codex itself! Get it
 today! (Pre-orders will be delivered June 14, 2018.)
 
-<h3>Where To Get It</h3>
-<ul>
-    <li><a
-    href="https://www.amazon.com/gp/product/B07CRQNHJG?tag=mindvessel-20">Amazon.com</a></li>
-    <li><a
-    href="https://geo.itunes.apple.com/us/book/id1378435376?at=1000lLuu">Apple
-    iBooks</a></li>
-    <li><a
-    href="https://www.tkqlhce.com/links/7968444/type/dlg/http://www.barnesandnoble.com/s/2940162009573">Barnes
-    &amp; Noble</a></li>
-    <li><a
-    href="http://click.linksynergy.com/deeplink?murl=http%3A%2F%2Fwww.kobo.com%2Fsearch%3FQuery%3D9781948895019&amp;id=/HjoOCs/nPQ&amp;mid=37217">Kobo</a></li>
-</ul>
-&nbsp;
+## Where To Get It
+- [Amazon.com](https://www.amazon.com/gp/product/B07CRQNHJG?tag=mindvessel-20)
+- [Apple iBooks](https://geo.itunes.apple.com/us/book/id1378435376?at=1000lLuu)
+- [Barnes & Noble](https://www.tkqlhce.com/links/7968444/type/dlg/http://www.barnesandnoble.com/s/2940162009573)
+- [Kobo](http://click.linksynergy.com/deeplink?murl=http%3A%2F%2Fwww.kobo.com%2Fsearch%3FQuery%3D9781948895019&amp;id=/HjoOCs/nPQ&amp;mid=37217)

@@ -1,9 +1,8 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: NaNoWriMo 2017 After Action Report
 published: 2017-12-11
 ---
-
 I wanted to record for posterity my first experience of "winning" National Novel
 Writing Month. As you may know, NaNoWriMo is a self-challenge to write 50,000
 words in 30 days.
@@ -14,9 +13,9 @@ anywhere near 50k words in a single month. So I took NaNoWriMo 2017 as a true
 challenge to get my word counts up and make some real progress, to prove to
 myself that I could truly improve both speed and quality.
 
-<p><img src="WordChar2017-11.png" alt="Chart showing words written by month" /></p>
+![Chart showing words written by month](WordChar2017-11.png)
 <!--more-->
-<h2>Background: The Story So Far</h2>
+## Background: The Story So Far
 
 The novel I worked on in November 2017 was not my first. I started a novel back
 in November 2014, but did not win NaNo, or even come close. What I learned from
@@ -37,8 +36,8 @@ genres, and writing styles. Most importantly, I changed my focus. I put aside
 all my other optional projects so I could focus on writing.
 
 If you look at my word count charts, they illustrate the story. In January, I
-wrote a scene. I had just read <a href="http://amzn.to/2nT1PnK">Farewell My
-Lovely by Raymond Chandler</a> (if you listen to audio books, this one should
+wrote a scene. I had just read [Farewell My
+Lovely by Raymond Chandler](http://amzn.to/2nT1PnK) (if you listen to audio books, this one should
 not be missed), and I wanted to experiment with writing in that style. First
 person, but without internal monologues. Filled with over-the-top, sometimes
 hilarious metaphors and similes. Varied sentence length that leaned heavily to
@@ -74,14 +73,12 @@ to work on. And, check it: I finished the book! Woohoo!
 
 Lessons learned from the first completed book:
 
-<ol>
-    <li>The draft came in about 20% shorter than I had planned. Apparently I am
-    a "short writer". Revisions need to add words more than remove them. That’s
-    cool. Good to know.</li>
-    <li>There was a point in the middle where the outline fell apart. I had
-    to stop drafting and start outlining again. I would need more-detailed
-    outlines in future.</li>
-</ol>
+- The draft came in about 20% shorter than I had planned. Apparently I am
+  a "short writer". Revisions need to add words more than remove them. That’s
+  cool. Good to know.
+- There was a point in the middle where the outline fell apart. I had
+  to stop drafting and start outlining again. I would need more-detailed
+  outlines in future.
 
 I spent the rest of May and most of June revising and adding to the
 book. That’s why the word counts per day are much lower there. I was
@@ -100,7 +97,7 @@ first thirteen days of the month.
 And then my outline blew up again. So I stopped writing, and went back
 to the drawing board to figure out what to write.
 
-<h2>The Run-up to NaNoWriMo</h2>
+## The Run-up to NaNoWriMo
 
 By the time I had that outline fixed, I realized that I only had a
 couple of months to go before NaNo. I was determined to win NaNo this
@@ -140,7 +137,7 @@ went along.
 Since my outline called for an 82,000 word draft, I decided to go ahead
 and start drafting.
 
-<h2>Thirty Days of NaNoWriMo</h2>
+## Thirty Days of NaNoWriMo
 
 The first few days, I was drafting scenes for which I had created scene
 outlines. This was so easy it felt like cheating. I already knew the

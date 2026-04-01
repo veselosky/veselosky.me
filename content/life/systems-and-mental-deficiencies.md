@@ -1,10 +1,9 @@
 ---
 guid: "urn:UUID:0a9f974b-aca1-49f9-9eca-755d013d3ba0"
-itemtype: Item/Page/Article
-date: 2012-04-29 19:46
+type: article
+date: 2012-04-29T19:46:00Z
 title: Systems and Mental Deficiencies
 ---
-
 I was surprised when I read some of the things writer Terry Pratchett
 wrote or said about developing PCA, a form of dementia. I cannot now
 find the original source that I read, but there are several similar

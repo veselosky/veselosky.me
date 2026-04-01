@@ -1,9 +1,8 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: The Worst Book I Will Ever Write
 published: 2016-11-05
 ---
-
 Something I have been struggling with during the work on my (current) first
 novel is this: I am very likely producing the _worst_ book I will ever write.
 

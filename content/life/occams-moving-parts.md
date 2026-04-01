@@ -1,10 +1,9 @@
 ---
 guid: "urn:UUID:8fc790ce-4a06-4fe4-b607-585308609e6b"
-itemtype: Item/Page
-date: 2011-06-12 12:50
+type: page
+date: 2011-06-12T12:50:00Z
 title: Occam's Moving Parts
 ---
-
 As an architect of complex applications, I spend my day aggressively
 applying [Occam's Razor][], attempting to simplify large systems by
 removing as much as possible. But the nature of the work is such that

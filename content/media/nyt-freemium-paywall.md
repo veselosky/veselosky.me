@@ -1,10 +1,9 @@
 ---
 guid: "urn:UUID:90a9bfef-eb6b-4328-9a10-a3e98cfa0f69"
-itemtype: Item/Page/Article
+type: article
 published: 2010-01-25
 title: NYT’s Freemium Paywall Plan is (maybe) Good Business
 ---
-
 Last week, the New York Times announced [plans to start
 charging](http://www.nytimes.com/2010/01/21/business/media/21times.html?hp&emc=na)
 certain readers for access to their web site.

@@ -1,10 +1,9 @@
 ---
 guid: "urn:UUID:32e6cb34-accb-4e59-81be-56e94123371d"
-itemtype: Item/Page/Article
+type: article
 date: 2012-10-10
 title: How to set up a new PC in 12 Steps, or How I spent my evening renewing my disgust with Windows
 ---
-
 Step 1: Spend 30 minutes unpacking boxes, peeling plastic, and
 connecting cables.
 

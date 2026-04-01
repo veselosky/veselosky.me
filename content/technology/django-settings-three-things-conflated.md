@@ -1,10 +1,9 @@
 ---
 guid: "urn:UUID:63b6f14e-9d38-4ec7-a2f6-cc27f1c70d5f"
-itemtype: Item/Page/Article
+type: article
 date: 2012-02-18
 title: "Django Settings: Three Things Conflated"
 ---
-
 If you work on a large Django project, there's a good chance that you
 would describe your settings file as "a mess" (or perhaps you use
 harsher language). You may even have broken your settings out into a

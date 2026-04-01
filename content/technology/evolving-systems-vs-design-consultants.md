@@ -1,10 +1,9 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:8887f9bf-53ea-4bef-a7ae-79f0eb197539"
-date: 2013-02-04 13:58
+date: 2013-02-04T13:58:00Z
 title: Evolving Systems vs Design Consultants - A Recurring Pattern
 ---
-
 I often think of systems architecture as analogous to this word game I
 played as a child. I don't know if the game has a name, but it is begun
 by selecting two words, say "cat" and "dog". The goal is to begin with

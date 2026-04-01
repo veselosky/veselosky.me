@@ -1,9 +1,8 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: "2018 NaNoWriMo After-Action Report and Annual Review"
 published: 2018-12-16
 ---
-
 So much can change in a year!
 
 This has been a year of massive change for me, and we'll discuss that below. But
@@ -33,12 +32,10 @@ instead that I would try to live the dream, and work on my author career full
 time for a while.
 
 The first four months of the year were extremely productive. I had no day job to
-interfere with my writing. I did my edits and rewrites on <a
-href="https://vince.veselosky.me/seers-guild/cursing-fate">Cursing Fate: The
-Piero Codex Book One</a> in January. In February, I picked up my half-finished
-draft of <a
-href="https://vince.veselosky.me/seers-guild/shifting-loyalties">Shifting
-Loyalties: The Piero Codex Book Two</a>. I tried, as an experiment, tracking
+interfere with my writing. I did my edits and rewrites on [Cursing Fate: The
+Piero Codex Book One](https://vince.veselosky.me/seers-guild/cursing-fate) in January. In February, I picked up my half-finished
+draft of [Shifting
+Loyalties: The Piero Codex Book Two](https://vince.veselosky.me/seers-guild/shifting-loyalties). I tried, as an experiment, tracking
 words on edits and rewrites, but in practice I discovered that it threw my
 numbers way off. Although I recorded 41k words in February, I only actually
 produced around 8,000 words of draft. The rest was pre-existing draft that was

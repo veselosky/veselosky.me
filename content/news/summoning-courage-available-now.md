@@ -1,10 +1,9 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: "Summoning Courage Is Available Today!"
 description: "Summoning Courage: The Piero Codex Book Three is available at ebook retailers everywhere!"
 published: 2019-04-30
 ---
-
 According to Hofstadter's Law, every project takes longer than you expect it to (even when you take into account Hofstadter's Law), and my latest book project is no exception. But, as of today, [Summoning Courage: The Piero Codex Book Three][1] is available at ebook retailers everywhere!
 
 I am delighted to announce the release of this conclusion to The Piero Codex trilogy. These were my first novels, and it has been an incredible learning experience for me to produce them. Those lessons learned will make my next series even better.

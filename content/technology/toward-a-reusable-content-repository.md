@@ -1,10 +1,9 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:3a0cf3ce-501a-4ab7-994c-c72c019d96ae"
-date: 2013-07-22 15:46
+date: 2013-07-22T15:46:00Z
 title: Toward a Reusable Content Repository
 ---
-
 There are a plethora of web-based content management systems and website
 publishing systems in the world. Almost all of them are what you might
 call "full stack solutions," meaning that they try to cover everything

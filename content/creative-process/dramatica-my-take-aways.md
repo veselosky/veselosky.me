@@ -1,9 +1,8 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: "Dramatica: My Take-Aways"
 published: 2018-06-08
 ---
-
 TL;DR: There is some genius in this theory, and possibly some madness. Every
 writer should at least understand Dramatica's four through-lines, its definition
 of character archetypes, and the two helpful concepts of character resolve and
@@ -29,23 +28,24 @@ deeper, see the resources at the end.
 That said, this theory has some insights that I have found extremely valuable in
 constructing and understanding stories. Here they are.
 
-<h2>Dramatica's Four Through-Lines</h2>
+## Dramatica's Four Through-Lines
+
 Dramatica identifies four through-lines that intertwine to weave a complete
 story.
 
-<strong>The Overall Story Through-line</strong>: This is the "big picture"
+**The Overall Story Through-line**: This is the "big picture"
 story, the broad scope, or what I sometimes think of as the plot.
 
-<strong>The Main Character Through-line</strong>: The story as seen through the
+**The Main Character Through-line**: The story as seen through the
 eyes of someone in it. The "main character" is the primary point-of-view
 character, the person we expect the audience to most empathize or identify with.
 
-<strong>The Influence Character Through-line</strong>: Also called the Impact
+**The Influence Character Through-line**: Also called the Impact
 Character, the IC's perspective on the story is different from the main
 character's. The IC attempts to influence the MC to change their perspective or
 approach.
 
-<strong>The Subjective Story Through-line</strong>: Also called the
+**The Subjective Story Through-line**: Also called the
 Relationship, this is the relationship between the main and influence characters
 in the context of the story.
 
@@ -57,7 +57,7 @@ The interplay of plot, character, and relationship is what makes stories really
 stick. I like to say: Plot is what happens. Story is how your characters change
 (or don't) because of what happens.
 
-<h2>Character Resolve</h2>
+## Character Resolve
 Speaking of change, another extremely useful concept I picked up from Dramatica
 is character resolve. In Dramatica the theory focuses on the Main Character
 Resolve, assigning it either Change (the main character changes their
@@ -81,7 +81,7 @@ me that any character who has an arc must have a resolve, and probably needs to
 have their own influence character to reflect the opposite resolve to make the
 story feel complete.
 
-<h2>Character Archetypes: Protagonist vs Main Character</h2>
+## Character Archetypes: Protagonist vs Main Character
 Briefly, Dramatica identifies eight character archetypes: Protagonist,
 Antagonist, Reason, Emotion, Sidekick, Skeptic, Guardian, and Contagonist. The
 theory goes into great detail explaining how these archetypes are constructed,
@@ -103,7 +103,7 @@ A more complex story can separate these roles into different characters. The
 standard example is To Kill A Mockingbird, where the Main Character is young
 Scout, but the Protagonist is Atticus Finch.
 
-<h2>Story Limit</h2>
+## Story Limit
 Finally, Dramatica helped me understand the concept of a story limit. You
 have seen story limits in action stories where there is a literal ticking
 clock. If the clock counts down to zero, the hero loses! The ticking clock
@@ -119,7 +119,7 @@ compels the characters to move forward. Without a story limit, stories can
 just meander on and on, reaching no conclusion, or characters can sit around
 indefinitely without moving the story forward at all.
 
-<h2>Final Thoughts</h2>
+## Final Thoughts
 Dramatica also has some interesting things to say about act structure,
 showing how two, three, and four act structures can be derived from the
 value shifts among the four through-lines and how they are distributed
@@ -131,11 +131,8 @@ have been excellent tools for me to apply in the construction of stories.
 
 To learn more about Dramatica:
 
-<ul>
-    <li><a href="http://dramatica.com">Dramatica Website</a></li>
-    <li><a href="https://amzn.to/2JgbT3J">Buy the Book</a> (but the <a
-    href="http://dramatica.com/theory/book">full text is available for
-    free</a> on the website)</li>
-    <li><a href="https://narrativefirst.com/podcasts">Narrative
-    First Podcast</a></li>
-</ul>
+- [Dramatica Website](http://dramatica.com)
+- [Buy the Book](https://amzn.to/2JgbT3J) (but the [full text is available for
+  free](http://dramatica.com/theory/book) on the website)
+- [Narrative
+  First Podcast](https://narrativefirst.com/podcasts)

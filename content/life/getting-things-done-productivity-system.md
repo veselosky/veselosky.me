@@ -1,11 +1,10 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:6c47a797-14cb-45ba-9454-b93563d28dd4"
 date: 2013-01-13
 author: Vince Veselosky
 title: Getting Things Done -- Productivity System
 ---
-
 ![Workflow diagram from "Getting Things Done"](getting-things-done.jpg)]
 
 David Allen's [Getting Things Done: The Art of Stress-Free
@@ -104,7 +103,7 @@ something up, I toss it into Pocket. I am finding, however, that my
 appetite for reading later is a bit more ambitious than the amount of
 time "later" actually affords me. Perhaps I need to work on this.
 
-# GTD Patterns I Don't Apply
+## GTD Patterns I Don't Apply
 
 GTD recommends keeping your Next Action list organized by Context:
 Things you can do at home, at work, at the phone, etc. I found

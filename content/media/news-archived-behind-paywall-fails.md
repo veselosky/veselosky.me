@@ -1,10 +1,9 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:37b752d1-a594-49bb-8e58-b20a8343a84c"
 published: 2010-01-22
 title: Why News Archived Behind Paywall Fails
 ---
-
 One business model for online news that has been suggested, [tried, and
 failed](http://www.nytimes.com/2007/09/18/business/media/18times.html),
 is to make the news free for some short time, and then archive it behind

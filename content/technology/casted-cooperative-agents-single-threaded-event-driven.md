@@ -1,10 +1,9 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:11601cb3-66b9-434b-8ede-60a0a496572a"
-date: 2013-07-20 13:40
+date: 2013-07-20T13:40:00Z
 title: "CASTED: Cooperative Agents, Single Threaded, Event Driven"
 ---
-
 The past looked like this: A User logs into a Computer, launches a
 Program, and interacts with it.
 

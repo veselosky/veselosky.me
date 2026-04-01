@@ -1,9 +1,8 @@
 ---
-itemtype: Item/Page/Article
+type: article
 title: "Shifting Loyalties Is Available Today!"
 published: 2018-06-14
 ---
-
 You can stop holding your breath! [Shifting Loyalties: The Piero Codex Book Two][1]
 has been released! (Okay, I know you weren't really holding your breath, but I
 was!) This is my second novel, as well as being the second book in The Piero
@@ -24,6 +23,6 @@ I'm currently hard at work writing Summoning Courage: The Piero Codex Book
 Three to wrap up this trilogy. In the meantime, I hope you enjoy reading
 Shifting Loyalties!
 
-[<img src="cover-PC2-ShiftingLoyalties.jpg" alt="Shifting Loyalties: The Piero Codex Book Two" />][1]
+[![Shifting Loyalties: The Piero Codex Book Two](cover-PC2-ShiftingLoyalties.jpg)][1]
 
 [1]: https://https://books2read.com/b/vv-shifting-loyalties

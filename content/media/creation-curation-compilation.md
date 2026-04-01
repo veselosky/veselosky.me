@@ -1,10 +1,9 @@
 ---
 guid: "urn:UUID:67d72442-2420-49b6-8e46-bc7bde922181"
-itemtype: Item/Page/Article
+type: article
 published: 2010-01-15
 title: "The Three C's of New Media: Creation, Curation, and Compilation"
 ---
-
 Every media business is built around at least one of three key content
 activities: creation of content, curation of content, and compilation of
 data into content. Many media businesses, especially the large ones,

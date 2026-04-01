@@ -1,11 +1,10 @@
 ---
-itemtype: Item/Page/Article
+type: article
 guid: "urn:UUID:52f08340-d785-4e5d-bbfa-211b11a7107c"
-date: 2013-01-18 13:03
+date: 2013-01-18T13:03:00Z
 author: Vince Veselosky
 title: "Systems vs Habits: Why GTD Often Fails"
 ---
-
 In my [previous post][], I wrote about David Allen's [Getting Things
 Done][] book and productivity system. If GTD has a weakness, it is that,
 although the book describes the system very well, it does a poor job of
