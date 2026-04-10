@@ -11,14 +11,14 @@ last year, this is my report on how I performed. Short story: I didn't "win" by
 writing fifty thousand words, but I did make a very good showing. Here's my word
 count graph for 2018.
 
-<img src="2018-summary.png" alt="2018 word counts by month" />
+![2018 word counts by month](2018-summary.png)
 
 As you can see, my NaNoWriMo project capped out at 31,168 words. Not bad. I
 drafted twenty-one days in November, so my average was below the required
 "winning" pace. Still, I averaged a thousand words per calendar day, and I feel
 pretty good about that.
 
-<h2>2018: The Big Year</h2>
+## 2018: The Big Year
 I started 2018 by getting laid off from my job. Most people consider that a big
 "suck" life event, but for me, it was kind of a relief. I had worked there more
 than a decade, and over the last 3 years there, massive changes at the company
@@ -49,7 +49,7 @@ created a release plan for the series to release one a month, scheduled the
 first release for may, and started working on Summoning Courage: The Piero Codex
 Book Three.
 
-<h2>Nothing Is Ever Easy</h2>
+## Nothing Is Ever Easy
 And then reality happened. Book Three fought me from the very beginning. I was
 never satisfied with the outline, and the early draft just was not working. I
 got Book One published in May. Took a break from the draft to do my final
@@ -81,7 +81,7 @@ The book was already late, and my twenty or so readers knew that. I shrugged,
 said what the hell, and put Book Three on a shelf to spend October preparing for
 NaNo.
 
-<h2>How I "Failed" at NaNoWriMo</h2>
+## How I "Failed" at NaNoWriMo
 I had already selected a new character and story for my next project. I knew
 from experience that I needed a strong outline if I was going to hit high word
 counts on my first draft, so I spent most of October filling whiteboards with
@@ -121,10 +121,10 @@ project on the shelf for a little while. Over Christmas break, I will pick up
 Summoning Courage and complete the revisions on that. Then, I will finish the
 draft for my new book, hopefully by late January or early February of 2019.
 
-<h2>2018 Lessons Learned</h2>
+## 2018 Lessons Learned
 It was a big year, and I have a lot of lessons learned from it. Here's a
 summary.
-<h3>Writing fiction is harder than writing code.</h3>
+### Writing fiction is harder than writing code.
 I'm an introvert. People wear me out, and I need alone-time to recharge. Writing
 code is something I can do all day. It's like solving a jigsaw puzzle. No people
 involved. Not very taxing emotionally.
@@ -142,13 +142,13 @@ for me. That doesn't mean I'm going to stop writing. Far from it. But I don't
 see myself being one of those prolific authors who publish a book a month.
 I'll be happy to produce two books a year for now.
 
-<h3>Sleep is important. Health in general is important.</h3>
+### Sleep is important. Health in general is important.
 If I'm tired or depressed, I simply can't produce good fiction. Creativity
 requires vitality, energy, desire. To keep myself writing, I have to accept
 my limitations and take care of myself first. And that's something I have
 struggled with all my life. Well, that's how it goes. Keep struggling,
 Vince!
-<h3>I make plot-driven outlines, and character-heavy drafts.</h3>
+### I make plot-driven outlines, and character-heavy drafts.
 My process is very plot-driven. I create an outline marking the events of
 the external story. Then when I draft it, I internalize the characters,
 dramatize their internal reactions. I'm not particularly good at characters.
@@ -161,7 +161,7 @@ plotting? I bet we could produce some great stuff together! But I really
 need to level up my skills a lot more before I'm ready for that kind of
 collaboration.
 
-<h3>I still don't understand the "middle build".</h3>
+### I still don't understand the "middle build".
 When it comes to story structure, I feel like I have a solid grasp of Act
 One, the first quarter of the story. I think I do alright with that last
 quarter, which I tend to write as a fast-paced rush to the climax. But the
@@ -172,7 +172,7 @@ middle half of the story with compelling reading.
 As a result, I think my next project I will spend even more time outlining.
 And I will spend more time analyzing great stories to learn from them.
 
-<h2>NaNoWriMo 2019 and Beyond</h2>
+## NaNoWriMo 2019 and Beyond
 After this year's experience, I'm not sure I'll be participating in NaNo
 next year. I no longer feel I have anything to prove, and the event is
 inconveniently timed for me. It's the time of year I prefer to be ramping
