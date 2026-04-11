@@ -1,0 +1,255 @@
+#!/usr/bin/env bash
+
+# Based on the Taskfile format from https://github.com/adriancooney/Taskfile
+# Please keep functions sorted alphabetically for ease of editing.
+
+# A useful path mod
+PATH=./node_modules/.bin:$PATH
+
+#######################################################################
+# Set some commonly used globals
+#######################################################################
+BASE_DIR=$(cd `dirname $0`; pwd)
+# As a security precaution, ensure the BASE_DIR is not empty, and that
+# the path it refers to is writable by the current user.
+if [ -z "$BASE_DIR" ] || [ ! -w "$BASE_DIR" ]; then
+    echo "Error: BASE_DIR is not set or not writable: '$BASE_DIR'"
+    exit 1
+fi
+# Any script output should go to DATA_DIR
+DATA_DIR="$BASE_DIR/var"
+# Target 3.13, fallback to 3.x, then python
+BASE_PYTHON=`which python3.13 || which python3 || which python`
+PROJECT_NAME=`basename "$BASE_DIR"`
+
+# Some ANSI colors for pretty messages
+NORMAL="$(tput sgr0)"
+BLACK="$(tput setaf 0)"
+RED="$(tput setaf 1)"
+GREEN="$(tput setaf 2)"
+YELLOW="$(tput setaf 3)"
+BLUE="$(tput setaf 4)"
+MAGENTA="$(tput setaf 5)"
+CYAN="$(tput setaf 6)"
+WHITE="$(tput setaf 7)"
+
+# Setup: ensure DATA_DIR exists and contains a .gitignore excluding all files.
+mkdir -p "$DATA_DIR"
+if [ ! -f "$DATA_DIR/.gitignore" ]; then
+    echo "*" > "$DATA_DIR/.gitignore"
+fi
+
+#######################################################################
+# Function declarations
+#######################################################################
+
+#######################################################################
+function audit { ## Run code quality checks
+    # Run a Hugo build with various warnings enabled, capturing output.
+    # If the build fails, print an error and return failure.
+    # See https://gohugo.io/troubleshooting/audit/
+    BUILD_OUT="$DATA_DIR/hugo_build.out"
+    BUILD_ERR="$DATA_DIR/hugo_build.err"
+    AUDIT_ISSUES="$DATA_DIR/hugo_build_issues.txt"
+
+    HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true \
+    HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true \
+    hugo > "$BUILD_OUT" 2> "$BUILD_ERR" \
+    --cleanDestinationDir \
+    --printI18nWarnings \
+    --printPathWarnings \
+    --printUnusedTemplates \
+    --printMemoryUsage \
+    --templateMetrics \
+    --templateMetricsHints || { printf "%b %s\n" "${RED}✖${NORMAL}" "Hugo build failed!"; return 1; }
+
+    # Search the generated public/ for known Hugo build warnings/markers.
+    # Capture output (if any), print it, and save to a file when issues exist.
+    issues=$(grep -inorE "<!-- raw HTML omitted -->|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" "$BASE_DIR/public/" || true)
+
+    if [ -z "${issues}" ]; then
+        # No grep output -> success
+        printf "%b %s\n" "${GREEN}✔${NORMAL}" "No issues detected"
+        [ -f "$AUDIT_ISSUES" ] && rm -f "$AUDIT_ISSUES"
+        return 0
+    else
+        # Print the issues to stdout and save to a file for later inspection
+        echo "${issues}"
+        echo "${issues}" > "$AUDIT_ISSUES"
+        printf "%b %s\n" "${RED}✖${NORMAL}" "Build issues detected!"
+        return 1
+    fi
+}
+
+#######################################################################
+function build { ## Build the static site (to public/)
+    # Note: Django also uses /var/www/ for static files and media.
+    # Building separately seems safer for now.
+    hugo build --minify --cleanDestinationDir --gc --environment production
+    npx pagefind --site "$BASE_DIR/public/"
+}
+
+#######################################################################
+function deploy { ## Deploy the site to production (Cloudflare)
+    build && npx wrangler deploy
+}
+#######################################################################
+function help { ## Display usage for this application
+    echo "$0 <task> <args>"
+    echo "Tasks:"
+    # compgen -A function | cat -n
+    grep -E '^function [a-zA-Z_-]+ {.*?## .*$$' $0 | \
+        sed -e 's/function //' | \
+        sort | \
+        awk 'BEGIN {FS = "{.*?## "}; {printf "\033[93m%-30s\033[92m %s\033[0m\n", $1, $2}'
+    echo "VARIABLES:"
+    echo "  BASE_DIR      : $BASE_DIR"
+    echo "  BASE_PYTHON   : $BASE_PYTHON"
+    echo "  PROJECT_NAME  : $PROJECT_NAME"
+    echo ""
+    echo "For production deployment, pull the desired branch from git, run 'build' then 'deploy'."
+}
+
+#######################################################################
+function jest_test { ## Run Jest unit tests
+    npx jest --passWithNoTests "$@"
+}
+
+#######################################################################
+function start_hugo_test_server { ## Conditionally start a Hugo test server and print its PID (or 0 if already running)
+    HUGO_URL="http://127.0.0.1:1313"
+    SENTINEL_PID=0
+
+    # If a server is already responding, do not start or manage it.
+    if command -v curl >/dev/null 2>&1; then
+        if curl -sSf "$HUGO_URL" >/dev/null 2>&1; then
+            echo "Using existing Hugo server at $HUGO_URL" >&2
+            echo "$SENTINEL_PID"
+            return 0
+        fi
+    fi
+
+    echo "Starting Hugo server..." >&2
+    hugo server -DF --bind 127.0.0.1 --port 1313 --disableLiveReload >/dev/null 2>&1 &
+    HUGO_PID=$!
+
+    # Wait up to 30s for the server to become responsive.
+    if command -v curl >/dev/null 2>&1; then
+        timeout=30
+        waited=0
+        until curl -sSf "$HUGO_URL" >/dev/null 2>&1; do
+            sleep 1
+            waited=$((waited+1))
+            if [ $waited -ge $timeout ]; then
+                echo "Error: Hugo server did not start within ${timeout}s" >&2
+                kill "$HUGO_PID" 2>/dev/null || true
+                wait "$HUGO_PID" 2>/dev/null || true
+                return 1
+            fi
+        done
+    else
+        # No curl available: wait briefly before proceeding.
+        echo "Warning: 'curl' not found; waiting 3s after start..." >&2
+        sleep 3
+    fi
+
+    echo "$HUGO_PID"
+}
+
+#######################################################################
+function stop_hugo_test_server { ## Stop a Hugo test server previously started by this script
+    HUGO_PID="$1"
+
+    # Safe sentinel: 0 means we did not start a server in this run.
+    if [ -z "$HUGO_PID" ] || [ "$HUGO_PID" = "0" ]; then
+        return 0
+    fi
+
+    echo "Stopping Hugo server (pid $HUGO_PID)..."
+    kill "$HUGO_PID" 2>/dev/null || true
+    wait "$HUGO_PID" 2>/dev/null || true
+}
+
+#######################################################################
+function lighthouse { ## Audit the site for accessibility, SEO, performance, and best practices
+    # Ensure a Hugo dev server is running on localhost:1313, run Lighthouse, then stop it if we started it.
+    REPORT="$BASE_DIR/var/lighthouse-report.html"
+    HUGO_URL="http://127.0.0.1:1313"
+    HUGO_PID=$(start_hugo_test_server) || return 1
+    trap 'stop_hugo_test_server "$HUGO_PID"' EXIT
+
+    # Select lighthouse command
+    if command -v npx >/dev/null 2>&1; then
+        CMD=(npx lighthouse "$HUGO_URL" --output html --output-path "$REPORT" --chrome-flags="--headless --no-sandbox")
+    else
+        echo "Error: npx is not installed."
+        stop_hugo_test_server "$HUGO_PID"
+        trap - EXIT
+        exit 1
+    fi
+
+    # Run Lighthouse
+    rc=0
+    "${CMD[@]}" || rc=$?
+    echo "Lighthouse report generated at $REPORT"
+
+    stop_hugo_test_server "$HUGO_PID"
+    trap - EXIT
+
+    return $rc
+}
+
+#######################################################################
+function pa11y_ci { ## Run accessibility tests with Pa11y CI
+    # Requires a running Hugo server
+    REPORT="$DATA_DIR/pa11y-report.json"
+    HUGO_PID=$(start_hugo_test_server) || return 1
+    trap 'stop_hugo_test_server "$HUGO_PID"' EXIT
+
+    if [ ! -f "$BASE_DIR/.pa11yci" ]; then
+        printf "%b %s\n" "${YELLOW}⏭${NORMAL}" "No .pa11yci config found, skipping"
+        stop_hugo_test_server "$HUGO_PID"
+        trap - EXIT
+        return 0
+    fi
+
+    echo "Running Pa11y CI with config $BASE_DIR/.pa11yci..."
+    npx pa11y-ci --config "$BASE_DIR/.pa11yci" --json > "$REPORT" || {
+        printf "%b %s\n" "${RED}✖${NORMAL}" "Pa11y CI found accessibility issues!"
+        cat "$REPORT"
+        stop_hugo_test_server "$HUGO_PID"
+        trap - EXIT
+        return 1
+    }
+
+    printf "%b %s\n" "${GREEN}✔${NORMAL}" "Pa11y CI passed"
+    stop_hugo_test_server "$HUGO_PID"
+    trap - EXIT
+}
+
+#######################################################################
+function serve { ## Run the Hugo development server with drafts and future content
+    build
+    hugo server
+}
+function server { ## Alias for serve
+    serve
+}
+
+#######################################################################
+function test { ## Run all tests: validate, jest, audit, pa11y, lighthouse
+    validate && jest_test && audit && pa11y_ci && lighthouse
+}
+
+#######################################################################
+function validate { ## Validate data files and content front matter against JSON schemas
+    node "$BASE_DIR/scripts/validate.mjs" "$@"
+}
+
+#######################################################################
+# Finally, execute it.
+#######################################################################
+
+TIMEFORMAT="Task completed in %3lR"
+# Replace "help" with the name of the desired default function
+time ${@:-help}

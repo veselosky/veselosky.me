@@ -1,0 +1,55 @@
+baseURL: https://vince.veselosky.me/
+languageCode: en-us
+title: Vince Veselosky
+themesDir: ../hugo
+theme: fiction-author
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true
+
+pagination:
+  pagerSize: 12
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+module:
+  mounts:
+  - source: archetypes
+    target: archetypes
+  - source: assets
+    target: assets
+  - source: content
+    target: content
+  - source: data
+    target: data
+  - source: i18n
+    target: i18n
+  - source: layouts
+    target: layouts
+  - source: static
+    target: static
+
+
+params:
+  brand: "Vince Veselosky"
+  subtitle: Programmer (Python & Django), Author, Creator
+  # Dark mode configuration
+  darkmode:
+    enabled: true
+  default_banner: "img/CF-Banner.jpg"
+  default_banner_alt: "Vince Veselosky Banner"
+  # Social media links
+  social:
+    - title: "LinkedIn"
+      url: "https://www.linkedin.com/in/veselosky"
+    - title: "Goodreads"
+      url: "https://www.goodreads.com/author/show/17853693.Vince_Veselosky"
+
