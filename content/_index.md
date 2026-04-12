@@ -15,12 +15,12 @@ modules:
   - template: "modules/newsletter-signup.html"
     args:
       heading: "Stay in the Adventure"
-  - template: "modules/text-image.html"
-    args:
-      heading: "About the Author"
-      text: "Vince Veselosky is an author, publisher, and software developer. He writes adventure fiction and is passionate about creating immersive worlds and compelling characters. His work spans novels, short stories, and interactive media, captivating readers and inspiring fellow creators alike."
-      image: "img/placeholder-author.svg"
-      image_alt: "Vince Veselosky portrait"
-      image_position: "right"
+  # - template: "modules/text-image.html"
+  #   args:
+  #     heading: "About the Author"
+  #     text: "Vince Veselosky is an author, publisher, and software developer. He writes adventure fiction and is passionate about creating immersive worlds and compelling characters. His work spans novels, short stories, and interactive media, captivating readers and inspiring fellow creators alike."
+  #     image: "img/placeholder-author.svg"
+  #     image_alt: "Vince Veselosky portrait"
+  #     image_position: "right"
 ---
 

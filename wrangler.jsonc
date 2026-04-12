@@ -2,12 +2,21 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "veselosky-me",
   "compatibility_date": "2026-04-11",
+  "workers_dev": true,
+  "preview_urls": true,
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": "public"
+    "directory": "public",
+    "not_found_handling": "404-page"
   },
+  "routes": [
+    {
+      "pattern": "vince.veselosky.me",
+      "custom_domain": true
+    }
+  ],
   "compatibility_flags": [
     "nodejs_compat"
   ]
